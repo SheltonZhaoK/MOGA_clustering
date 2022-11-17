@@ -1,0 +1,50 @@
+#########################BEGIN-PROLOG#########################
+JobId             = 1724193
+JobName           = clustering
+UserId            = zhaok220(20487)
+GroupId           = zhaok220(20487)
+MCS_label         = N/A
+Priority          = 102
+Nice              = 0
+Account           = khurigrp
+QOS               = normal
+Requeue           = 1
+Restarts          = 0
+BatchFlag         = 1
+Reboot            = 0
+ExitCode          = 0:0
+RunTime           = 00:00:00
+TimeLimit         = 5-00:00:00
+TimeMin           = N/A
+SubmitTime        = 2022-06-13T14:57:26
+EligibleTime      = 2022-06-13T14:57:26
+AccrueTime        = 2022-06-13T14:57:26
+StartTime         = 2022-06-13T14:57:27
+EndTime           = 2022-06-18T14:57:27
+Deadline          = N/A
+Partition         = gpu
+AllocNode:Sid     = gemini:224502
+NodeList          = usb-gpu-01
+BatchHost         = usb-gpu-01
+NumNodes          = 1
+NumCPUs           = 1
+NumTasks          = 1
+CPUs/Task         = 1
+ReqB:S:C:T        = 0:0:*:*
+TRES=cpu=1,mem=32G,node=1,billing= cpu=1,mem=32G,node=1,billing=1
+Socks/Node        = *
+NtasksPerN:B:S:C  = 1:0:*:*
+CoreSpec          = *
+MinCPUsNode       = 1
+MinMemoryNode     = 32G
+MinTmpDiskNode    = 0
+Command           = /deac/csc/khuriGrp/zhaok220/clustering/slurm/clustering_gpu.slurm
+WorkDir           = /deac/csc/khuriGrp/zhaok220/clustering/slurm
+StdErr            = /deac/csc/khuriGrp/zhaok220/clustering/slurm/clustering-1724193.e
+StdOut            = /deac/csc/khuriGrp/zhaok220/clustering/slurm/clustering-1724193.o
+Power             = 
+MailUser          = zhaok220@wfu.edu
+MailType          = BEGIN,END,FAIL
+NtasksPerTRES:0   = NtasksPerTRES:0
+###########################END-PROLOG#########################
+Max memory consumption for Job 1724193 on host usb-gpu-01 is: 315985920.0B

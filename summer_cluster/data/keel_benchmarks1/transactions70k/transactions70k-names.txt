@@ -1,0 +1,23 @@
+Transactions (70000) dataset
+
+1: Description.
+
+A simulated data set modelling 70000 transactions where each instance represents the purchase of an item in a given transaction. 
+
+The number of purchased items in a transaction was randomly generated in a uniform distribution of the range of 1–19. The purchased items in each transaction were then selected from the 64 items in an exponential distribution with the rate parameter set at 16. Their quantities were then assigned from an exponential distribution with the rate parameter set at 5. An item could not be generated twice in a transaction.
+
+This data set was collected from the experimental study appeared in (Tzung-Pei Hong, Chun-Hao Chen, Yeong-Chyi Lee, and Yu-Lung Wu, Genetic-Fuzzy Data Mining With Divide-and-Conquer Strategy, IEEE Transactions on Evolutionary Computation, 12:2, 2008).
+
+2: Type.			Unsupervised
+3: Origin.			Laboratory
+4: Instances.		665470
+5: Features.		3
+6: Missing values.	No
+
+7: Header.
+
+@relation transactions70k
+@attribute TransactionID integer [0,69999]
+@attribute ItemID integer [111, 444]
+@attribute Quantity integer [1, 11]
+@inputs TransactionID, ItemID, Quantity

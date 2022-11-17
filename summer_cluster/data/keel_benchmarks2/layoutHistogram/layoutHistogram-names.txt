@@ -1,0 +1,55 @@
+Corel Image Features (layoutHistogram) dataset
+
+1: Description.
+
+This dataset is a part of the Corel Image Features data set of the UCI Repository. It contains image features extracted from a Corel image collection (http://corel.digitalriver.com/). The ID attribute is common in each of the 4 parts of the data set (colorHistogram, colorMoments, colorTexture and layoutHistogram).
+
+In this part, the features represent the color histogram layout of each one where HS color space is divided into 8 subspaces (8 colors : 4 ranges of H and 2 ranges of S). Moreover, each image is splitted into 4 sub-images (one horizontal split and one vertical split). The value in each dimension is the density of each color in the entire sub-image.
+
+Note that this dataset has only data from 66616 images, due to the data related to 1424 images (ID: 62482-63905 ) were missing in the original source (UCI Repository).
+
+2: Type.			Unsupervised
+3: Origin.			Real world
+4: Instances.		66616
+5: Features.		33
+6: Missing values.	No
+
+7: Header.
+
+@relation layoutHistogram
+@attribute ID integer [1, 68040]
+@attribute H1S1I1 real [0.000000, 0.250026]
+@attribute H1S1I2 real [0.000000, 0.250026]
+@attribute H1S1I3 real [0.000000, 0.250026]
+@attribute H1S1I4 real [0.000000, 0.250026]
+@attribute H1S2I1 real [0.000000, 0.250026]
+@attribute H1S2I2 real [0.000000, 0.250026]
+@attribute H1S2I3 real [0.000000, 0.250026]
+@attribute H1S2I4 real [0.000000, 0.250026]
+@attribute H2S1I1 real [0.000000, 0.250025]
+@attribute H2S1I2 real [0.000000, 0.250012]
+@attribute H2S1I3 real [0.000000, 0.250024]
+@attribute H2S1I4 real [0.000000, 0.250021]
+@attribute H2S2I1 real [0.000000, 0.250000]
+@attribute H2S2I2 real [0.000000, 0.250000]
+@attribute H2S2I3 real [0.000000, 0.249687]
+@attribute H2S2I4 real [0.000000, 0.249896]
+@attribute H3S1I1 real [0.000000, 0.250026]
+@attribute H3S1I2 real [0.000000, 0.250026]
+@attribute H3S1I3 real [0.000000, 0.250026]
+@attribute H3S1I4 real [0.000000, 0.250026]
+@attribute H3S2I1 real [0.000000, 0.250026]
+@attribute H3S2I2 real [0.000000, 0.250026]
+@attribute H3S2I3 real [0.000000, 0.250026]
+@attribute H3S2I4 real [0.000000, 0.250026]
+@attribute H4S1I1 real [0.000000, 0.250012]
+@attribute H4S1I2 real [0.000000, 0.250012]
+@attribute H4S1I3 real [0.000000, 0.250014]
+@attribute H4S1I4 real [0.000000, 0.249802]
+@attribute H4S2I1 real [0.000000, 0.250015]
+@attribute H4S2I2 real [0.000000, 0.250004]
+@attribute H4S2I3 real [0.000000, 0.250011]
+@attribute H4S2I4 real [0.000000, 0.250000]
+@inputs ID, H1S1I1, H1S1I2, H1S1I3, H1S1I4, H1S2I1, H1S2I2, H1S2I3, H1S2I4, H2S1I1, H2S1I2, H2S1I3, H2S1I4, H2S2I1, H2S2I2, H2S2I3, H2S2I4, H3S1I1, H3S1I2, H3S1I3, H3S1I4, H3S2I1, H3S2I2, H3S2I3, H3S2I4, H4S1I1, H4S1I2, H4S1I3, H4S1I4, H4S2I1, H4S2I2, H4S2I3, H4S2I4
+
+

@@ -1,0 +1,27 @@
+basketball dataset
+
+1: Description.
+
+This data set contains a series of statistics (5 attributes) about 96 basketball players: 
+
+1) assists_per_minuteReal: average number of assistances per minute. 
+2) heightInteger: height of the player. 
+3) time_playedReal: time played by the player. 
+4) ageInteger: number of years of the player. 
+5) points_per_minuteReal: average number of points per minute.
+
+2: Type.			Unsupervised
+3: Origin.			Real world
+4: Instances.		96
+5: Features.		5
+6: Missing values.	No
+
+7: Header.
+
+@relation basketball
+@attribute assists_per_minuteReal real [0.0494, 0.3437]
+@attribute heightInteger integer [160, 203]
+@attribute time_playedReal real [10.08, 40.71]
+@attribute ageInteger integer [22, 37]
+@attribute points_per_minuteReal real [0.1593, 0.8291]
+@inputs assists_per_minuteReal, heightInteger, time_playedReal, ageInteger, points_per_minuteReal

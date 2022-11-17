@@ -1,0 +1,1933 @@
+#########################BEGIN-PROLOG#########################
+JobId             = 1782438
+JobName           = clustering
+UserId            = zhaok220(20487)
+GroupId           = zhaok220(20487)
+MCS_label         = N/A
+Priority          = 92
+Nice              = 0
+Account           = khurigrp
+QOS               = normal
+Requeue           = 1
+Restarts          = 0
+BatchFlag         = 1
+Reboot            = 0
+ExitCode          = 0:0
+RunTime           = 00:00:01
+TimeLimit         = 7-00:00:00
+TimeMin           = N/A
+SubmitTime        = 2022-07-20T14:52:25
+EligibleTime      = 2022-07-20T14:52:25
+AccrueTime        = 2022-07-20T14:52:25
+StartTime         = 2022-07-20T14:52:26
+EndTime           = 2022-07-27T14:52:26
+Deadline          = N/A
+Partition         = medium
+AllocNode:Sid     = gemini:205044
+NodeList          = comp-06-6
+BatchHost         = comp-06-6
+NumNodes          = 1
+NumCPUs           = 1
+NumTasks          = 1
+CPUs/Task         = 1
+ReqB:S:C:T        = 0:0:*:*
+TRES=cpu=1,mem=64G,node=1,billing= cpu=1,mem=64G,node=1,billing=1
+Socks/Node        = *
+NtasksPerN:B:S:C  = 1:0:*:*
+CoreSpec          = *
+MinCPUsNode       = 1
+MinMemoryNode     = 64G
+MinTmpDiskNode    = 0
+Command           = /deac/csc/khuriGrp/zhaok220/clustering/slurm/clustering.slurm
+WorkDir           = /deac/csc/khuriGrp/zhaok220/clustering/slurm
+StdErr            = /deac/csc/khuriGrp/zhaok220/clustering/slurm/clustering-1782438.e
+StdOut            = /deac/csc/khuriGrp/zhaok220/clustering/slurm/clustering-1782438.o
+Power             = 
+MailUser          = zhaok220@wfu.edu
+MailType          = BEGIN,END,FAIL
+NtasksPerTRES:0   = NtasksPerTRES:0
+###########################END-PROLOG#########################
+Finding 30 nearest neighbors using minkowski metric and 'auto' algorithm
+Neighbors computed in 0.005666494369506836 seconds
+Jaccard graph constructed in 0.7777609825134277 seconds
+Wrote graph to binary file in 0.00929713249206543 seconds
+Running Louvain modularity optimization
+After 1 runs, maximum modularity is Q = 0.789063
+Louvain completed 21 runs in 0.3402550220489502 seconds
+Sorting communities by size, please wait ...
+PhenoGraph completed in 1.6827762126922607 seconds
+Finding 30 nearest neighbors using minkowski metric and 'auto' algorithm
+Neighbors computed in 0.005764961242675781 seconds
+Jaccard graph constructed in 0.7871417999267578 seconds
+Wrote graph to binary file in 0.009401798248291016 seconds
+Running Louvain modularity optimization
+After 1 runs, maximum modularity is Q = 0.779531
+After 2 runs, maximum modularity is Q = 0.781298
+After 15 runs, maximum modularity is Q = 0.783159
+Louvain completed 35 runs in 0.5899460315704346 seconds
+Sorting communities by size, please wait ...
+PhenoGraph completed in 1.9858958721160889 seconds
+Finding 30 nearest neighbors using minkowski metric and 'auto' algorithm
+Neighbors computed in 0.015384197235107422 seconds
+Jaccard graph constructed in 1.6582615375518799 seconds
+Wrote graph to binary file in 0.03376626968383789 seconds
+Running Louvain modularity optimization
+After 1 runs, maximum modularity is Q = 0.87548
+After 3 runs, maximum modularity is Q = 0.877983
+Louvain completed 23 runs in 0.6964776515960693 seconds
+Sorting communities by size, please wait ...
+PhenoGraph completed in 2.9682776927948 seconds
+Finding 30 nearest neighbors using minkowski metric and 'auto' algorithm
+Neighbors computed in 0.016910076141357422 seconds
+Jaccard graph constructed in 1.720158338546753 seconds
+Wrote graph to binary file in 0.035033464431762695 seconds
+Running Louvain modularity optimization
+After 1 runs, maximum modularity is Q = 0.877261
+Louvain completed 21 runs in 0.5916869640350342 seconds
+Sorting communities by size, please wait ...
+PhenoGraph completed in 2.8521389961242676 seconds
+Finding 30 nearest neighbors using minkowski metric and 'auto' algorithm
+Neighbors computed in 0.015252113342285156 seconds
+Jaccard graph constructed in 1.527684211730957 seconds
+Wrote graph to binary file in 0.031248092651367188 seconds
+Running Louvain modularity optimization
+After 1 runs, maximum modularity is Q = 0.87656
+Louvain completed 21 runs in 0.5457108020782471 seconds
+Sorting communities by size, please wait ...
+PhenoGraph completed in 2.6371469497680664 seconds
+Finding 30 nearest neighbors using minkowski metric and 'auto' algorithm
+Neighbors computed in 0.017192602157592773 seconds
+Jaccard graph constructed in 1.6033000946044922 seconds
+Wrote graph to binary file in 0.03497791290283203 seconds
+Running Louvain modularity optimization
+After 1 runs, maximum modularity is Q = 0.878625
+After 19 runs, maximum modularity is Q = 0.879696
+Louvain completed 39 runs in 1.0688354969024658 seconds
+Sorting communities by size, please wait ...
+PhenoGraph completed in 3.2163009643554688 seconds
+Finding 30 nearest neighbors using minkowski metric and 'auto' algorithm
+Neighbors computed in 0.008935213088989258 seconds
+Jaccard graph constructed in 0.9750039577484131 seconds
+Wrote graph to binary file in 0.01530313491821289 seconds
+Running Louvain modularity optimization
+After 1 runs, maximum modularity is Q = 0.821474
+After 2 runs, maximum modularity is Q = 0.827107
+After 6 runs, maximum modularity is Q = 0.829153
+Louvain completed 26 runs in 0.5497856140136719 seconds
+Sorting communities by size, please wait ...
+PhenoGraph completed in 2.0413994789123535 seconds
+Finding 30 nearest neighbors using minkowski metric and 'auto' algorithm
+Neighbors computed in 0.009282112121582031 seconds
+Jaccard graph constructed in 1.0561106204986572 seconds
+Wrote graph to binary file in 0.01689910888671875 seconds
+Running Louvain modularity optimization
+After 1 runs, maximum modularity is Q = 0.838109
+After 10 runs, maximum modularity is Q = 0.839287
+Louvain completed 30 runs in 0.5956966876983643 seconds
+Sorting communities by size, please wait ...
+PhenoGraph completed in 2.169055461883545 seconds
+Finding 30 nearest neighbors using minkowski metric and 'auto' algorithm
+Neighbors computed in 0.009041309356689453 seconds
+Jaccard graph constructed in 0.9211597442626953 seconds
+Wrote graph to binary file in 0.015455961227416992 seconds
+Running Louvain modularity optimization
+After 1 runs, maximum modularity is Q = 0.826619
+Louvain completed 21 runs in 0.3757967948913574 seconds
+Sorting communities by size, please wait ...
+PhenoGraph completed in 1.8043887615203857 seconds
+Finding 30 nearest neighbors using minkowski metric and 'auto' algorithm
+Neighbors computed in 0.008311748504638672 seconds
+Jaccard graph constructed in 0.9843430519104004 seconds
+Wrote graph to binary file in 0.015596151351928711 seconds
+Running Louvain modularity optimization
+After 1 runs, maximum modularity is Q = 0.820785
+After 6 runs, maximum modularity is Q = 0.822507
+Louvain completed 26 runs in 0.4989631175994873 seconds
+Sorting communities by size, please wait ...
+PhenoGraph completed in 2.0091259479522705 seconds
+Finding 30 nearest neighbors using minkowski metric and 'auto' algorithm
+Neighbors computed in 0.03126788139343262 seconds
+Jaccard graph constructed in 2.5731732845306396 seconds
+Wrote graph to binary file in 0.06672072410583496 seconds
+Running Louvain modularity optimization
+After 1 runs, maximum modularity is Q = 0.902242
+After 5 runs, maximum modularity is Q = 0.903731
+Louvain completed 25 runs in 1.1984078884124756 seconds
+Sorting communities by size, please wait ...
+PhenoGraph completed in 4.376343011856079 seconds
+Finding 30 nearest neighbors using minkowski metric and 'auto' algorithm
+Neighbors computed in 0.03230905532836914 seconds
+Jaccard graph constructed in 2.813488245010376 seconds
+Wrote graph to binary file in 0.0744009017944336 seconds
+Running Louvain modularity optimization
+After 1 runs, maximum modularity is Q = 0.904004
+After 8 runs, maximum modularity is Q = 0.905259
+Louvain completed 28 runs in 1.483447790145874 seconds
+Sorting communities by size, please wait ...
+PhenoGraph completed in 5.065117597579956 seconds
+Finding 30 nearest neighbors using minkowski metric and 'auto' algorithm
+Neighbors computed in 0.028673887252807617 seconds
+Jaccard graph constructed in 2.5906598567962646 seconds
+Wrote graph to binary file in 0.06627440452575684 seconds
+Running Louvain modularity optimization
+After 1 runs, maximum modularity is Q = 0.901972
+After 4 runs, maximum modularity is Q = 0.903222
+Louvain completed 24 runs in 1.1743652820587158 seconds
+Sorting communities by size, please wait ...
+PhenoGraph completed in 4.425066947937012 seconds
+Finding 30 nearest neighbors using minkowski metric and 'auto' algorithm
+Neighbors computed in 0.028940200805664062 seconds
+Jaccard graph constructed in 2.8531417846679688 seconds
+Wrote graph to binary file in 0.06706762313842773 seconds
+Running Louvain modularity optimization
+After 1 runs, maximum modularity is Q = 0.90069
+After 2 runs, maximum modularity is Q = 0.902491
+Louvain completed 22 runs in 1.1259069442749023 seconds
+Sorting communities by size, please wait ...
+PhenoGraph completed in 4.591253995895386 seconds
+Finding 30 nearest neighbors using minkowski metric and 'auto' algorithm
+Neighbors computed in 0.015249967575073242 seconds
+Jaccard graph constructed in 1.610356330871582 seconds
+Wrote graph to binary file in 0.03148984909057617 seconds
+Running Louvain modularity optimization
+After 1 runs, maximum modularity is Q = 0.877003
+Louvain completed 21 runs in 0.5650179386138916 seconds
+Sorting communities by size, please wait ...
+PhenoGraph completed in 2.7933740615844727 seconds
+Finding 30 nearest neighbors using minkowski metric and 'auto' algorithm
+Neighbors computed in 0.017042875289916992 seconds
+Jaccard graph constructed in 1.7386095523834229 seconds
+Wrote graph to binary file in 0.03708600997924805 seconds
+Running Louvain modularity optimization
+After 1 runs, maximum modularity is Q = 0.890799
+After 6 runs, maximum modularity is Q = 0.891897
+Louvain completed 26 runs in 0.9435107707977295 seconds
+Sorting communities by size, please wait ...
+PhenoGraph completed in 3.231381893157959 seconds
+Finding 30 nearest neighbors using minkowski metric and 'auto' algorithm
+Neighbors computed in 0.014658927917480469 seconds
+Jaccard graph constructed in 1.603107213973999 seconds
+Wrote graph to binary file in 0.031961679458618164 seconds
+Running Louvain modularity optimization
+After 1 runs, maximum modularity is Q = 0.878136
+Louvain completed 21 runs in 0.5657222270965576 seconds
+Sorting communities by size, please wait ...
+PhenoGraph completed in 2.742475986480713 seconds
+Finding 30 nearest neighbors using minkowski metric and 'auto' algorithm
+Neighbors computed in 0.01701951026916504 seconds
+Jaccard graph constructed in 1.665454626083374 seconds
+Wrote graph to binary file in 0.03375577926635742 seconds
+Running Louvain modularity optimization
+After 1 runs, maximum modularity is Q = 0.879999
+After 4 runs, maximum modularity is Q = 0.881123
+After 11 runs, maximum modularity is Q = 0.882188
+Louvain completed 31 runs in 0.9581203460693359 seconds
+Sorting communities by size, please wait ...
+PhenoGraph completed in 3.1827423572540283 seconds
+Finding 30 nearest neighbors using minkowski metric and 'auto' algorithm
+Neighbors computed in 0.02776503562927246 seconds
+Jaccard graph constructed in 2.5797998905181885 seconds
+Wrote graph to binary file in 0.06561541557312012 seconds
+Running Louvain modularity optimization
+After 1 runs, maximum modularity is Q = 0.901967
+After 3 runs, maximum modularity is Q = 0.903852
+Louvain completed 23 runs in 1.1354708671569824 seconds
+Sorting communities by size, please wait ...
+PhenoGraph completed in 4.3180389404296875 seconds
+Finding 30 nearest neighbors using minkowski metric and 'auto' algorithm
+Neighbors computed in 0.0317387580871582 seconds
+Jaccard graph constructed in 2.8470253944396973 seconds
+Wrote graph to binary file in 0.0733640193939209 seconds
+Running Louvain modularity optimization
+After 1 runs, maximum modularity is Q = 0.9086
+Louvain completed 21 runs in 1.076446294784546 seconds
+Sorting communities by size, please wait ...
+PhenoGraph completed in 4.538764715194702 seconds
+Finding 30 nearest neighbors using minkowski metric and 'auto' algorithm
+Neighbors computed in 0.027890443801879883 seconds
+Jaccard graph constructed in 2.597123622894287 seconds
+Wrote graph to binary file in 0.06592178344726562 seconds
+Running Louvain modularity optimization
+After 1 runs, maximum modularity is Q = 0.901126
+Louvain completed 21 runs in 0.9660804271697998 seconds
+Sorting communities by size, please wait ...
+PhenoGraph completed in 4.229289531707764 seconds
+Finding 30 nearest neighbors using minkowski metric and 'auto' algorithm
+Neighbors computed in 0.02842402458190918 seconds
+Jaccard graph constructed in 2.6020724773406982 seconds
+Wrote graph to binary file in 0.06838798522949219 seconds
+Running Louvain modularity optimization
+After 1 runs, maximum modularity is Q = 0.905526
+Louvain completed 21 runs in 0.998049259185791 seconds
+Sorting communities by size, please wait ...
+PhenoGraph completed in 4.220401763916016 seconds
+Finding 30 nearest neighbors using minkowski metric and 'auto' algorithm
+Neighbors computed in 0.015040874481201172 seconds
+Jaccard graph constructed in 1.6040315628051758 seconds
+Wrote graph to binary file in 0.03150296211242676 seconds
+Running Louvain modularity optimization
+After 1 runs, maximum modularity is Q = 0.872015
+After 5 runs, maximum modularity is Q = 0.873063
+After 12 runs, maximum modularity is Q = 0.874436
+Louvain completed 32 runs in 0.948556661605835 seconds
+Sorting communities by size, please wait ...
+PhenoGraph completed in 3.127721071243286 seconds
+Finding 30 nearest neighbors using minkowski metric and 'auto' algorithm
+Neighbors computed in 0.017260074615478516 seconds
+Jaccard graph constructed in 1.7423985004425049 seconds
+Wrote graph to binary file in 0.03679704666137695 seconds
+Running Louvain modularity optimization
+After 1 runs, maximum modularity is Q = 0.886954
+Louvain completed 21 runs in 0.6310877799987793 seconds
+Sorting communities by size, please wait ...
+PhenoGraph completed in 2.9662907123565674 seconds
+Finding 30 nearest neighbors using minkowski metric and 'auto' algorithm
+Neighbors computed in 0.015104532241821289 seconds
+Jaccard graph constructed in 1.6260199546813965 seconds
+Wrote graph to binary file in 0.032288551330566406 seconds
+Running Louvain modularity optimization
+After 1 runs, maximum modularity is Q = 0.877495
+Louvain completed 21 runs in 0.5844857692718506 seconds
+Sorting communities by size, please wait ...
+PhenoGraph completed in 2.794527769088745 seconds
+Finding 30 nearest neighbors using minkowski metric and 'auto' algorithm
+Neighbors computed in 0.016247987747192383 seconds
+Jaccard graph constructed in 1.617994785308838 seconds
+Wrote graph to binary file in 0.03417658805847168 seconds
+Running Louvain modularity optimization
+After 1 runs, maximum modularity is Q = 0.879865
+After 9 runs, maximum modularity is Q = 0.880983
+Louvain completed 29 runs in 0.8444509506225586 seconds
+Sorting communities by size, please wait ...
+PhenoGraph completed in 3.0316154956817627 seconds
+Finding 30 nearest neighbors using minkowski metric and 'auto' algorithm
+Neighbors computed in 0.003854513168334961 seconds
+Jaccard graph constructed in 0.6065042018890381 seconds
+Wrote graph to binary file in 0.004506349563598633 seconds
+Running Louvain modularity optimization
+After 1 runs, maximum modularity is Q = 0.717911
+Louvain completed 21 runs in 0.25440049171447754 seconds
+Sorting communities by size, please wait ...
+PhenoGraph completed in 1.3550221920013428 seconds
+Finding 30 nearest neighbors using minkowski metric and 'auto' algorithm
+Neighbors computed in 0.0036878585815429688 seconds
+Jaccard graph constructed in 0.6159708499908447 seconds
+Wrote graph to binary file in 0.004689931869506836 seconds
+Running Louvain modularity optimization
+After 1 runs, maximum modularity is Q = 0.668289
+After 2 runs, maximum modularity is Q = 0.670253
+After 11 runs, maximum modularity is Q = 0.672202
+Louvain completed 31 runs in 0.40856266021728516 seconds
+Sorting communities by size, please wait ...
+PhenoGraph completed in 1.518249273300171 seconds
+Finding 30 nearest neighbors using minkowski metric and 'auto' algorithm
+Neighbors computed in 0.0037446022033691406 seconds
+Jaccard graph constructed in 0.6079421043395996 seconds
+Wrote graph to binary file in 0.0046117305755615234 seconds
+Running Louvain modularity optimization
+After 1 runs, maximum modularity is Q = 0.693972
+After 5 runs, maximum modularity is Q = 0.695475
+Louvain completed 25 runs in 0.32505011558532715 seconds
+Sorting communities by size, please wait ...
+PhenoGraph completed in 1.483135461807251 seconds
+Finding 30 nearest neighbors using minkowski metric and 'auto' algorithm
+Neighbors computed in 0.004411935806274414 seconds
+Jaccard graph constructed in 0.8299846649169922 seconds
+Wrote graph to binary file in 0.005450010299682617 seconds
+Running Louvain modularity optimization
+After 1 runs, maximum modularity is Q = 0.657213
+After 9 runs, maximum modularity is Q = 0.659458
+Louvain completed 29 runs in 0.4266397953033447 seconds
+Sorting communities by size, please wait ...
+PhenoGraph completed in 1.8890628814697266 seconds
+Finding 30 nearest neighbors using minkowski metric and 'auto' algorithm
+Neighbors computed in 0.003984689712524414 seconds
+Jaccard graph constructed in 0.7180473804473877 seconds
+Wrote graph to binary file in 0.005186796188354492 seconds
+Running Louvain modularity optimization
+After 1 runs, maximum modularity is Q = 0.675705
+After 2 runs, maximum modularity is Q = 0.683049
+After 4 runs, maximum modularity is Q = 0.684194
+Louvain completed 24 runs in 0.3990292549133301 seconds
+Sorting communities by size, please wait ...
+PhenoGraph completed in 1.7245378494262695 seconds
+Finding 30 nearest neighbors using minkowski metric and 'auto' algorithm
+Neighbors computed in 0.004223823547363281 seconds
+Jaccard graph constructed in 0.6806821823120117 seconds
+Wrote graph to binary file in 0.005278348922729492 seconds
+Running Louvain modularity optimization
+After 1 runs, maximum modularity is Q = 0.652835
+After 2 runs, maximum modularity is Q = 0.659639
+Louvain completed 22 runs in 0.3538029193878174 seconds
+Sorting communities by size, please wait ...
+PhenoGraph completed in 1.6449377536773682 seconds
+Finding 30 nearest neighbors using minkowski metric and 'auto' algorithm
+Neighbors computed in 0.00439906120300293 seconds
+Jaccard graph constructed in 0.6230707168579102 seconds
+Wrote graph to binary file in 0.0028383731842041016 seconds
+Running Louvain modularity optimization
+After 1 runs, maximum modularity is Q = 0.496807
+Louvain completed 21 runs in 0.26030516624450684 seconds
+Sorting communities by size, please wait ...
+PhenoGraph completed in 1.549253225326538 seconds
+Finding 30 nearest neighbors using minkowski metric and 'auto' algorithm
+Neighbors computed in 0.003404378890991211 seconds
+Jaccard graph constructed in 0.6203064918518066 seconds
+Wrote graph to binary file in 0.0029211044311523438 seconds
+Running Louvain modularity optimization
+After 1 runs, maximum modularity is Q = 0.492017
+Louvain completed 21 runs in 0.24832844734191895 seconds
+Sorting communities by size, please wait ...
+PhenoGraph completed in 1.46712327003479 seconds
+Finding 30 nearest neighbors using minkowski metric and 'auto' algorithm
+Neighbors computed in 0.0035343170166015625 seconds
+Jaccard graph constructed in 0.6534316539764404 seconds
+Wrote graph to binary file in 0.002675771713256836 seconds
+Running Louvain modularity optimization
+After 1 runs, maximum modularity is Q = 0.499634
+Louvain completed 21 runs in 0.2781851291656494 seconds
+Sorting communities by size, please wait ...
+PhenoGraph completed in 1.5220425128936768 seconds
+Finding 30 nearest neighbors using minkowski metric and 'auto' algorithm
+Neighbors computed in 0.003716707229614258 seconds
+Jaccard graph constructed in 0.630932092666626 seconds
+Wrote graph to binary file in 0.0027227401733398438 seconds
+Running Louvain modularity optimization
+After 1 runs, maximum modularity is Q = 0.358391
+Louvain completed 21 runs in 0.26877379417419434 seconds
+Sorting communities by size, please wait ...
+PhenoGraph completed in 1.5477125644683838 seconds
+Finding 30 nearest neighbors using minkowski metric and 'auto' algorithm
+Neighbors computed in 0.0032775402069091797 seconds
+Jaccard graph constructed in 0.5934171676635742 seconds
+Wrote graph to binary file in 0.002869129180908203 seconds
+Running Louvain modularity optimization
+After 1 runs, maximum modularity is Q = 0.383167
+Louvain completed 21 runs in 0.2759888172149658 seconds
+Sorting communities by size, please wait ...
+PhenoGraph completed in 1.483124017715454 seconds
+Finding 30 nearest neighbors using minkowski metric and 'auto' algorithm
+Neighbors computed in 0.0031557083129882812 seconds
+Jaccard graph constructed in 0.5954978466033936 seconds
+Wrote graph to binary file in 0.0025510787963867188 seconds
+Running Louvain modularity optimization
+After 1 runs, maximum modularity is Q = 0.358932
+After 2 runs, maximum modularity is Q = 0.384724
+Louvain completed 22 runs in 0.3506202697753906 seconds
+Sorting communities by size, please wait ...
+PhenoGraph completed in 1.527848720550537 seconds
+Finding 30 nearest neighbors using minkowski metric and 'auto' algorithm
+Neighbors computed in 0.0058519840240478516 seconds
+Jaccard graph constructed in 0.7776944637298584 seconds
+Wrote graph to binary file in 0.009259462356567383 seconds
+Running Louvain modularity optimization
+After 1 runs, maximum modularity is Q = 0.783265
+After 4 runs, maximum modularity is Q = 0.785002
+Louvain completed 24 runs in 0.4434511661529541 seconds
+Sorting communities by size, please wait ...
+PhenoGraph completed in 1.9791576862335205 seconds
+Finding 30 nearest neighbors using minkowski metric and 'auto' algorithm
+Neighbors computed in 0.005667448043823242 seconds
+Jaccard graph constructed in 0.8163111209869385 seconds
+Wrote graph to binary file in 0.008404254913330078 seconds
+Running Louvain modularity optimization
+After 1 runs, maximum modularity is Q = 0.792702
+After 4 runs, maximum modularity is Q = 0.79388
+After 6 runs, maximum modularity is Q = 0.795467
+Louvain completed 26 runs in 0.46634840965270996 seconds
+Sorting communities by size, please wait ...
+PhenoGraph completed in 1.8611583709716797 seconds
+Finding 30 nearest neighbors using minkowski metric and 'auto' algorithm
+Neighbors computed in 0.005603313446044922 seconds
+Jaccard graph constructed in 0.8569772243499756 seconds
+Wrote graph to binary file in 0.008728265762329102 seconds
+Running Louvain modularity optimization
+After 1 runs, maximum modularity is Q = 0.78474
+After 2 runs, maximum modularity is Q = 0.787193
+Louvain completed 22 runs in 0.4031178951263428 seconds
+Sorting communities by size, please wait ...
+PhenoGraph completed in 1.8805227279663086 seconds
+Finding 30 nearest neighbors using minkowski metric and 'auto' algorithm
+Neighbors computed in 0.005228757858276367 seconds
+Jaccard graph constructed in 0.8270130157470703 seconds
+Wrote graph to binary file in 0.00831460952758789 seconds
+Running Louvain modularity optimization
+After 1 runs, maximum modularity is Q = 0.78127
+After 3 runs, maximum modularity is Q = 0.782729
+After 12 runs, maximum modularity is Q = 0.784029
+After 13 runs, maximum modularity is Q = 0.785075
+Louvain completed 33 runs in 0.6466190814971924 seconds
+Sorting communities by size, please wait ...
+PhenoGraph completed in 2.1003639698028564 seconds
+Finding 30 nearest neighbors using minkowski metric and 'auto' algorithm
+Neighbors computed in 0.005724191665649414 seconds
+Jaccard graph constructed in 0.8784375190734863 seconds
+Wrote graph to binary file in 0.009353399276733398 seconds
+Running Louvain modularity optimization
+After 1 runs, maximum modularity is Q = 0.798165
+Louvain completed 21 runs in 0.34714603424072266 seconds
+Sorting communities by size, please wait ...
+PhenoGraph completed in 1.8973538875579834 seconds
+Finding 30 nearest neighbors using minkowski metric and 'auto' algorithm
+Neighbors computed in 0.005173683166503906 seconds
+Jaccard graph constructed in 0.8328151702880859 seconds
+Wrote graph to binary file in 0.008267879486083984 seconds
+Running Louvain modularity optimization
+After 1 runs, maximum modularity is Q = 0.769637
+After 21 runs, maximum modularity is Q = 0.770746
+Louvain completed 41 runs in 0.7946028709411621 seconds
+Sorting communities by size, please wait ...
+PhenoGraph completed in 2.2912495136260986 seconds
+Finding 30 nearest neighbors using minkowski metric and 'auto' algorithm
+Neighbors computed in 0.00579071044921875 seconds
+Jaccard graph constructed in 0.9077565670013428 seconds
+Wrote graph to binary file in 0.009251832962036133 seconds
+Running Louvain modularity optimization
+After 1 runs, maximum modularity is Q = 0.78986
+Louvain completed 21 runs in 0.3187599182128906 seconds
+Sorting communities by size, please wait ...
+PhenoGraph completed in 1.8148601055145264 seconds
+Finding 30 nearest neighbors using minkowski metric and 'auto' algorithm
+Neighbors computed in 0.00513458251953125 seconds
+Jaccard graph constructed in 0.8841238021850586 seconds
+Wrote graph to binary file in 0.009121894836425781 seconds
+Running Louvain modularity optimization
+After 1 runs, maximum modularity is Q = 0.777679
+After 2 runs, maximum modularity is Q = 0.78112
+After 9 runs, maximum modularity is Q = 0.782324
+After 12 runs, maximum modularity is Q = 0.783472
+Louvain completed 32 runs in 0.5861506462097168 seconds
+Sorting communities by size, please wait ...
+PhenoGraph completed in 2.160902500152588 seconds
+Finding 30 nearest neighbors using minkowski metric and 'auto' algorithm
+Neighbors computed in 0.005341529846191406 seconds
+Jaccard graph constructed in 0.8172826766967773 seconds
+Wrote graph to binary file in 0.00896453857421875 seconds
+Running Louvain modularity optimization
+After 1 runs, maximum modularity is Q = 0.781119
+After 3 runs, maximum modularity is Q = 0.782407
+Louvain completed 23 runs in 0.4299755096435547 seconds
+Sorting communities by size, please wait ...
+PhenoGraph completed in 1.9105122089385986 seconds
+Finding 30 nearest neighbors using minkowski metric and 'auto' algorithm
+Neighbors computed in 0.005692243576049805 seconds
+Jaccard graph constructed in 0.8025643825531006 seconds
+Wrote graph to binary file in 0.008925437927246094 seconds
+Running Louvain modularity optimization
+After 1 runs, maximum modularity is Q = 0.773052
+After 2 runs, maximum modularity is Q = 0.775038
+After 10 runs, maximum modularity is Q = 0.776497
+Louvain completed 30 runs in 0.5269014835357666 seconds
+Sorting communities by size, please wait ...
+PhenoGraph completed in 1.920910358428955 seconds
+/deac/csc/khuriGrp/zhaok220/clustering/data/scrna_benchmarks_umap/ICELL8_SE_A_kallisto_umap.csv
+-- Begin evolution --
+-- Generation 1 --
+-- Generation 2 --
+-- Generation 3 --
+-- Generation 4 --
+-- Generation 5 --
+-- Generation 6 --
+-- Generation 7 --
+-- Generation 8 --
+-- Generation 9 --
+-- Generation 10 --
+-- Generation 11 --
+-- Generation 12 --
+-- Generation 13 --
+-- Generation 14 --
+-- Generation 15 --
+-- Generation 16 --
+-- Generation 17 --
+-- Generation 18 --
+-- Generation 19 --
+-- Generation 20 --
+-- Generation 21 --
+-- Generation 22 --
+-- Generation 23 --
+-- Generation 24 --
+-- Generation 25 --
+-- Generation 26 --
+-- Generation 27 --
+-- Generation 28 --
+-- Generation 29 --
+-- Generation 30 --
+-- Generation 31 --
+-- Generation 32 --
+-- Generation 33 --
+-- Generation 34 --
+-- Generation 35 --
+-- Generation 36 --
+-- Generation 37 --
+-- Generation 38 --
+-- Generation 39 --
+-- Generation 40 --
+-- Generation 41 --
+-- Generation 42 --
+-- Generation 43 --
+-- Generation 44 --
+-- Generation 45 --
+-- Generation 46 --
+-- Generation 47 --
+-- Generation 48 --
+-- Generation 49 --
+-- Generation 50 --
+-- Generation 51 --
+-- Generation 52 --
+-- Generation 53 --
+-- Generation 54 --
+-- Generation 55 --
+-- Generation 56 --
+-- Generation 57 --
+-- Generation 58 --
+-- Generation 59 --
+-- Generation 60 --
+-- Generation 61 --
+-- Generation 62 --
+-- Generation 63 --
+-- Generation 64 --
+-- Generation 65 --
+-- Generation 66 --
+-- Generation 67 --
+-- Generation 68 --
+-- Generation 69 --
+-- Generation 70 --
+-- Generation 71 --
+-- Generation 72 --
+-- Generation 73 --
+-- Generation 74 --
+-- Generation 75 --
+-- Generation 76 --
+-- Generation 77 --
+-- Generation 78 --
+-- Generation 79 --
+-- Generation 80 --
+-- Generation 81 --
+-- Generation 82 --
+-- Generation 83 --
+-- Generation 84 --
+-- Generation 85 --
+-- Generation 86 --
+-- Generation 87 --
+-- Generation 88 --
+-- Generation 89 --
+-- Generation 90 --
+-- Generation 91 --
+-- Generation 92 --
+-- Generation 93 --
+-- Generation 94 --
+-- Generation 95 --
+-- Generation 96 --
+-- Generation 97 --
+-- Generation 98 --
+-- Generation 99 --
+-- Generation 100 --
+-- Generation 101 --
+-- Generation 102 --
+-- Generation 103 --
+-- Generation 104 --
+-- Generation 105 --
+-- Generation 106 --
+-- Generation 107 --
+-- Generation 108 --
+-- Generation 109 --
+-- Generation 110 --
+-- Generation 111 --
+-- Generation 112 --
+-- Generation 113 --
+-- Generation 114 --
+-- Generation 115 --
+-- Generation 116 --
+-- Generation 117 --
+-- Generation 118 --
+-- Generation 119 --
+-- Generation 120 --
+-- Generation 121 --
+-- Generation 122 --
+-- Generation 123 --
+-- Generation 124 --
+-- Generation 125 --
+-- Generation 126 --
+-- Generation 127 --
+-- Generation 128 --
+-- Generation 129 --
+-- Generation 130 --
+-- Generation 131 --
+-- Generation 132 --
+-- Generation 133 --
+-- Generation 134 --
+-- Generation 135 --
+-- Generation 136 --
+-- Generation 137 --
+-- Generation 138 --
+-- Generation 139 --
+-- Generation 140 --
+-- Generation 141 --
+-- Generation 142 --
+-- Generation 143 --
+-- Generation 144 --
+-- Generation 145 --
+-- Generation 146 --
+-- Generation 147 --
+-- Generation 148 --
+-- Generation 149 --
+-- Generation 150 --
+-- Generation 151 --
+-- Generation 152 --
+-- Generation 153 --
+-- Generation 154 --
+-- Generation 155 --
+-- Generation 156 --
+-- Generation 157 --
+-- Generation 158 --
+-- Generation 159 --
+-- Generation 160 --
+-- Generation 161 --
+-- Generation 162 --
+-- Generation 163 --
+-- Generation 164 --
+-- Generation 165 --
+-- Generation 166 --
+-- Generation 167 --
+-- Generation 168 --
+-- Generation 169 --
+-- Generation 170 --
+-- Generation 171 --
+-- Generation 172 --
+-- Generation 173 --
+-- Generation 174 --
+-- Generation 175 --
+-- Generation 176 --
+-- Generation 177 --
+-- Generation 178 --
+-- Generation 179 --
+-- Generation 180 --
+-- Generation 181 --
+-- Generation 182 --
+-- Generation 183 --
+-- Generation 184 --
+-- Generation 185 --
+-- Generation 186 --
+-- Generation 187 --
+-- Generation 188 --
+-- Generation 189 --
+-- Generation 190 --
+-- Generation 191 --
+-- Generation 192 --
+-- Generation 193 --
+-- Generation 194 --
+-- Generation 195 --
+-- Generation 196 --
+-- Generation 197 --
+-- Generation 198 --
+-- Generation 199 --
+-- Generation 200 --
+-- Generation 201 --
+-- Generation 202 --
+-- Generation 203 --
+-- Generation 204 --
+-- Generation 205 --
+-- Generation 206 --
+-- Generation 207 --
+-- Generation 208 --
+-- Generation 209 --
+-- Generation 210 --
+-- Generation 211 --
+-- Generation 212 --
+-- Generation 213 --
+-- Generation 214 --
+-- Generation 215 --
+-- Generation 216 --
+-- Generation 217 --
+-- Generation 218 --
+-- Generation 219 --
+-- Generation 220 --
+-- Generation 221 --
+-- Generation 222 --
+-- Generation 223 --
+-- Generation 224 --
+-- Generation 225 --
+-- Generation 226 --
+-- Generation 227 --
+-- Generation 228 --
+-- Generation 229 --
+-- Generation 230 --
+-- Generation 231 --
+-- Generation 232 --
+-- Generation 233 --
+-- Generation 234 --
+-- Generation 235 --
+-- Generation 236 --
+-- Generation 237 --
+-- Generation 238 --
+-- Generation 239 --
+-- Generation 240 --
+-- Generation 241 --
+-- Generation 242 --
+-- Generation 243 --
+-- Generation 244 --
+-- Generation 245 --
+-- Generation 246 --
+-- Generation 247 --
+-- Generation 248 --
+-- Generation 249 --
+-- Generation 250 --
+-- Generation 251 --
+-- Generation 252 --
+-- Generation 253 --
+-- Generation 254 --
+-- Generation 255 --
+-- Generation 256 --
+-- Generation 257 --
+-- Generation 258 --
+-- Generation 259 --
+-- Generation 260 --
+-- Generation 261 --
+-- Generation 262 --
+-- Generation 263 --
+-- Generation 264 --
+-- Generation 265 --
+-- Generation 266 --
+-- Generation 267 --
+-- Generation 268 --
+-- Generation 269 --
+-- Generation 270 --
+-- Generation 271 --
+-- Generation 272 --
+-- Generation 273 --
+-- Generation 274 --
+-- Generation 275 --
+-- Generation 276 --
+-- Generation 277 --
+-- Generation 278 --
+-- Generation 279 --
+-- Generation 280 --
+-- Generation 281 --
+-- Generation 282 --
+-- Generation 283 --
+-- Generation 284 --
+-- Generation 285 --
+-- Generation 286 --
+-- Generation 287 --
+-- Generation 288 --
+-- Generation 289 --
+-- Generation 290 --
+-- Generation 291 --
+-- Generation 292 --
+-- Generation 293 --
+-- Generation 294 --
+-- Generation 295 --
+-- Generation 296 --
+-- Generation 297 --
+-- Generation 298 --
+-- Generation 299 --
+-- Generation 300 --
+-- Generation 301 --
+-- Generation 302 --
+-- Generation 303 --
+-- Generation 304 --
+-- Generation 305 --
+-- Generation 306 --
+-- Generation 307 --
+-- Generation 308 --
+-- Generation 309 --
+-- Generation 310 --
+-- Generation 311 --
+-- Generation 312 --
+-- Generation 313 --
+-- Generation 314 --
+-- Generation 315 --
+-- Generation 316 --
+-- Generation 317 --
+-- Generation 318 --
+-- Generation 319 --
+-- Generation 320 --
+-- Generation 321 --
+-- Generation 322 --
+-- Generation 323 --
+-- Generation 324 --
+-- Generation 325 --
+-- Generation 326 --
+-- Generation 327 --
+-- Generation 328 --
+-- Generation 329 --
+-- Generation 330 --
+-- Generation 331 --
+-- Generation 332 --
+-- Generation 333 --
+-- Generation 334 --
+-- Generation 335 --
+-- Generation 336 --
+-- Generation 337 --
+-- Generation 338 --
+-- Generation 339 --
+-- Generation 340 --
+-- Generation 341 --
+-- Generation 342 --
+-- Generation 343 --
+-- Generation 344 --
+-- Generation 345 --
+-- Generation 346 --
+-- Generation 347 --
+-- Generation 348 --
+-- Generation 349 --
+-- Generation 350 --
+-- End of (successful) evolution --
+-- Begin evolution --
+-- Generation 1 --
+-- Generation 2 --
+-- Generation 3 --
+-- Generation 4 --
+-- Generation 5 --
+-- Generation 6 --
+-- Generation 7 --
+-- Generation 8 --
+-- Generation 9 --
+-- Generation 10 --
+-- Generation 11 --
+-- Generation 12 --
+-- Generation 13 --
+-- Generation 14 --
+-- Generation 15 --
+-- Generation 16 --
+-- Generation 17 --
+-- Generation 18 --
+-- Generation 19 --
+-- Generation 20 --
+-- Generation 21 --
+-- Generation 22 --
+-- Generation 23 --
+-- Generation 24 --
+-- Generation 25 --
+-- Generation 26 --
+-- Generation 27 --
+-- Generation 28 --
+-- Generation 29 --
+-- Generation 30 --
+-- Generation 31 --
+-- Generation 32 --
+-- Generation 33 --
+-- Generation 34 --
+-- Generation 35 --
+-- Generation 36 --
+-- Generation 37 --
+-- Generation 38 --
+-- Generation 39 --
+-- Generation 40 --
+-- Generation 41 --
+-- Generation 42 --
+-- Generation 43 --
+-- Generation 44 --
+-- Generation 45 --
+-- Generation 46 --
+-- Generation 47 --
+-- Generation 48 --
+-- Generation 49 --
+-- Generation 50 --
+-- Generation 51 --
+-- Generation 52 --
+-- Generation 53 --
+-- Generation 54 --
+-- Generation 55 --
+-- Generation 56 --
+-- Generation 57 --
+-- Generation 58 --
+-- Generation 59 --
+-- Generation 60 --
+-- Generation 61 --
+-- Generation 62 --
+-- Generation 63 --
+-- Generation 64 --
+-- Generation 65 --
+-- Generation 66 --
+-- Generation 67 --
+-- Generation 68 --
+-- Generation 69 --
+-- Generation 70 --
+-- Generation 71 --
+-- Generation 72 --
+-- Generation 73 --
+-- Generation 74 --
+-- Generation 75 --
+-- Generation 76 --
+-- Generation 77 --
+-- Generation 78 --
+-- Generation 79 --
+-- Generation 80 --
+-- Generation 81 --
+-- Generation 82 --
+-- Generation 83 --
+-- Generation 84 --
+-- Generation 85 --
+-- Generation 86 --
+-- Generation 87 --
+-- Generation 88 --
+-- Generation 89 --
+-- Generation 90 --
+-- Generation 91 --
+-- Generation 92 --
+-- Generation 93 --
+-- Generation 94 --
+-- Generation 95 --
+-- Generation 96 --
+-- Generation 97 --
+-- Generation 98 --
+-- Generation 99 --
+-- Generation 100 --
+-- Generation 101 --
+-- Generation 102 --
+-- Generation 103 --
+-- Generation 104 --
+-- Generation 105 --
+-- Generation 106 --
+-- Generation 107 --
+-- Generation 108 --
+-- Generation 109 --
+-- Generation 110 --
+-- Generation 111 --
+-- Generation 112 --
+-- Generation 113 --
+-- Generation 114 --
+-- Generation 115 --
+-- Generation 116 --
+-- Generation 117 --
+-- Generation 118 --
+-- Generation 119 --
+-- Generation 120 --
+-- Generation 121 --
+-- Generation 122 --
+-- Generation 123 --
+-- Generation 124 --
+-- Generation 125 --
+-- Generation 126 --
+-- Generation 127 --
+-- Generation 128 --
+-- Generation 129 --
+-- Generation 130 --
+-- Generation 131 --
+-- Generation 132 --
+-- Generation 133 --
+-- Generation 134 --
+-- Generation 135 --
+-- Generation 136 --
+-- Generation 137 --
+-- Generation 138 --
+-- Generation 139 --
+-- Generation 140 --
+-- Generation 141 --
+-- Generation 142 --
+-- Generation 143 --
+-- Generation 144 --
+-- Generation 145 --
+-- Generation 146 --
+-- Generation 147 --
+-- Generation 148 --
+-- Generation 149 --
+-- Generation 150 --
+-- Generation 151 --
+-- Generation 152 --
+-- Generation 153 --
+-- Generation 154 --
+-- Generation 155 --
+-- Generation 156 --
+-- Generation 157 --
+-- Generation 158 --
+-- Generation 159 --
+-- Generation 160 --
+-- Generation 161 --
+-- Generation 162 --
+-- Generation 163 --
+-- Generation 164 --
+-- Generation 165 --
+-- Generation 166 --
+-- Generation 167 --
+-- Generation 168 --
+-- Generation 169 --
+-- Generation 170 --
+-- Generation 171 --
+-- Generation 172 --
+-- Generation 173 --
+-- Generation 174 --
+-- Generation 175 --
+-- Generation 176 --
+-- Generation 177 --
+-- Generation 178 --
+-- Generation 179 --
+-- Generation 180 --
+-- Generation 181 --
+-- Generation 182 --
+-- Generation 183 --
+-- Generation 184 --
+-- Generation 185 --
+-- Generation 186 --
+-- Generation 187 --
+-- Generation 188 --
+-- Generation 189 --
+-- Generation 190 --
+-- Generation 191 --
+-- Generation 192 --
+-- Generation 193 --
+-- Generation 194 --
+-- Generation 195 --
+-- Generation 196 --
+-- Generation 197 --
+-- Generation 198 --
+-- Generation 199 --
+-- Generation 200 --
+-- Generation 201 --
+-- Generation 202 --
+-- Generation 203 --
+-- Generation 204 --
+-- Generation 205 --
+-- Generation 206 --
+-- Generation 207 --
+-- Generation 208 --
+-- Generation 209 --
+-- Generation 210 --
+-- Generation 211 --
+-- Generation 212 --
+-- Generation 213 --
+-- Generation 214 --
+-- Generation 215 --
+-- Generation 216 --
+-- Generation 217 --
+-- Generation 218 --
+-- Generation 219 --
+-- Generation 220 --
+-- Generation 221 --
+-- Generation 222 --
+-- Generation 223 --
+-- Generation 224 --
+-- Generation 225 --
+-- Generation 226 --
+-- Generation 227 --
+-- Generation 228 --
+-- Generation 229 --
+-- Generation 230 --
+-- Generation 231 --
+-- Generation 232 --
+-- Generation 233 --
+-- Generation 234 --
+-- Generation 235 --
+-- Generation 236 --
+-- Generation 237 --
+-- Generation 238 --
+-- Generation 239 --
+-- Generation 240 --
+-- Generation 241 --
+-- Generation 242 --
+-- Generation 243 --
+-- Generation 244 --
+-- Generation 245 --
+-- Generation 246 --
+-- Generation 247 --
+-- Generation 248 --
+-- Generation 249 --
+-- Generation 250 --
+-- Generation 251 --
+-- Generation 252 --
+-- Generation 253 --
+-- Generation 254 --
+-- Generation 255 --
+-- Generation 256 --
+-- Generation 257 --
+-- Generation 258 --
+-- Generation 259 --
+-- Generation 260 --
+-- Generation 261 --
+-- Generation 262 --
+-- Generation 263 --
+-- Generation 264 --
+-- Generation 265 --
+-- Generation 266 --
+-- Generation 267 --
+-- Generation 268 --
+-- Generation 269 --
+-- Generation 270 --
+-- Generation 271 --
+-- Generation 272 --
+-- Generation 273 --
+-- Generation 274 --
+-- Generation 275 --
+-- Generation 276 --
+-- Generation 277 --
+-- Generation 278 --
+-- Generation 279 --
+-- Generation 280 --
+-- Generation 281 --
+-- Generation 282 --
+-- Generation 283 --
+-- Generation 284 --
+-- Generation 285 --
+-- Generation 286 --
+-- Generation 287 --
+-- Generation 288 --
+-- Generation 289 --
+-- Generation 290 --
+-- Generation 291 --
+-- Generation 292 --
+-- Generation 293 --
+-- Generation 294 --
+-- Generation 295 --
+-- Generation 296 --
+-- Generation 297 --
+-- Generation 298 --
+-- Generation 299 --
+-- Generation 300 --
+-- Generation 301 --
+-- Generation 302 --
+-- Generation 303 --
+-- Generation 304 --
+-- Generation 305 --
+-- Generation 306 --
+-- Generation 307 --
+-- Generation 308 --
+-- Generation 309 --
+-- Generation 310 --
+-- Generation 311 --
+-- Generation 312 --
+-- Generation 313 --
+-- Generation 314 --
+-- Generation 315 --
+-- Generation 316 --
+-- Generation 317 --
+-- Generation 318 --
+-- Generation 319 --
+-- Generation 320 --
+-- Generation 321 --
+-- Generation 322 --
+-- Generation 323 --
+-- Generation 324 --
+-- Generation 325 --
+-- Generation 326 --
+-- Generation 327 --
+-- Generation 328 --
+-- Generation 329 --
+-- Generation 330 --
+-- Generation 331 --
+-- Generation 332 --
+-- Generation 333 --
+-- Generation 334 --
+-- Generation 335 --
+-- Generation 336 --
+-- Generation 337 --
+-- Generation 338 --
+-- Generation 339 --
+-- Generation 340 --
+-- Generation 341 --
+-- Generation 342 --
+-- Generation 343 --
+-- Generation 344 --
+-- Generation 345 --
+-- Generation 346 --
+-- Generation 347 --
+-- Generation 348 --
+-- Generation 349 --
+-- Generation 350 --
+-- End of (successful) evolution --
+/deac/csc/khuriGrp/zhaok220/clustering/data/scrna_benchmarks_umap/ICELL8_SE_B_kallisto_umap.csv
+-- Begin evolution --
+-- Generation 1 --
+-- Generation 2 --
+-- Generation 3 --
+-- Generation 4 --
+-- Generation 5 --
+-- Generation 6 --
+-- Generation 7 --
+-- Generation 8 --
+-- Generation 9 --
+-- Generation 10 --
+-- Generation 11 --
+-- Generation 12 --
+-- Generation 13 --
+-- Generation 14 --
+-- Generation 15 --
+-- Generation 16 --
+-- Generation 17 --
+-- Generation 18 --
+-- Generation 19 --
+-- Generation 20 --
+-- Generation 21 --
+-- Generation 22 --
+-- Generation 23 --
+-- Generation 24 --
+-- Generation 25 --
+-- Generation 26 --
+-- Generation 27 --
+-- Generation 28 --
+-- Generation 29 --
+-- Generation 30 --
+-- Generation 31 --
+-- Generation 32 --
+-- Generation 33 --
+-- Generation 34 --
+-- Generation 35 --
+-- Generation 36 --
+-- Generation 37 --
+-- Generation 38 --
+-- Generation 39 --
+-- Generation 40 --
+-- Generation 41 --
+-- Generation 42 --
+-- Generation 43 --
+-- Generation 44 --
+-- Generation 45 --
+-- Generation 46 --
+-- Generation 47 --
+-- Generation 48 --
+-- Generation 49 --
+-- Generation 50 --
+-- Generation 51 --
+-- Generation 52 --
+-- Generation 53 --
+-- Generation 54 --
+-- Generation 55 --
+-- Generation 56 --
+-- Generation 57 --
+-- Generation 58 --
+-- Generation 59 --
+-- Generation 60 --
+-- Generation 61 --
+-- Generation 62 --
+-- Generation 63 --
+-- Generation 64 --
+-- Generation 65 --
+-- Generation 66 --
+-- Generation 67 --
+-- Generation 68 --
+-- Generation 69 --
+-- Generation 70 --
+-- Generation 71 --
+-- Generation 72 --
+-- Generation 73 --
+-- Generation 74 --
+-- Generation 75 --
+-- Generation 76 --
+-- Generation 77 --
+-- Generation 78 --
+-- Generation 79 --
+-- Generation 80 --
+-- Generation 81 --
+-- Generation 82 --
+-- Generation 83 --
+-- Generation 84 --
+-- Generation 85 --
+-- Generation 86 --
+-- Generation 87 --
+-- Generation 88 --
+-- Generation 89 --
+-- Generation 90 --
+-- Generation 91 --
+-- Generation 92 --
+-- Generation 93 --
+-- Generation 94 --
+-- Generation 95 --
+-- Generation 96 --
+-- Generation 97 --
+-- Generation 98 --
+-- Generation 99 --
+-- Generation 100 --
+-- Generation 101 --
+-- Generation 102 --
+-- Generation 103 --
+-- Generation 104 --
+-- Generation 105 --
+-- Generation 106 --
+-- Generation 107 --
+-- Generation 108 --
+-- Generation 109 --
+-- Generation 110 --
+-- Generation 111 --
+-- Generation 112 --
+-- Generation 113 --
+-- Generation 114 --
+-- Generation 115 --
+-- Generation 116 --
+-- Generation 117 --
+-- Generation 118 --
+-- Generation 119 --
+-- Generation 120 --
+-- Generation 121 --
+-- Generation 122 --
+-- Generation 123 --
+-- Generation 124 --
+-- Generation 125 --
+-- Generation 126 --
+-- Generation 127 --
+-- Generation 128 --
+-- Generation 129 --
+-- Generation 130 --
+-- Generation 131 --
+-- Generation 132 --
+-- Generation 133 --
+-- Generation 134 --
+-- Generation 135 --
+-- Generation 136 --
+-- Generation 137 --
+-- Generation 138 --
+-- Generation 139 --
+-- Generation 140 --
+-- Generation 141 --
+-- Generation 142 --
+-- Generation 143 --
+-- Generation 144 --
+-- Generation 145 --
+-- Generation 146 --
+-- Generation 147 --
+-- Generation 148 --
+-- Generation 149 --
+-- Generation 150 --
+-- Generation 151 --
+-- Generation 152 --
+-- Generation 153 --
+-- Generation 154 --
+-- Generation 155 --
+-- Generation 156 --
+-- Generation 157 --
+-- Generation 158 --
+-- Generation 159 --
+-- Generation 160 --
+-- Generation 161 --
+-- Generation 162 --
+-- Generation 163 --
+-- Generation 164 --
+-- Generation 165 --
+-- Generation 166 --
+-- Generation 167 --
+-- Generation 168 --
+-- Generation 169 --
+-- Generation 170 --
+-- Generation 171 --
+-- Generation 172 --
+-- Generation 173 --
+-- Generation 174 --
+-- Generation 175 --
+-- Generation 176 --
+-- Generation 177 --
+-- Generation 178 --
+-- Generation 179 --
+-- Generation 180 --
+-- Generation 181 --
+-- Generation 182 --
+-- Generation 183 --
+-- Generation 184 --
+-- Generation 185 --
+-- Generation 186 --
+-- Generation 187 --
+-- Generation 188 --
+-- Generation 189 --
+-- Generation 190 --
+-- Generation 191 --
+-- Generation 192 --
+-- Generation 193 --
+-- Generation 194 --
+-- Generation 195 --
+-- Generation 196 --
+-- Generation 197 --
+-- Generation 198 --
+-- Generation 199 --
+-- Generation 200 --
+-- Generation 201 --
+-- Generation 202 --
+-- Generation 203 --
+-- Generation 204 --
+-- Generation 205 --
+-- Generation 206 --
+-- Generation 207 --
+-- Generation 208 --
+-- Generation 209 --
+-- Generation 210 --
+-- Generation 211 --
+-- Generation 212 --
+-- Generation 213 --
+-- Generation 214 --
+-- Generation 215 --
+-- Generation 216 --
+-- Generation 217 --
+-- Generation 218 --
+-- Generation 219 --
+-- Generation 220 --
+-- Generation 221 --
+-- Generation 222 --
+-- Generation 223 --
+-- Generation 224 --
+-- Generation 225 --
+-- Generation 226 --
+-- Generation 227 --
+-- Generation 228 --
+-- Generation 229 --
+-- Generation 230 --
+-- Generation 231 --
+-- Generation 232 --
+-- Generation 233 --
+-- Generation 234 --
+-- Generation 235 --
+-- Generation 236 --
+-- Generation 237 --
+-- Generation 238 --
+-- Generation 239 --
+-- Generation 240 --
+-- Generation 241 --
+-- Generation 242 --
+-- Generation 243 --
+-- Generation 244 --
+-- Generation 245 --
+-- Generation 246 --
+-- Generation 247 --
+-- Generation 248 --
+-- Generation 249 --
+-- Generation 250 --
+-- Generation 251 --
+-- Generation 252 --
+-- Generation 253 --
+-- Generation 254 --
+-- Generation 255 --
+-- Generation 256 --
+-- Generation 257 --
+-- Generation 258 --
+-- Generation 259 --
+-- Generation 260 --
+-- Generation 261 --
+-- Generation 262 --
+-- Generation 263 --
+-- Generation 264 --
+-- Generation 265 --
+-- Generation 266 --
+-- Generation 267 --
+-- Generation 268 --
+-- Generation 269 --
+-- Generation 270 --
+-- Generation 271 --
+-- Generation 272 --
+-- Generation 273 --
+-- Generation 274 --
+-- Generation 275 --
+-- Generation 276 --
+-- Generation 277 --
+-- Generation 278 --
+-- Generation 279 --
+-- Generation 280 --
+-- Generation 281 --
+-- Generation 282 --
+-- Generation 283 --
+-- Generation 284 --
+-- Generation 285 --
+-- Generation 286 --
+-- Generation 287 --
+-- Generation 288 --
+-- Generation 289 --
+-- Generation 290 --
+-- Generation 291 --
+-- Generation 292 --
+-- Generation 293 --
+-- Generation 294 --
+-- Generation 295 --
+-- Generation 296 --
+-- Generation 297 --
+-- Generation 298 --
+-- Generation 299 --
+-- Generation 300 --
+-- Generation 301 --
+-- Generation 302 --
+-- Generation 303 --
+-- Generation 304 --
+-- Generation 305 --
+-- Generation 306 --
+-- Generation 307 --
+-- Generation 308 --
+-- Generation 309 --
+-- Generation 310 --
+-- Generation 311 --
+-- Generation 312 --
+-- Generation 313 --
+-- Generation 314 --
+-- Generation 315 --
+-- Generation 316 --
+-- Generation 317 --
+-- Generation 318 --
+-- Generation 319 --
+-- Generation 320 --
+-- Generation 321 --
+-- Generation 322 --
+-- Generation 323 --
+-- Generation 324 --
+-- Generation 325 --
+-- Generation 326 --
+-- Generation 327 --
+-- Generation 328 --
+-- Generation 329 --
+-- Generation 330 --
+-- Generation 331 --
+-- Generation 332 --
+-- Generation 333 --
+-- Generation 334 --
+-- Generation 335 --
+-- Generation 336 --
+-- Generation 337 --
+-- Generation 338 --
+-- Generation 339 --
+-- Generation 340 --
+-- Generation 341 --
+-- Generation 342 --
+-- Generation 343 --
+-- Generation 344 --
+-- Generation 345 --
+-- Generation 346 --
+-- Generation 347 --
+-- Generation 348 --
+-- Generation 349 --
+-- Generation 350 --
+-- End of (successful) evolution --
+-- Begin evolution --
+-- Generation 1 --
+-- Generation 2 --
+-- Generation 3 --
+-- Generation 4 --
+-- Generation 5 --
+-- Generation 6 --
+-- Generation 7 --
+-- Generation 8 --
+-- Generation 9 --
+-- Generation 10 --
+-- Generation 11 --
+-- Generation 12 --
+-- Generation 13 --
+-- Generation 14 --
+-- Generation 15 --
+-- Generation 16 --
+-- Generation 17 --
+-- Generation 18 --
+-- Generation 19 --
+-- Generation 20 --
+-- Generation 21 --
+-- Generation 22 --
+-- Generation 23 --
+-- Generation 24 --
+-- Generation 25 --
+-- Generation 26 --
+-- Generation 27 --
+-- Generation 28 --
+-- Generation 29 --
+-- Generation 30 --
+-- Generation 31 --
+-- Generation 32 --
+-- Generation 33 --
+-- Generation 34 --
+-- Generation 35 --
+-- Generation 36 --
+-- Generation 37 --
+-- Generation 38 --
+-- Generation 39 --
+-- Generation 40 --
+-- Generation 41 --
+-- Generation 42 --
+-- Generation 43 --
+-- Generation 44 --
+-- Generation 45 --
+-- Generation 46 --
+-- Generation 47 --
+-- Generation 48 --
+-- Generation 49 --
+-- Generation 50 --
+-- Generation 51 --
+-- Generation 52 --
+-- Generation 53 --
+-- Generation 54 --
+-- Generation 55 --
+-- Generation 56 --
+-- Generation 57 --
+-- Generation 58 --
+-- Generation 59 --
+-- Generation 60 --
+-- Generation 61 --
+-- Generation 62 --
+-- Generation 63 --
+-- Generation 64 --
+-- Generation 65 --
+-- Generation 66 --
+-- Generation 67 --
+-- Generation 68 --
+-- Generation 69 --
+-- Generation 70 --
+-- Generation 71 --
+-- Generation 72 --
+-- Generation 73 --
+-- Generation 74 --
+-- Generation 75 --
+-- Generation 76 --
+-- Generation 77 --
+-- Generation 78 --
+-- Generation 79 --
+-- Generation 80 --
+-- Generation 81 --
+-- Generation 82 --
+-- Generation 83 --
+-- Generation 84 --
+-- Generation 85 --
+-- Generation 86 --
+-- Generation 87 --
+-- Generation 88 --
+-- Generation 89 --
+-- Generation 90 --
+-- Generation 91 --
+-- Generation 92 --
+-- Generation 93 --
+-- Generation 94 --
+-- Generation 95 --
+-- Generation 96 --
+-- Generation 97 --
+-- Generation 98 --
+-- Generation 99 --
+-- Generation 100 --
+-- Generation 101 --
+-- Generation 102 --
+-- Generation 103 --
+-- Generation 104 --
+-- Generation 105 --
+-- Generation 106 --
+-- Generation 107 --
+-- Generation 108 --
+-- Generation 109 --
+-- Generation 110 --
+-- Generation 111 --
+-- Generation 112 --
+-- Generation 113 --
+-- Generation 114 --
+-- Generation 115 --
+-- Generation 116 --
+-- Generation 117 --
+-- Generation 118 --
+-- Generation 119 --
+-- Generation 120 --
+-- Generation 121 --
+-- Generation 122 --
+-- Generation 123 --
+-- Generation 124 --
+-- Generation 125 --
+-- Generation 126 --
+-- Generation 127 --
+-- Generation 128 --
+-- Generation 129 --
+-- Generation 130 --
+-- Generation 131 --
+-- Generation 132 --
+-- Generation 133 --
+-- Generation 134 --
+-- Generation 135 --
+-- Generation 136 --
+-- Generation 137 --
+-- Generation 138 --
+-- Generation 139 --
+-- Generation 140 --
+-- Generation 141 --
+-- Generation 142 --
+-- Generation 143 --
+-- Generation 144 --
+-- Generation 145 --
+-- Generation 146 --
+-- Generation 147 --
+-- Generation 148 --
+-- Generation 149 --
+-- Generation 150 --
+-- Generation 151 --
+-- Generation 152 --
+-- Generation 153 --
+-- Generation 154 --
+-- Generation 155 --
+-- Generation 156 --
+-- Generation 157 --
+-- Generation 158 --
+-- Generation 159 --
+-- Generation 160 --
+-- Generation 161 --
+-- Generation 162 --
+-- Generation 163 --
+-- Generation 164 --
+-- Generation 165 --
+-- Generation 166 --
+-- Generation 167 --
+-- Generation 168 --
+-- Generation 169 --
+-- Generation 170 --
+-- Generation 171 --
+-- Generation 172 --
+-- Generation 173 --
+-- Generation 174 --
+-- Generation 175 --
+-- Generation 176 --
+-- Generation 177 --
+-- Generation 178 --
+-- Generation 179 --
+-- Generation 180 --
+-- Generation 181 --
+-- Generation 182 --
+-- Generation 183 --
+-- Generation 184 --
+-- Generation 185 --
+-- Generation 186 --
+-- Generation 187 --
+-- Generation 188 --
+-- Generation 189 --
+-- Generation 190 --
+-- Generation 191 --
+-- Generation 192 --
+-- Generation 193 --
+-- Generation 194 --
+-- Generation 195 --
+-- Generation 196 --
+-- Generation 197 --
+-- Generation 198 --
+-- Generation 199 --
+-- Generation 200 --
+-- Generation 201 --
+-- Generation 202 --
+-- Generation 203 --
+-- Generation 204 --
+-- Generation 205 --
+-- Generation 206 --
+-- Generation 207 --
+-- Generation 208 --
+-- Generation 209 --
+-- Generation 210 --
+-- Generation 211 --
+-- Generation 212 --
+-- Generation 213 --
+-- Generation 214 --
+-- Generation 215 --
+-- Generation 216 --
+-- Generation 217 --
+-- Generation 218 --
+-- Generation 219 --
+-- Generation 220 --
+-- Generation 221 --
+-- Generation 222 --
+-- Generation 223 --
+-- Generation 224 --
+-- Generation 225 --
+-- Generation 226 --
+-- Generation 227 --
+-- Generation 228 --
+-- Generation 229 --
+-- Generation 230 --
+-- Generation 231 --
+-- Generation 232 --
+-- Generation 233 --
+-- Generation 234 --
+-- Generation 235 --
+-- Generation 236 --
+-- Generation 237 --
+-- Generation 238 --
+-- Generation 239 --
+-- Generation 240 --
+-- Generation 241 --
+-- Generation 242 --
+-- Generation 243 --
+-- Generation 244 --
+-- Generation 245 --
+-- Generation 246 --
+-- Generation 247 --
+-- Generation 248 --
+-- Generation 249 --
+-- Generation 250 --
+-- Generation 251 --
+-- Generation 252 --
+-- Generation 253 --
+-- Generation 254 --
+-- Generation 255 --
+-- Generation 256 --
+-- Generation 257 --
+-- Generation 258 --
+-- Generation 259 --
+-- Generation 260 --
+-- Generation 261 --
+-- Generation 262 --
+-- Generation 263 --
+-- Generation 264 --
+-- Generation 265 --
+-- Generation 266 --
+-- Generation 267 --
+-- Generation 268 --
+-- Generation 269 --
+-- Generation 270 --
+-- Generation 271 --
+-- Generation 272 --
+-- Generation 273 --
+-- Generation 274 --
+-- Generation 275 --
+-- Generation 276 --
+-- Generation 277 --
+-- Generation 278 --
+-- Generation 279 --
+-- Generation 280 --
+-- Generation 281 --
+-- Generation 282 --
+-- Generation 283 --
+-- Generation 284 --
+-- Generation 285 --
+-- Generation 286 --
+-- Generation 287 --
+-- Generation 288 --
+-- Generation 289 --
+-- Generation 290 --
+-- Generation 291 --
+-- Generation 292 --
+-- Generation 293 --
+-- Generation 294 --
+-- Generation 295 --
+-- Generation 296 --
+-- Generation 297 --
+-- Generation 298 --
+-- Generation 299 --
+-- Generation 300 --
+-- Generation 301 --
+-- Generation 302 --
+-- Generation 303 --
+-- Generation 304 --
+-- Generation 305 --
+-- Generation 306 --
+-- Generation 307 --
+-- Generation 308 --
+-- Generation 309 --
+-- Generation 310 --
+-- Generation 311 --
+-- Generation 312 --
+-- Generation 313 --
+-- Generation 314 --
+-- Generation 315 --
+-- Generation 316 --
+-- Generation 317 --
+-- Generation 318 --
+-- Generation 319 --
+-- Generation 320 --
+-- Generation 321 --
+-- Generation 322 --
+-- Generation 323 --
+-- Generation 324 --
+-- Generation 325 --
+-- Generation 326 --
+-- Generation 327 --
+-- Generation 328 --
+-- Generation 329 --
+-- Generation 330 --
+-- Generation 331 --
+-- Generation 332 --
+-- Generation 333 --
+-- Generation 334 --
+-- Generation 335 --
+-- Generation 336 --
+-- Generation 337 --
+-- Generation 338 --
+-- Generation 339 --
+-- Generation 340 --
+-- Generation 341 --
+-- Generation 342 --
+-- Generation 343 --
+-- Generation 344 --
+-- Generation 345 --
+-- Generation 346 --
+-- Generation 347 --
+-- Generation 348 --
+-- Generation 349 --
+-- Generation 350 --
+-- End of (successful) evolution --
+/deac/csc/khuriGrp/zhaok220/clustering/data/scrna_benchmarks_umap/10X_LLU_A_cellranger2.0_umap.csv

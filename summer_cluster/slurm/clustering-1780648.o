@@ -1,0 +1,235 @@
+#########################BEGIN-PROLOG#########################
+JobId             = 1780648
+JobName           = clustering
+UserId            = zhaok220(20487)
+GroupId           = zhaok220(20487)
+MCS_label         = N/A
+Priority          = 92
+Nice              = 0
+Account           = khurigrp
+QOS               = normal
+Requeue           = 1
+Restarts          = 0
+BatchFlag         = 1
+Reboot            = 0
+ExitCode          = 0:0
+RunTime           = 00:00:00
+TimeLimit         = 7-00:00:00
+TimeMin           = N/A
+SubmitTime        = 2022-07-13T18:40:08
+EligibleTime      = 2022-07-13T18:40:08
+AccrueTime        = 2022-07-13T18:40:08
+StartTime         = 2022-07-13T18:40:09
+EndTime           = 2022-07-20T18:40:09
+Deadline          = N/A
+Partition         = medium
+AllocNode:Sid     = gemini:175127
+NodeList          = comp-02-3
+BatchHost         = comp-02-3
+NumNodes          = 1
+NumCPUs           = 1
+NumTasks          = 1
+CPUs/Task         = 1
+ReqB:S:C:T        = 0:0:*:*
+TRES=cpu=1,mem=64G,node=1,billing= cpu=1,mem=64G,node=1,billing=1
+Socks/Node        = *
+NtasksPerN:B:S:C  = 1:0:*:*
+CoreSpec          = *
+MinCPUsNode       = 1
+MinMemoryNode     = 64G
+MinTmpDiskNode    = 0
+Command           = /deac/csc/khuriGrp/zhaok220/clustering/slurm/clustering.slurm
+WorkDir           = /deac/csc/khuriGrp/zhaok220/clustering/slurm
+StdErr            = /deac/csc/khuriGrp/zhaok220/clustering/slurm/clustering-1780648.e
+StdOut            = /deac/csc/khuriGrp/zhaok220/clustering/slurm/clustering-1780648.o
+Power             = 
+MailUser          = zhaok220@wfu.edu
+MailType          = BEGIN,END,FAIL
+NtasksPerTRES:0   = NtasksPerTRES:0
+###########################END-PROLOG#########################
+Benchmark Basketball is invalid.
+Benchmark Bolts is invalid.
+Benchmark colorHistogram is valid.
+Finding 30 nearest neighbors using minkowski metric and 'auto' algorithm
+Neighbors computed in 0.4479506015777588 seconds
+Jaccard graph constructed in 37.459999561309814 seconds
+Wrote graph to binary file in 1.0744409561157227 seconds
+Running Louvain modularity optimization
+After 1 runs, maximum modularity is Q = 0.95985
+Louvain completed 21 runs in 16.61688542366028 seconds
+Sorting communities by size, please wait ...
+PhenoGraph completed in 57.41400742530823 seconds
+Benchmark colorMoments is valid.
+Finding 30 nearest neighbors using minkowski metric and 'auto' algorithm
+Neighbors computed in 0.47080254554748535 seconds
+Jaccard graph constructed in 36.12227439880371 seconds
+Wrote graph to binary file in 1.0756809711456299 seconds
+Running Louvain modularity optimization
+After 1 runs, maximum modularity is Q = 0.953741
+Louvain completed 21 runs in 16.993043899536133 seconds
+Sorting communities by size, please wait ...
+PhenoGraph completed in 56.48235726356506 seconds
+Benchmark colorTexture is valid.
+Finding 30 nearest neighbors using minkowski metric and 'auto' algorithm
+Neighbors computed in 0.4750661849975586 seconds
+Jaccard graph constructed in 36.743459701538086 seconds
+Wrote graph to binary file in 1.0901527404785156 seconds
+Running Louvain modularity optimization
+After 1 runs, maximum modularity is Q = 0.955829
+Louvain completed 21 runs in 15.131117105484009 seconds
+Sorting communities by size, please wait ...
+PhenoGraph completed in 54.979482650756836 seconds
+Benchmark house16H is valid.
+Finding 30 nearest neighbors using minkowski metric and 'auto' algorithm
+Neighbors computed in 0.14559340476989746 seconds
+Jaccard graph constructed in 13.845241785049438 seconds
+Wrote graph to binary file in 0.40354418754577637 seconds
+Running Louvain modularity optimization
+After 1 runs, maximum modularity is Q = 0.94477
+Louvain completed 21 runs in 5.119184494018555 seconds
+Sorting communities by size, please wait ...
+PhenoGraph completed in 21.144989013671875 seconds
+Benchmark layoutHistogram is valid.
+Finding 30 nearest neighbors using minkowski metric and 'auto' algorithm
+Neighbors computed in 0.4764668941497803 seconds
+Jaccard graph constructed in 35.79285144805908 seconds
+Wrote graph to binary file in 1.0743920803070068 seconds
+Running Louvain modularity optimization
+After 1 runs, maximum modularity is Q = 0.957249
+Louvain completed 21 runs in 16.747910022735596 seconds
+Sorting communities by size, please wait ...
+PhenoGraph completed in 55.85115075111389 seconds
+Benchmark StockPrice is valid.
+Finding 30 nearest neighbors using minkowski metric and 'auto' algorithm
+Neighbors computed in 0.006613254547119141 seconds
+Jaccard graph constructed in 1.9638738632202148 seconds
+Wrote graph to binary file in 0.020501136779785156 seconds
+Running Louvain modularity optimization
+After 1 runs, maximum modularity is Q = 0.934405
+Louvain completed 21 runs in 0.9065017700195312 seconds
+Sorting communities by size, please wait ...
+PhenoGraph completed in 4.419127702713013 seconds
+Benchmark Pollution is valid.
+Finding 30 nearest neighbors using minkowski metric and 'auto' algorithm
+Neighbors computed in 0.0032536983489990234 seconds
+Jaccard graph constructed in 1.666355848312378 seconds
+Wrote graph to binary file in 0.0036284923553466797 seconds
+Running Louvain modularity optimization
+After 1 runs, maximum modularity is Q = 0.332184
+Louvain completed 21 runs in 0.7749035358428955 seconds
+Sorting communities by size, please wait ...
+PhenoGraph completed in 3.974027156829834 seconds
+Benchmark Quake is invalid.
+Benchmark BalanceScale is invalid.
+Benchmark Stulong is invalid.
+Benchmark transactions10k is invalid.
+Benchmark transactions30k is invalid.
+Benchmark transactions50k is invalid.
+Benchmark transactions70k is invalid.
+Benchmark transactions90k is invalid.
+Benchmark Basketball is invalid.
+Benchmark Bolts is invalid.
+Benchmark colorHistogram is valid.
+-- Begin evolution --
+-- Generation 1 --
+-- Generation 2 --
+-- Generation 3 --
+-- Generation 4 --
+-- Generation 5 --
+-- Generation 6 --
+-- Generation 7 --
+-- Generation 8 --
+-- Generation 9 --
+-- Generation 10 --
+-- Generation 11 --
+-- Generation 12 --
+-- Generation 13 --
+-- Generation 14 --
+-- Generation 15 --
+-- Generation 16 --
+-- Generation 17 --
+-- Generation 18 --
+-- Generation 19 --
+-- Generation 20 --
+-- Generation 21 --
+-- Generation 22 --
+-- Generation 23 --
+-- Generation 24 --
+-- Generation 25 --
+-- Generation 26 --
+-- Generation 27 --
+-- Generation 28 --
+-- Generation 29 --
+-- Generation 30 --
+-- Generation 31 --
+-- Generation 32 --
+-- Generation 33 --
+-- Generation 34 --
+-- Generation 35 --
+-- Generation 36 --
+-- Generation 37 --
+-- Generation 38 --
+-- Generation 39 --
+-- Generation 40 --
+-- Generation 41 --
+-- Generation 42 --
+-- Generation 43 --
+-- Generation 44 --
+-- Generation 45 --
+-- Generation 46 --
+-- Generation 47 --
+-- Generation 48 --
+-- Generation 49 --
+-- Generation 50 --
+-- Generation 51 --
+-- Generation 52 --
+-- Generation 53 --
+-- Generation 54 --
+-- Generation 55 --
+-- Generation 56 --
+-- Generation 57 --
+-- Generation 58 --
+-- Generation 59 --
+-- Generation 60 --
+-- Generation 61 --
+-- Generation 62 --
+-- Generation 63 --
+-- Generation 64 --
+-- Generation 65 --
+-- Generation 66 --
+-- Generation 67 --
+-- Generation 68 --
+-- Generation 69 --
+-- Generation 70 --
+-- Generation 71 --
+-- Generation 72 --
+-- Generation 73 --
+-- Generation 74 --
+-- Generation 75 --
+-- Generation 76 --
+-- Generation 77 --
+-- Generation 78 --
+-- Generation 79 --
+-- Generation 80 --
+-- Generation 81 --
+-- Generation 82 --
+-- Generation 83 --
+-- Generation 84 --
+-- Generation 85 --
+-- Generation 86 --
+-- Generation 87 --
+-- Generation 88 --
+-- Generation 89 --
+-- Generation 90 --
+-- Generation 91 --
+-- Generation 92 --
+-- Generation 93 --
+-- Generation 94 --
+-- Generation 95 --
+-- Generation 96 --
+-- Generation 97 --
+-- Generation 98 --
+-- Generation 99 --
+-- Generation 100 --
+-- End of (successful) evolution --
+Max memory consumption for Job 1780648 on host comp-02-3 is: 5417717760.0B

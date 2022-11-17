@@ -1,0 +1,147 @@
+#########################BEGIN-PROLOG#########################
+JobId             = 1774866
+ArrayJobId        = 1774864
+ArrayTaskId       = 1
+ArrayTaskThrottle = 10
+JobName           = clustering
+UserId            = zhaok220(20487)
+GroupId           = zhaok220(20487)
+MCS_label         = N/A
+Priority          = 92
+Nice              = 0
+Account           = khurigrp
+QOS               = normal
+Requeue           = 1
+Restarts          = 0
+BatchFlag         = 1
+Reboot            = 0
+ExitCode          = 0:0
+RunTime           = 00:00:01
+TimeLimit         = 7-00:00:00
+TimeMin           = N/A
+SubmitTime        = 2022-07-08T14:22:46
+EligibleTime      = 2022-07-08T14:22:46
+AccrueTime        = Unknown
+StartTime         = 2022-07-08T14:22:46
+EndTime           = 2022-07-15T14:22:47
+Deadline          = N/A
+Partition         = medium
+AllocNode:Sid     = gemini:189140
+NodeList          = comp-02-6
+BatchHost         = comp-02-6
+NumNodes          = 1
+NumCPUs           = 1
+NumTasks          = 1
+CPUs/Task         = 1
+ReqB:S:C:T        = 0:0:*:*
+TRES=cpu=1,mem=64G,node=1,billing= cpu=1,mem=64G,node=1,billing=1
+Socks/Node        = *
+NtasksPerN:B:S:C  = 1:0:*:*
+CoreSpec          = *
+MinCPUsNode       = 1
+MinMemoryNode     = 64G
+MinTmpDiskNode    = 0
+Command           = /deac/csc/khuriGrp/zhaok220/clustering/slurm/clustering_mul.slurm
+WorkDir           = /deac/csc/khuriGrp/zhaok220/clustering/slurm
+StdErr            = /deac/csc/khuriGrp/zhaok220/clustering/slurm/clustering-1774866.e
+StdOut            = /deac/csc/khuriGrp/zhaok220/clustering/slurm/clustering-1774866.o
+Power             = 
+MailUser          = zhaok220@wfu.edu
+MailType          = BEGIN,END,FAIL
+NtasksPerTRES:0   = NtasksPerTRES:0
+###########################END-PROLOG#########################
+Finding 30 nearest neighbors using minkowski metric and 'auto' algorithm
+Neighbors computed in 0.014889717102050781 seconds
+Jaccard graph constructed in 1.8799092769622803 seconds
+Wrote graph to binary file in 0.03884100914001465 seconds
+Running Louvain modularity optimization
+After 1 runs, maximum modularity is Q = 0.873685
+After 2 runs, maximum modularity is Q = 0.874771
+After 7 runs, maximum modularity is Q = 0.875857
+Louvain completed 27 runs in 1.0908470153808594 seconds
+Sorting communities by size, please wait ...
+PhenoGraph completed in 3.468580961227417 seconds
+Finding 30 nearest neighbors using minkowski metric and 'auto' algorithm
+Neighbors computed in 0.017985105514526367 seconds
+Jaccard graph constructed in 1.7734966278076172 seconds
+Wrote graph to binary file in 0.03483080863952637 seconds
+Running Louvain modularity optimization
+After 1 runs, maximum modularity is Q = 0.871484
+After 2 runs, maximum modularity is Q = 0.875026
+Louvain completed 22 runs in 0.917119026184082 seconds
+Sorting communities by size, please wait ...
+PhenoGraph completed in 3.6903276443481445 seconds
+Finding 30 nearest neighbors using minkowski metric and 'auto' algorithm
+Neighbors computed in 0.015649795532226562 seconds
+Jaccard graph constructed in 1.8208951950073242 seconds
+Wrote graph to binary file in 0.03161764144897461 seconds
+Running Louvain modularity optimization
+After 1 runs, maximum modularity is Q = 0.87252
+Louvain completed 21 runs in 0.6240565776824951 seconds
+Sorting communities by size, please wait ...
+PhenoGraph completed in 3.1291701793670654 seconds
+Finding 30 nearest neighbors using minkowski metric and 'auto' algorithm
+Neighbors computed in 0.015866756439208984 seconds
+Jaccard graph constructed in 1.7415359020233154 seconds
+Wrote graph to binary file in 0.0365300178527832 seconds
+Running Louvain modularity optimization
+After 1 runs, maximum modularity is Q = 0.878899
+After 3 runs, maximum modularity is Q = 0.880356
+Louvain completed 23 runs in 0.8350851535797119 seconds
+Sorting communities by size, please wait ...
+PhenoGraph completed in 3.2752578258514404 seconds
+Finding 30 nearest neighbors using minkowski metric and 'auto' algorithm
+Neighbors computed in 0.008034467697143555 seconds
+Jaccard graph constructed in 1.041048526763916 seconds
+Wrote graph to binary file in 0.01678323745727539 seconds
+Running Louvain modularity optimization
+After 1 runs, maximum modularity is Q = 0.824363
+After 2 runs, maximum modularity is Q = 0.825629
+After 3 runs, maximum modularity is Q = 0.828841
+Louvain completed 23 runs in 0.6478819847106934 seconds
+Sorting communities by size, please wait ...
+PhenoGraph completed in 2.3140223026275635 seconds
+Finding 30 nearest neighbors using minkowski metric and 'auto' algorithm
+Neighbors computed in 0.008644342422485352 seconds
+Jaccard graph constructed in 1.0832080841064453 seconds
+Wrote graph to binary file in 0.01815199851989746 seconds
+Running Louvain modularity optimization
+After 1 runs, maximum modularity is Q = 0.835302
+After 7 runs, maximum modularity is Q = 0.837585
+Louvain completed 27 runs in 0.7157871723175049 seconds
+Sorting communities by size, please wait ...
+PhenoGraph completed in 2.576785087585449 seconds
+Finding 30 nearest neighbors using minkowski metric and 'auto' algorithm
+Neighbors computed in 0.008481740951538086 seconds
+Jaccard graph constructed in 1.163750171661377 seconds
+Wrote graph to binary file in 0.016185760498046875 seconds
+Running Louvain modularity optimization
+After 1 runs, maximum modularity is Q = 0.823755
+After 2 runs, maximum modularity is Q = 0.826703
+After 3 runs, maximum modularity is Q = 0.828212
+After 4 runs, maximum modularity is Q = 0.830289
+Louvain completed 24 runs in 0.7203912734985352 seconds
+Sorting communities by size, please wait ...
+PhenoGraph completed in 2.5126028060913086 seconds
+Finding 30 nearest neighbors using minkowski metric and 'auto' algorithm
+Neighbors computed in 0.007951974868774414 seconds
+Jaccard graph constructed in 1.0512380599975586 seconds
+Wrote graph to binary file in 0.016155004501342773 seconds
+Running Louvain modularity optimization
+After 1 runs, maximum modularity is Q = 0.821955
+After 8 runs, maximum modularity is Q = 0.823323
+Louvain completed 28 runs in 0.700709342956543 seconds
+Sorting communities by size, please wait ...
+PhenoGraph completed in 2.434370994567871 seconds
+Finding 30 nearest neighbors using minkowski metric and 'auto' algorithm
+Neighbors computed in 0.028308868408203125 seconds
+Jaccard graph constructed in 2.716722249984741 seconds
+Wrote graph to binary file in 0.06969785690307617 seconds
+Running Louvain modularity optimization
+After 1 runs, maximum modularity is Q = 0.90089
+After 2 runs, maximum modularity is Q = 0.902792
+Louvain completed 22 runs in 1.2700676918029785 seconds
+Sorting communities by size, please wait ...
+PhenoGraph completed in 4.730215549468994 seconds
+Finding 30 nearest neighbors using minkowski metric and 'auto' algorithm
+Neighbors computed in 0.033123016357421875 seconds

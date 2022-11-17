@@ -1,0 +1,463 @@
+#########################BEGIN-PROLOG#########################
+JobId             = 1740198
+JobName           = clustering
+UserId            = zhaok220(20487)
+GroupId           = zhaok220(20487)
+MCS_label         = N/A
+Priority          = 110
+Nice              = 0
+Account           = khurigrp
+QOS               = normal
+Requeue           = 1
+Restarts          = 0
+BatchFlag         = 1
+Reboot            = 0
+ExitCode          = 0:0
+RunTime           = 00:00:00
+TimeLimit         = 5-00:00:00
+TimeMin           = N/A
+SubmitTime        = 2022-06-17T15:26:51
+EligibleTime      = 2022-06-17T15:26:51
+AccrueTime        = 2022-06-17T15:26:51
+StartTime         = 2022-06-17T15:26:59
+EndTime           = 2022-06-22T15:26:59
+Deadline          = N/A
+Partition         = medium
+AllocNode:Sid     = gemini:41996
+NodeList          = comp-21-5
+BatchHost         = comp-21-5
+NumNodes          = 1
+NumCPUs           = 1
+NumTasks          = 1
+CPUs/Task         = 1
+ReqB:S:C:T        = 0:0:*:*
+TRES=cpu=1,mem=64G,node=1,billing= cpu=1,mem=64G,node=1,billing=1
+Socks/Node        = *
+NtasksPerN:B:S:C  = 1:0:*:*
+CoreSpec          = *
+MinCPUsNode       = 1
+MinMemoryNode     = 64G
+MinTmpDiskNode    = 0
+Command           = /deac/csc/khuriGrp/zhaok220/clustering/slurm/clustering.slurm
+WorkDir           = /deac/csc/khuriGrp/zhaok220/clustering/slurm
+StdErr            = /deac/csc/khuriGrp/zhaok220/clustering/slurm/clustering-1740198.e
+StdOut            = /deac/csc/khuriGrp/zhaok220/clustering/slurm/clustering-1740198.o
+Power             = 
+MailUser          = zhaok220@wfu.edu
+MailType          = BEGIN,END,FAIL
+NtasksPerTRES:0   = NtasksPerTRES:0
+###########################END-PROLOG#########################
+/deac/csc/khuriGrp/zhaok220/clustering/data/scrna_benchmarks_tsne/10X_LLU_A_cellranger2.0_tsne.csv
+Finding 30 nearest neighbors using minkowski metric and 'auto' algorithm
+Neighbors computed in 0.014042377471923828 seconds
+Jaccard graph constructed in 1.2617080211639404 seconds
+Wrote graph to binary file in 0.033617496490478516 seconds
+Running Louvain modularity optimization
+After 1 runs, maximum modularity is Q = 0.880442
+After 2 runs, maximum modularity is Q = 0.882704
+Louvain completed 22 runs in 0.5257878303527832 seconds
+Sorting communities by size, please wait ...
+PhenoGraph completed in 2.1521377563476562 seconds
+-- Begin evolution --
+-- Generation 1 --
+  Min 11075.64239455838
+  Max 15392.321349545402
+  Avg 12738.300558458363
+-- Generation 2 --
+  Min 11040.251387897044
+  Max 14963.925492677337
+  Avg 11969.176962019132
+-- Generation 3 --
+  Min 10502.930529303083
+  Max 13513.007482421695
+  Avg 11632.906142520596
+-- Generation 4 --
+  Min 9913.265314142212
+  Max 12824.163146479399
+  Avg 11327.189737568402
+-- Generation 5 --
+  Min 9908.2793539705
+  Max 12510.93794171338
+  Avg 11003.321547366782
+-- Generation 6 --
+  Min 9814.577077275713
+  Max 13291.740612663825
+  Avg 10809.073408154925
+-- Generation 7 --
+  Min 9583.12659330026
+  Max 12025.895055663865
+  Avg 10516.938218487125
+-- Generation 8 --
+  Min 9709.940505577328
+  Max 12043.848823473932
+  Avg 10396.489108512333
+-- Generation 9 --
+  Min 9562.411566692634
+  Max 11647.581531848899
+  Avg 10246.103232270514
+-- Generation 10 --
+  Min 9422.532477671315
+  Max 12341.455554381906
+  Avg 10349.65743037177
+-- Generation 11 --
+  Min 9322.956260116322
+  Max 12118.576171371065
+  Avg 10216.590292563329
+-- Generation 12 --
+  Min 9169.137398993353
+  Max 11638.429029450912
+  Avg 10119.89320181279
+-- Generation 13 --
+  Min 9154.861698030709
+  Max 11698.237974587399
+  Avg 9953.6099631867
+-- Generation 14 --
+  Min 9132.532925110785
+  Max 11054.614386411547
+  Avg 9805.9025188551
+-- Generation 15 --
+  Min 8921.703991267808
+  Max 11604.164981211296
+  Avg 9718.37548414523
+-- Generation 16 --
+  Min 9022.711386902803
+  Max 10980.458356641213
+  Avg 9814.209352779311
+-- Generation 17 --
+  Min 9022.711386902803
+  Max 10934.650373194087
+  Avg 9784.05042119431
+-- Generation 18 --
+  Min 9011.68363290871
+  Max 11306.964239680989
+  Avg 9695.406638053371
+-- Generation 19 --
+  Min 8968.15367908479
+  Max 12034.487699397847
+  Avg 9716.117957268834
+-- Generation 20 --
+  Min 8997.408241029005
+  Max 11327.084431804007
+  Avg 9669.521110004449
+-- Generation 21 --
+  Min 8973.70168806664
+  Max 11267.004236707555
+  Avg 9666.16673355562
+-- Generation 22 --
+  Min 8973.70168806664
+  Max 11173.508185193861
+  Avg 9735.411222228688
+-- Generation 23 --
+  Min 9031.963402095244
+  Max 10746.085167112782
+  Avg 9756.244733879083
+-- Generation 24 --
+  Min 9079.15544598548
+  Max 10832.777843334743
+  Avg 9864.94419855303
+-- Generation 25 --
+  Min 9043.0327520992
+  Max 12057.164056026968
+  Avg 9890.496333375077
+-- Generation 26 --
+  Min 8924.360158237072
+  Max 11042.534693137986
+  Avg 9661.094437290869
+-- Generation 27 --
+  Min 8906.108292090157
+  Max 11178.23659420047
+  Avg 9679.972584746722
+-- Generation 28 --
+  Min 8746.547577629892
+  Max 11135.603344221478
+  Avg 9702.63599149522
+-- Generation 29 --
+  Min 8746.547577629892
+  Max 10574.607065319638
+  Avg 9525.048244645586
+-- Generation 30 --
+  Min 8746.547577629892
+  Max 10847.281218251528
+  Avg 9482.026617009578
+-- Generation 31 --
+  Min 8778.92926457047
+  Max 10410.003218193113
+  Avg 9498.596005741063
+-- Generation 32 --
+  Min 8788.41081688778
+  Max 10370.209299125208
+  Avg 9383.556250937796
+-- Generation 33 --
+  Min 8705.955254937508
+  Max 11029.764557493567
+  Avg 9538.022414754947
+-- Generation 34 --
+  Min 8738.640445923445
+  Max 10940.189610479394
+  Avg 9410.703751318362
+-- Generation 35 --
+  Min 8770.977155549517
+  Max 11112.446964243738
+  Avg 9565.367297409803
+-- Generation 36 --
+  Min 8719.134489036482
+  Max 10877.063098199535
+  Avg 9493.181603301608
+-- Generation 37 --
+  Min 8784.031755049085
+  Max 11411.346554800926
+  Avg 9481.454072620365
+-- Generation 38 --
+  Min 8757.820356211341
+  Max 11070.358662525485
+  Avg 9559.780681605167
+-- Generation 39 --
+  Min 8757.512774050927
+  Max 10436.0716839128
+  Avg 9550.760636241419
+-- Generation 40 --
+  Min 8782.09623042156
+  Max 10671.221639037489
+  Avg 9622.787840408153
+-- Generation 41 --
+  Min 8797.932819432737
+  Max 11723.320673494281
+  Avg 9636.21892739637
+-- Generation 42 --
+  Min 8782.09623042156
+  Max 11301.7720533278
+  Avg 9689.936877491682
+-- Generation 43 --
+  Min 8782.09623042156
+  Max 11078.433152731066
+  Avg 9526.017358102748
+-- Generation 44 --
+  Min 8720.659106832449
+  Max 11052.623171397014
+  Avg 9511.932106955084
+-- Generation 45 --
+  Min 8720.659106832449
+  Max 10682.163966980965
+  Avg 9502.58850575386
+-- Generation 46 --
+  Min 8720.659106832449
+  Max 11227.440247175009
+  Avg 9689.931689498153
+-- Generation 47 --
+  Min 8706.690567796433
+  Max 11226.731963371538
+  Avg 9602.391872638478
+-- Generation 48 --
+  Min 8793.700459656235
+  Max 11291.460948235585
+  Avg 9623.296647988918
+-- Generation 49 --
+  Min 8876.383775845949
+  Max 11161.522135651692
+  Avg 9752.314434660768
+-- Generation 50 --
+  Min 8741.18712092393
+  Max 11284.15713495446
+  Avg 9626.688782137826
+-- Generation 51 --
+  Min 8741.18712092393
+  Max 11095.233179469793
+  Avg 9627.48555410164
+-- Generation 52 --
+  Min 8761.877718221716
+  Max 11018.262559619183
+  Avg 9609.19539081795
+-- Generation 53 --
+  Min 8965.20736886243
+  Max 10869.228822973233
+  Avg 9695.61094591302
+-- Generation 54 --
+  Min 8992.716249750158
+  Max 10916.406625581805
+  Avg 9797.210037869021
+-- Generation 55 --
+  Min 8965.583324994579
+  Max 10874.39004271093
+  Avg 9769.678519566307
+-- Generation 56 --
+  Min 8992.716249750158
+  Max 11985.60320147972
+  Avg 9924.349541292157
+-- Generation 57 --
+  Min 8828.851015079736
+  Max 10880.9191165151
+  Avg 9882.236051862837
+-- Generation 58 --
+  Min 8828.851015079736
+  Max 11626.527634617474
+  Avg 9929.655212402195
+-- Generation 59 --
+  Min 9117.788411687048
+  Max 11660.734893921328
+  Avg 9822.744585247388
+-- Generation 60 --
+  Min 9167.14589058595
+  Max 11579.267754738565
+  Avg 9887.736598912923
+-- Generation 61 --
+  Min 9114.763337796256
+  Max 11104.912590740703
+  Avg 9834.276134863212
+-- Generation 62 --
+  Min 9037.979861279653
+  Max 11402.20046191462
+  Avg 9826.416999301706
+-- Generation 63 --
+  Min 8973.83321459746
+  Max 11282.457833767427
+  Avg 9832.18772432862
+-- Generation 64 --
+  Min 9029.378026079263
+  Max 11598.479489602161
+  Avg 9812.37098873795
+-- Generation 65 --
+  Min 8887.57692393944
+  Max 11211.784694292279
+  Avg 9780.957288159256
+-- Generation 66 --
+  Min 9015.849889222365
+  Max 10876.84537313129
+  Avg 9834.98393580732
+-- Generation 67 --
+  Min 9020.690998767435
+  Max 12260.040878736667
+  Avg 9895.64439831572
+-- Generation 68 --
+  Min 9020.690998767435
+  Max 12567.030923969334
+  Avg 9902.565964542651
+-- Generation 69 --
+  Min 9058.378584127768
+  Max 15276.324521203996
+  Avg 9834.90972564351
+-- Generation 70 --
+  Min 8963.688881026812
+  Max 11397.80326897757
+  Avg 9661.099692331638
+-- Generation 71 --
+  Min 9102.229891526176
+  Max 11064.661048376487
+  Avg 9751.233758206325
+-- Generation 72 --
+  Min 9174.912846457293
+  Max 11710.045984771476
+  Avg 9832.996240538187
+-- Generation 73 --
+  Min 9003.876618741202
+  Max 11043.819127087254
+  Avg 9766.05996218004
+-- Generation 74 --
+  Min 8915.23742282154
+  Max 11369.941707188616
+  Avg 9808.461153062623
+-- Generation 75 --
+  Min 8926.225896578258
+  Max 10764.085708264032
+  Avg 9652.774525772613
+-- Generation 76 --
+  Min 8927.167945388546
+  Max 11601.923174267624
+  Avg 9722.367158485691
+-- Generation 77 --
+  Min 8939.219439095245
+  Max 11712.072485300605
+  Avg 9711.853492914674
+-- Generation 78 --
+  Min 8917.03146326102
+  Max 11005.621907668907
+  Avg 9613.418159089579
+-- Generation 79 --
+  Min 8926.225896578258
+  Max 11537.29011781242
+  Avg 9725.202201236592
+-- Generation 80 --
+  Min 8949.161330701125
+  Max 11932.881999721934
+  Avg 9657.646079848046
+-- Generation 81 --
+  Min 8946.185543698763
+  Max 10789.920207460755
+  Avg 9771.48364509276
+-- Generation 82 --
+  Min 8940.785258089645
+  Max 11181.589756099542
+  Avg 9613.369770088097
+-- Generation 83 --
+  Min 8969.55023588286
+  Max 11406.465938948148
+  Avg 9691.836353869092
+-- Generation 84 --
+  Min 8846.006481374838
+  Max 11245.837694584648
+  Avg 9746.947955427093
+-- Generation 85 --
+  Min 8873.170944540794
+  Max 11501.85281520558
+  Avg 9783.612324912647
+-- Generation 86 --
+  Min 8904.566224641756
+  Max 11464.10033272908
+  Avg 9734.979017205413
+-- Generation 87 --
+  Min 8906.154420917897
+  Max 11896.975499907358
+  Avg 9675.115346495926
+-- Generation 88 --
+  Min 8815.06135103826
+  Max 11027.444479104213
+  Avg 9592.331198822443
+-- Generation 89 --
+  Min 8815.06135103826
+  Max 10940.491074699265
+  Avg 9582.351385077438
+-- Generation 90 --
+  Min 8800.965196041623
+  Max 11432.487620689892
+  Avg 9581.507888661241
+-- Generation 91 --
+  Min 8802.545260987055
+  Max 12078.02390503465
+  Avg 9693.377808696234
+-- Generation 92 --
+  Min 8802.545260987055
+  Max 10956.603874651504
+  Avg 9493.520975968826
+-- Generation 93 --
+  Min 8826.625071466779
+  Max 11478.704279161082
+  Avg 9651.763940809813
+-- Generation 94 --
+  Min 8826.625071466779
+  Max 10865.526360800748
+  Avg 9567.563748980769
+-- Generation 95 --
+  Min 8826.900774453072
+  Max 11385.394786406998
+  Avg 9675.088080034542
+-- Generation 96 --
+  Min 8880.922972786911
+  Max 11195.802443749202
+  Avg 9635.407872481914
+-- Generation 97 --
+  Min 8878.560783103978
+  Max 10977.98094544103
+  Avg 9673.920298311872
+-- Generation 98 --
+  Min 8882.57670323437
+  Max 11094.228086301295
+  Avg 9717.679538010942
+-- Generation 99 --
+  Min 8962.279388241886
+  Max 11362.461142233728
+  Avg 9676.054746622112
+-- Generation 100 --
+  Min 8749.088130113305
+  Max 12045.193065987536
+  Avg 9676.080426958511
+-- End of (successful) evolution --
+Max memory consumption for Job 1740198 on host comp-21-5 is: 312553472.0B

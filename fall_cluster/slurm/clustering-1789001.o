@@ -1,0 +1,53 @@
+#########################BEGIN-PROLOG#########################
+JobId             = 1789001
+ArrayJobId        = 1788975
+ArrayTaskId       = 25
+ArrayTaskThrottle = 30
+JobName           = clustering
+UserId            = zhaok220(20487)
+GroupId           = zhaok220(20487)
+MCS_label         = N/A
+Priority          = 92
+Nice              = 0
+Account           = khurigrp
+QOS               = normal
+Requeue           = 1
+Restarts          = 0
+BatchFlag         = 1
+Reboot            = 0
+ExitCode          = 0:0
+RunTime           = 00:00:01
+TimeLimit         = 7-00:00:00
+TimeMin           = N/A
+SubmitTime        = 2022-08-18T21:28:16
+EligibleTime      = 2022-08-18T21:28:16
+AccrueTime        = Unknown
+StartTime         = 2022-08-18T21:28:16
+EndTime           = 2022-08-25T21:28:17
+Deadline          = N/A
+Partition         = medium
+AllocNode:Sid     = gemini:187363
+NodeList          = comp-03-5
+BatchHost         = comp-03-5
+NumNodes          = 1
+NumCPUs           = 32
+NumTasks          = 4
+CPUs/Task         = 8
+ReqB:S:C:T        = 0:0:*:*
+TRES=cpu=32,mem=64G,node=1,billing= cpu=32,mem=64G,node=1,billing=32
+Socks/Node        = *
+NtasksPerN:B:S:C  = 4:0:*:*
+CoreSpec          = *
+MinCPUsNode       = 32
+MinMemoryNode     = 64G
+MinTmpDiskNode    = 0
+Command           = /deac/csc/khuriGrp/zhaok220/clustering_2/slurm/clustering_mul.slurm
+WorkDir           = /deac/csc/khuriGrp/zhaok220/clustering_2/slurm
+StdErr            = /deac/csc/khuriGrp/zhaok220/clustering_2/slurm/clustering-1789001.e
+StdOut            = /deac/csc/khuriGrp/zhaok220/clustering_2/slurm/clustering-1789001.o
+Power             = 
+MailUser          = zhaok220@wfu.edu
+MailType          = BEGIN,END,FAIL
+NtasksPerTRES:0   = NtasksPerTRES:0
+###########################END-PROLOG#########################
+Max memory consumption for Job 1789001 on host comp-03-5 is: 4481024.0B

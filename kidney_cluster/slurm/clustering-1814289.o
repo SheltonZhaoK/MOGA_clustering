@@ -1,0 +1,78 @@
+#########################BEGIN-PROLOG#########################
+JobId             = 1814289
+JobName           = clustering
+UserId            = zhaok220(20487)
+GroupId           = zhaok220(20487)
+MCS_label         = N/A
+Priority          = 123
+Nice              = 0
+Account           = khurigrp
+QOS               = normal
+Requeue           = 1
+Restarts          = 0
+BatchFlag         = 1
+Reboot            = 0
+ExitCode          = 0:0
+RunTime           = 00:00:00
+TimeLimit         = 7-00:00:00
+TimeMin           = N/A
+SubmitTime        = 2022-10-31T23:53:41
+EligibleTime      = 2022-10-31T23:53:41
+AccrueTime        = 2022-10-31T23:53:41
+StartTime         = 2022-10-31T23:53:41
+EndTime           = 2022-11-07T22:53:41
+Deadline          = N/A
+Partition         = medium
+AllocNode:Sid     = gemini:63335
+NodeList          = comp-25-6
+BatchHost         = comp-25-6
+NumNodes          = 1
+NumCPUs           = 32
+NumTasks          = 32
+CPUs/Task         = 1
+ReqB:S:C:T        = 0:0:*:*
+TRES=cpu=32,mem=32G,node=1,billing= cpu=32,mem=32G,node=1,billing=32
+Socks/Node        = *
+NtasksPerN:B:S:C  = 32:0:*:*
+CoreSpec          = *
+MinCPUsNode       = 32
+MinMemoryNode     = 32G
+MinTmpDiskNode    = 0
+Command           = /deac/csc/khuriGrp/zhaok220/kidney_cluster/slurm/clustering.slurm
+WorkDir           = /deac/csc/khuriGrp/zhaok220/kidney_cluster/slurm
+StdErr            = /deac/csc/khuriGrp/zhaok220/kidney_cluster/slurm/clustering-1814289.e
+StdOut            = /deac/csc/khuriGrp/zhaok220/kidney_cluster/slurm/clustering-1814289.o
+Power             = 
+MailUser          = zhaok220@wfu.edu
+MailType          = BEGIN,END,FAIL
+NtasksPerTRES:0   = NtasksPerTRES:0
+###########################END-PROLOG#########################
+Finding 30 nearest neighbors using minkowski metric and 'auto' algorithm
+Neighbors computed in 0.04270625114440918 seconds
+Jaccard graph constructed in 0.2777743339538574 seconds
+Wrote graph to binary file in 0.0070650577545166016 seconds
+Running Louvain modularity optimization
+After 1 runs, maximum modularity is Q = 0.745431
+Louvain completed 21 runs in 0.337965726852417 seconds
+Sorting communities by size, please wait ...
+PhenoGraph completed in 0.9192955493927002 seconds
+-- 1 objective --
+-- Begin evolution --
+-- Generation 1 --
+-- Generation 2 --
+-- Generation 3 --
+-- Generation 4 --
+-- Generation 5 --
+-- Generation 6 --
+-- Generation 7 --
+-- Generation 8 --
+-- Generation 9 --
+-- Generation 10 --
+-- End of (successful) evolution --
+   Algorithms  Num_cluster  Baseline entropy  ...       Sil       NMI       ARI
+0  PhenoGraph            6           89.0306  ...  0.571146  0.090478  0.035808
+1        MOGA            6           89.0306  ...  0.503448  0.066578  0.011548
+2      Kmeans            6           89.0306  ...  0.570174  0.120241  0.024154
+
+[3 rows x 7 columns]
+Max memory consumption for Job 1814289 on host comp-25-6 is: 1165799424.0B

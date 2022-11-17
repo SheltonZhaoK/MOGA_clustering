@@ -1,0 +1,25 @@
+Quake dataset
+
+1: Description.
+
+This data set contains information describing 2178 quakes. They are described using 4 different attributes: 
+
+1) Focal_depth: depth of the quake focus 
+2) Latitude: latitude of the quake 
+3) Longitude: longitude of the quake 
+4) Ritcher: level in the Ritcher Scale
+
+2: Type.			Unsupervised
+3: Origin.			Real world
+4: Instances.		2178
+5: Features.		4
+6: Missing values.	No
+
+7: Header.
+
+@relation quake
+@attribute Focal_depth integer [0,656]
+@attribute Latitude real [-66.49,78.15]
+@attribute Longitude real [-179.96,180]
+@attribute Richter real [5.8,6.9]
+@inputs Focal_depth, Latitude, Longitude, Richter

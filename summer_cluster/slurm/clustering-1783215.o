@@ -1,0 +1,933 @@
+#########################BEGIN-PROLOG#########################
+JobId             = 1783215
+JobName           = clustering
+UserId            = zhaok220(20487)
+GroupId           = zhaok220(20487)
+MCS_label         = N/A
+Priority          = 92
+Nice              = 0
+Account           = khurigrp
+QOS               = normal
+Requeue           = 1
+Restarts          = 0
+BatchFlag         = 1
+Reboot            = 0
+ExitCode          = 0:0
+RunTime           = 00:00:01
+TimeLimit         = 7-00:00:00
+TimeMin           = N/A
+SubmitTime        = 2022-07-24T02:47:01
+EligibleTime      = 2022-07-24T02:47:01
+AccrueTime        = 2022-07-24T02:47:01
+StartTime         = 2022-07-24T02:47:01
+EndTime           = 2022-07-31T02:47:01
+Deadline          = N/A
+Partition         = medium
+AllocNode:Sid     = gemini:178691
+NodeList          = comp-21-6
+BatchHost         = comp-21-6
+NumNodes          = 1
+NumCPUs           = 30
+NumTasks          = 30
+CPUs/Task         = 1
+ReqB:S:C:T        = 0:0:*:*
+TRES=cpu=30,mem=64G,node=1,billing= cpu=30,mem=64G,node=1,billing=30
+Socks/Node        = *
+NtasksPerN:B:S:C  = 30:0:*:*
+CoreSpec          = *
+MinCPUsNode       = 30
+MinMemoryNode     = 64G
+MinTmpDiskNode    = 0
+Command           = /deac/csc/khuriGrp/zhaok220/clustering/slurm/clustering_mul.slurm
+WorkDir           = /deac/csc/khuriGrp/zhaok220/clustering/slurm
+StdErr            = /deac/csc/khuriGrp/zhaok220/clustering/slurm/clustering-1783215.e
+StdOut            = /deac/csc/khuriGrp/zhaok220/clustering/slurm/clustering-1783215.o
+Power             = 
+MailUser          = zhaok220@wfu.edu
+MailType          = BEGIN,END,FAIL
+NtasksPerTRES:0   = NtasksPerTRES:0
+###########################END-PROLOG#########################
+Finding 30 nearest neighbors using minkowski metric and 'auto' algorithm
+Neighbors computed in 0.014756441116333008 seconds
+Jaccard graph constructed in 0.27808666229248047 seconds
+Wrote graph to binary file in 0.010280370712280273 seconds
+Running Louvain modularity optimization
+After 1 runs, maximum modularity is Q = 0.78474
+After 5 runs, maximum modularity is Q = 0.785799
+After 7 runs, maximum modularity is Q = 0.788814
+Louvain completed 27 runs in 0.642021656036377 seconds
+Sorting communities by size, please wait ...
+PhenoGraph completed in 1.192131757736206 seconds
+9
+Finding 30 nearest neighbors using minkowski metric and 'auto' algorithm
+Neighbors computed in 0.015186548233032227 seconds
+Jaccard graph constructed in 0.26294970512390137 seconds
+Wrote graph to binary file in 0.009125947952270508 seconds
+Running Louvain modularity optimization
+After 1 runs, maximum modularity is Q = 0.778858
+After 2 runs, maximum modularity is Q = 0.780218
+After 3 runs, maximum modularity is Q = 0.78339
+Louvain completed 23 runs in 0.8018665313720703 seconds
+Sorting communities by size, please wait ...
+PhenoGraph completed in 1.3287887573242188 seconds
+11
+Finding 30 nearest neighbors using minkowski metric and 'auto' algorithm
+Neighbors computed in 0.018206357955932617 seconds
+Jaccard graph constructed in 0.36445188522338867 seconds
+Wrote graph to binary file in 0.030844688415527344 seconds
+Running Louvain modularity optimization
+After 1 runs, maximum modularity is Q = 0.873662
+After 3 runs, maximum modularity is Q = 0.875719
+After 15 runs, maximum modularity is Q = 0.877562
+Louvain completed 35 runs in 1.4540448188781738 seconds
+Sorting communities by size, please wait ...
+PhenoGraph completed in 2.1273648738861084 seconds
+18
+Finding 30 nearest neighbors using minkowski metric and 'auto' algorithm
+Neighbors computed in 0.02112889289855957 seconds
+Jaccard graph constructed in 0.38207507133483887 seconds
+Wrote graph to binary file in 0.03511977195739746 seconds
+Running Louvain modularity optimization
+After 1 runs, maximum modularity is Q = 0.877866
+Louvain completed 21 runs in 0.9553689956665039 seconds
+Sorting communities by size, please wait ...
+PhenoGraph completed in 1.6516835689544678 seconds
+20
+Finding 30 nearest neighbors using minkowski metric and 'auto' algorithm
+Neighbors computed in 0.02287888526916504 seconds
+Jaccard graph constructed in 0.368610143661499 seconds
+Wrote graph to binary file in 0.030825138092041016 seconds
+Running Louvain modularity optimization
+After 1 runs, maximum modularity is Q = 0.873091
+After 2 runs, maximum modularity is Q = 0.875516
+Louvain completed 22 runs in 0.7447819709777832 seconds
+Sorting communities by size, please wait ...
+PhenoGraph completed in 1.4243688583374023 seconds
+20
+Finding 30 nearest neighbors using minkowski metric and 'auto' algorithm
+Neighbors computed in 0.02629256248474121 seconds
+Jaccard graph constructed in 0.3981480598449707 seconds
+Wrote graph to binary file in 0.03287005424499512 seconds
+Running Louvain modularity optimization
+After 1 runs, maximum modularity is Q = 0.878546
+After 6 runs, maximum modularity is Q = 0.8797
+Louvain completed 26 runs in 0.7362709045410156 seconds
+Sorting communities by size, please wait ...
+PhenoGraph completed in 1.4467902183532715 seconds
+21
+Finding 30 nearest neighbors using minkowski metric and 'auto' algorithm
+Neighbors computed in 0.014334440231323242 seconds
+Jaccard graph constructed in 0.31668519973754883 seconds
+Wrote graph to binary file in 0.01720452308654785 seconds
+Running Louvain modularity optimization
+After 1 runs, maximum modularity is Q = 0.828203
+Louvain completed 21 runs in 0.43674182891845703 seconds
+Sorting communities by size, please wait ...
+PhenoGraph completed in 1.0382485389709473 seconds
+15
+Finding 30 nearest neighbors using minkowski metric and 'auto' algorithm
+Neighbors computed in 0.01705455780029297 seconds
+Jaccard graph constructed in 0.3142380714416504 seconds
+Wrote graph to binary file in 0.01787734031677246 seconds
+Running Louvain modularity optimization
+After 1 runs, maximum modularity is Q = 0.83806
+Louvain completed 21 runs in 0.4385209083557129 seconds
+Sorting communities by size, please wait ...
+PhenoGraph completed in 1.0419807434082031 seconds
+15
+Finding 30 nearest neighbors using minkowski metric and 'auto' algorithm
+Neighbors computed in 0.016134262084960938 seconds
+Jaccard graph constructed in 0.3015897274017334 seconds
+Wrote graph to binary file in 0.01602792739868164 seconds
+Running Louvain modularity optimization
+After 1 runs, maximum modularity is Q = 0.822723
+After 4 runs, maximum modularity is Q = 0.826652
+Louvain completed 24 runs in 0.7466309070587158 seconds
+Sorting communities by size, please wait ...
+PhenoGraph completed in 1.3298914432525635 seconds
+14
+Finding 30 nearest neighbors using minkowski metric and 'auto' algorithm
+Neighbors computed in 0.014371871948242188 seconds
+Jaccard graph constructed in 0.3167226314544678 seconds
+Wrote graph to binary file in 0.12435126304626465 seconds
+Running Louvain modularity optimization
+After 1 runs, maximum modularity is Q = 0.820207
+After 4 runs, maximum modularity is Q = 0.821976
+Louvain completed 24 runs in 0.6440577507019043 seconds
+Sorting communities by size, please wait ...
+PhenoGraph completed in 1.350456714630127 seconds
+13
+Finding 30 nearest neighbors using minkowski metric and 'auto' algorithm
+Neighbors computed in 0.03955984115600586 seconds
+Jaccard graph constructed in 0.5486640930175781 seconds
+Wrote graph to binary file in 0.06162238121032715 seconds
+Running Louvain modularity optimization
+After 1 runs, maximum modularity is Q = 0.901257
+After 2 runs, maximum modularity is Q = 0.903053
+Louvain completed 22 runs in 1.0009715557098389 seconds
+Sorting communities by size, please wait ...
+PhenoGraph completed in 1.9232141971588135 seconds
+26
+Finding 30 nearest neighbors using minkowski metric and 'auto' algorithm
+Neighbors computed in 0.034584999084472656 seconds
+Jaccard graph constructed in 0.5528302192687988 seconds
+Wrote graph to binary file in 0.07492971420288086 seconds
+Running Louvain modularity optimization
+After 1 runs, maximum modularity is Q = 0.903695
+After 17 runs, maximum modularity is Q = 0.905074
+Louvain completed 37 runs in 1.9991652965545654 seconds
+Sorting communities by size, please wait ...
+PhenoGraph completed in 2.9386634826660156 seconds
+29
+Finding 30 nearest neighbors using minkowski metric and 'auto' algorithm
+Neighbors computed in 0.029831647872924805 seconds
+Jaccard graph constructed in 0.512885570526123 seconds
+Wrote graph to binary file in 0.06123995780944824 seconds
+Running Louvain modularity optimization
+After 1 runs, maximum modularity is Q = 0.902407
+After 15 runs, maximum modularity is Q = 0.903885
+Louvain completed 35 runs in 1.4652307033538818 seconds
+Sorting communities by size, please wait ...
+PhenoGraph completed in 2.3411898612976074 seconds
+28
+Finding 30 nearest neighbors using minkowski metric and 'auto' algorithm
+Neighbors computed in 0.05286812782287598 seconds
+Jaccard graph constructed in 0.758751392364502 seconds
+Wrote graph to binary file in 0.06150460243225098 seconds
+Running Louvain modularity optimization
+After 1 runs, maximum modularity is Q = 0.900886
+After 4 runs, maximum modularity is Q = 0.903022
+Louvain completed 24 runs in 1.1575891971588135 seconds
+Sorting communities by size, please wait ...
+PhenoGraph completed in 2.3105225563049316 seconds
+29
+Finding 30 nearest neighbors using minkowski metric and 'auto' algorithm
+Neighbors computed in 0.024727582931518555 seconds
+Jaccard graph constructed in 0.3880748748779297 seconds
+Wrote graph to binary file in 0.029625892639160156 seconds
+Running Louvain modularity optimization
+After 1 runs, maximum modularity is Q = 0.877748
+Louvain completed 21 runs in 0.5920107364654541 seconds
+Sorting communities by size, please wait ...
+PhenoGraph completed in 1.3026559352874756 seconds
+20
+Finding 30 nearest neighbors using minkowski metric and 'auto' algorithm
+Neighbors computed in 0.020263195037841797 seconds
+Jaccard graph constructed in 0.4142599105834961 seconds
+Wrote graph to binary file in 0.03654670715332031 seconds
+Running Louvain modularity optimization
+After 1 runs, maximum modularity is Q = 0.89055
+After 2 runs, maximum modularity is Q = 0.89163
+Louvain completed 22 runs in 0.7100458145141602 seconds
+Sorting communities by size, please wait ...
+PhenoGraph completed in 1.453078269958496 seconds
+22
+Finding 30 nearest neighbors using minkowski metric and 'auto' algorithm
+Neighbors computed in 0.02075481414794922 seconds
+Jaccard graph constructed in 0.3901255130767822 seconds
+Wrote graph to binary file in 0.029907703399658203 seconds
+Running Louvain modularity optimization
+After 1 runs, maximum modularity is Q = 0.877853
+Louvain completed 21 runs in 0.6533715724945068 seconds
+Sorting communities by size, please wait ...
+PhenoGraph completed in 1.3764054775238037 seconds
+22
+Finding 30 nearest neighbors using minkowski metric and 'auto' algorithm
+Neighbors computed in 0.018543481826782227 seconds
+Jaccard graph constructed in 0.4117624759674072 seconds
+Wrote graph to binary file in 0.03326225280761719 seconds
+Running Louvain modularity optimization
+After 1 runs, maximum modularity is Q = 0.881053
+After 8 runs, maximum modularity is Q = 0.882192
+Louvain completed 28 runs in 1.203660488128662 seconds
+Sorting communities by size, please wait ...
+PhenoGraph completed in 1.9426898956298828 seconds
+23
+Finding 30 nearest neighbors using minkowski metric and 'auto' algorithm
+Neighbors computed in 0.03837728500366211 seconds
+Jaccard graph constructed in 0.5667159557342529 seconds
+Wrote graph to binary file in 0.06180858612060547 seconds
+Running Louvain modularity optimization
+After 1 runs, maximum modularity is Q = 0.90138
+After 7 runs, maximum modularity is Q = 0.903038
+Louvain completed 27 runs in 1.2293357849121094 seconds
+Sorting communities by size, please wait ...
+PhenoGraph completed in 2.1851911544799805 seconds
+24
+Finding 30 nearest neighbors using minkowski metric and 'auto' algorithm
+Neighbors computed in 0.049944400787353516 seconds
+Jaccard graph constructed in 0.550518274307251 seconds
+Wrote graph to binary file in 0.06996726989746094 seconds
+Running Louvain modularity optimization
+After 1 runs, maximum modularity is Q = 0.908875
+Louvain completed 21 runs in 1.0355033874511719 seconds
+Sorting communities by size, please wait ...
+PhenoGraph completed in 1.9959721565246582 seconds
+28
+Finding 30 nearest neighbors using minkowski metric and 'auto' algorithm
+Neighbors computed in 0.03806614875793457 seconds
+Jaccard graph constructed in 0.5391757488250732 seconds
+Wrote graph to binary file in 0.061873674392700195 seconds
+Running Louvain modularity optimization
+After 1 runs, maximum modularity is Q = 0.899815
+After 2 runs, maximum modularity is Q = 0.90082
+Louvain completed 22 runs in 1.102569580078125 seconds
+Sorting communities by size, please wait ...
+PhenoGraph completed in 2.028942823410034 seconds
+27
+Finding 30 nearest neighbors using minkowski metric and 'auto' algorithm
+Neighbors computed in 0.06199288368225098 seconds
+Jaccard graph constructed in 0.5599589347839355 seconds
+Wrote graph to binary file in 0.06256318092346191 seconds
+Running Louvain modularity optimization
+After 1 runs, maximum modularity is Q = 0.904886
+After 15 runs, maximum modularity is Q = 0.90608
+Louvain completed 35 runs in 1.667534589767456 seconds
+Sorting communities by size, please wait ...
+PhenoGraph completed in 2.6404154300689697 seconds
+27
+Finding 30 nearest neighbors using minkowski metric and 'auto' algorithm
+Neighbors computed in 0.016753673553466797 seconds
+Jaccard graph constructed in 0.39492249488830566 seconds
+Wrote graph to binary file in 0.03040003776550293 seconds
+Running Louvain modularity optimization
+After 1 runs, maximum modularity is Q = 0.875194
+Louvain completed 21 runs in 0.6339576244354248 seconds
+Sorting communities by size, please wait ...
+PhenoGraph completed in 1.3595268726348877 seconds
+20
+Finding 30 nearest neighbors using minkowski metric and 'auto' algorithm
+Neighbors computed in 0.029546499252319336 seconds
+Jaccard graph constructed in 0.4348132610321045 seconds
+Wrote graph to binary file in 0.0356755256652832 seconds
+Running Louvain modularity optimization
+After 1 runs, maximum modularity is Q = 0.886324
+After 4 runs, maximum modularity is Q = 0.887403
+Louvain completed 24 runs in 0.7958600521087646 seconds
+Sorting communities by size, please wait ...
+PhenoGraph completed in 1.5782554149627686 seconds
+22
+Finding 30 nearest neighbors using minkowski metric and 'auto' algorithm
+Neighbors computed in 0.02457714080810547 seconds
+Jaccard graph constructed in 0.4022402763366699 seconds
+Wrote graph to binary file in 0.03194546699523926 seconds
+Running Louvain modularity optimization
+After 1 runs, maximum modularity is Q = 0.878891
+Louvain completed 21 runs in 0.815845251083374 seconds
+Sorting communities by size, please wait ...
+PhenoGraph completed in 1.58320951461792 seconds
+20
+Finding 30 nearest neighbors using minkowski metric and 'auto' algorithm
+Neighbors computed in 0.023428916931152344 seconds
+Jaccard graph constructed in 0.4321939945220947 seconds
+Wrote graph to binary file in 0.03289484977722168 seconds
+Running Louvain modularity optimization
+After 1 runs, maximum modularity is Q = 0.877038
+After 2 runs, maximum modularity is Q = 0.878242
+After 3 runs, maximum modularity is Q = 0.880567
+After 10 runs, maximum modularity is Q = 0.881669
+Louvain completed 30 runs in 1.144223928451538 seconds
+Sorting communities by size, please wait ...
+PhenoGraph completed in 1.9133639335632324 seconds
+21
+Finding 30 nearest neighbors using minkowski metric and 'auto' algorithm
+Neighbors computed in 0.013115406036376953 seconds
+Jaccard graph constructed in 0.2741227149963379 seconds
+Wrote graph to binary file in 0.0069158077239990234 seconds
+Running Louvain modularity optimization
+After 1 runs, maximum modularity is Q = 0.717911
+Louvain completed 21 runs in 0.32633304595947266 seconds
+Sorting communities by size, please wait ...
+PhenoGraph completed in 0.8980510234832764 seconds
+5
+Finding 30 nearest neighbors using minkowski metric and 'auto' algorithm
+Neighbors computed in 0.014102458953857422 seconds
+Jaccard graph constructed in 0.2781205177307129 seconds
+Wrote graph to binary file in 0.0054776668548583984 seconds
+Running Louvain modularity optimization
+After 1 runs, maximum modularity is Q = 0.670873
+Louvain completed 21 runs in 0.3279907703399658 seconds
+Sorting communities by size, please wait ...
+PhenoGraph completed in 0.8963289260864258 seconds
+5
+Finding 30 nearest neighbors using minkowski metric and 'auto' algorithm
+Neighbors computed in 0.012625455856323242 seconds
+Jaccard graph constructed in 0.27455639839172363 seconds
+Wrote graph to binary file in 0.004865884780883789 seconds
+Running Louvain modularity optimization
+After 1 runs, maximum modularity is Q = 0.686896
+After 2 runs, maximum modularity is Q = 0.695475
+Louvain completed 22 runs in 0.38880491256713867 seconds
+Sorting communities by size, please wait ...
+PhenoGraph completed in 0.9511580467224121 seconds
+5
+Finding 30 nearest neighbors using minkowski metric and 'auto' algorithm
+Neighbors computed in 0.012325763702392578 seconds
+Jaccard graph constructed in 0.27869415283203125 seconds
+Wrote graph to binary file in 0.005757570266723633 seconds
+Running Louvain modularity optimization
+After 1 runs, maximum modularity is Q = 0.656528
+After 2 runs, maximum modularity is Q = 0.657704
+After 13 runs, maximum modularity is Q = 0.660026
+Louvain completed 33 runs in 0.5804610252380371 seconds
+Sorting communities by size, please wait ...
+PhenoGraph completed in 1.1448488235473633 seconds
+6
+Finding 30 nearest neighbors using minkowski metric and 'auto' algorithm
+Neighbors computed in 0.013030052185058594 seconds
+Jaccard graph constructed in 0.27848339080810547 seconds
+Wrote graph to binary file in 0.005038022994995117 seconds
+Running Louvain modularity optimization
+After 1 runs, maximum modularity is Q = 0.684165
+Louvain completed 21 runs in 0.623227596282959 seconds
+Sorting communities by size, please wait ...
+PhenoGraph completed in 1.2157700061798096 seconds
+6
+Finding 30 nearest neighbors using minkowski metric and 'auto' algorithm
+Neighbors computed in 0.014043807983398438 seconds
+Jaccard graph constructed in 0.28115296363830566 seconds
+Wrote graph to binary file in 0.005129098892211914 seconds
+Running Louvain modularity optimization
+After 1 runs, maximum modularity is Q = 0.656234
+After 6 runs, maximum modularity is Q = 0.657669
+After 11 runs, maximum modularity is Q = 0.659639
+Louvain completed 31 runs in 0.8463640213012695 seconds
+Sorting communities by size, please wait ...
+PhenoGraph completed in 1.4214935302734375 seconds
+6
+Finding 30 nearest neighbors using minkowski metric and 'auto' algorithm
+Neighbors computed in 0.01212000846862793 seconds
+Jaccard graph constructed in 0.27078890800476074 seconds
+Wrote graph to binary file in 0.0028243064880371094 seconds
+Running Louvain modularity optimization
+After 1 runs, maximum modularity is Q = 0.496807
+Louvain completed 21 runs in 0.6891279220581055 seconds
+Sorting communities by size, please wait ...
+PhenoGraph completed in 2.8710687160491943 seconds
+2
+Finding 30 nearest neighbors using minkowski metric and 'auto' algorithm
+Neighbors computed in 0.011426210403442383 seconds
+Jaccard graph constructed in 0.2698853015899658 seconds
+Wrote graph to binary file in 0.004315853118896484 seconds
+Running Louvain modularity optimization
+After 1 runs, maximum modularity is Q = 0.492017
+Louvain completed 21 runs in 0.45905447006225586 seconds
+Sorting communities by size, please wait ...
+PhenoGraph completed in 1.0178210735321045 seconds
+2
+Finding 30 nearest neighbors using minkowski metric and 'auto' algorithm
+Neighbors computed in 0.01098012924194336 seconds
+Jaccard graph constructed in 0.2737565040588379 seconds
+Wrote graph to binary file in 0.0037424564361572266 seconds
+Running Louvain modularity optimization
+After 1 runs, maximum modularity is Q = 0.499634
+Louvain completed 21 runs in 0.30403757095336914 seconds
+Sorting communities by size, please wait ...
+PhenoGraph completed in 0.8647778034210205 seconds
+2
+Finding 30 nearest neighbors using minkowski metric and 'auto' algorithm
+Neighbors computed in 0.012841939926147461 seconds
+Jaccard graph constructed in 0.2727789878845215 seconds
+Wrote graph to binary file in 0.003184795379638672 seconds
+Running Louvain modularity optimization
+After 1 runs, maximum modularity is Q = 0.358391
+Louvain completed 21 runs in 0.31002259254455566 seconds
+Sorting communities by size, please wait ...
+PhenoGraph completed in 0.8731458187103271 seconds
+3
+Finding 30 nearest neighbors using minkowski metric and 'auto' algorithm
+Neighbors computed in 0.011874198913574219 seconds
+Jaccard graph constructed in 0.2615385055541992 seconds
+Wrote graph to binary file in 0.003458738327026367 seconds
+Running Louvain modularity optimization
+After 1 runs, maximum modularity is Q = 0.383027
+Louvain completed 21 runs in 0.3364574909210205 seconds
+Sorting communities by size, please wait ...
+PhenoGraph completed in 0.8836708068847656 seconds
+3
+Finding 30 nearest neighbors using minkowski metric and 'auto' algorithm
+Neighbors computed in 0.010287046432495117 seconds
+Jaccard graph constructed in 0.2649979591369629 seconds
+Wrote graph to binary file in 0.0033495426177978516 seconds
+Running Louvain modularity optimization
+After 1 runs, maximum modularity is Q = 0.384724
+Louvain completed 21 runs in 0.3208637237548828 seconds
+Sorting communities by size, please wait ...
+PhenoGraph completed in 0.8671379089355469 seconds
+3
+Finding 30 nearest neighbors using minkowski metric and 'auto' algorithm
+Neighbors computed in 0.014668464660644531 seconds
+Jaccard graph constructed in 0.30318665504455566 seconds
+Wrote graph to binary file in 0.011045455932617188 seconds
+Running Louvain modularity optimization
+After 1 runs, maximum modularity is Q = 0.775992
+After 2 runs, maximum modularity is Q = 0.783444
+After 12 runs, maximum modularity is Q = 0.785117
+Louvain completed 32 runs in 0.6063494682312012 seconds
+Sorting communities by size, please wait ...
+PhenoGraph completed in 1.2242248058319092 seconds
+10
+Finding 30 nearest neighbors using minkowski metric and 'auto' algorithm
+Neighbors computed in 0.014220714569091797 seconds
+Jaccard graph constructed in 0.30879974365234375 seconds
+Wrote graph to binary file in 0.009782552719116211 seconds
+Running Louvain modularity optimization
+After 1 runs, maximum modularity is Q = 0.796387
+Louvain completed 21 runs in 0.37944459915161133 seconds
+Sorting communities by size, please wait ...
+PhenoGraph completed in 0.9799182415008545 seconds
+10
+Finding 30 nearest neighbors using minkowski metric and 'auto' algorithm
+Neighbors computed in 0.013849020004272461 seconds
+Jaccard graph constructed in 0.29519200325012207 seconds
+Wrote graph to binary file in 0.010283946990966797 seconds
+Running Louvain modularity optimization
+After 1 runs, maximum modularity is Q = 0.784959
+After 2 runs, maximum modularity is Q = 0.786183
+After 17 runs, maximum modularity is Q = 0.787431
+Louvain completed 37 runs in 0.7024741172790527 seconds
+Sorting communities by size, please wait ...
+PhenoGraph completed in 1.2989487648010254 seconds
+10
+Finding 30 nearest neighbors using minkowski metric and 'auto' algorithm
+Neighbors computed in 0.016635417938232422 seconds
+Jaccard graph constructed in 0.3092772960662842 seconds
+Wrote graph to binary file in 0.009267568588256836 seconds
+Running Louvain modularity optimization
+After 1 runs, maximum modularity is Q = 0.781316
+After 2 runs, maximum modularity is Q = 0.782541
+After 5 runs, maximum modularity is Q = 0.784813
+Louvain completed 25 runs in 0.947338342666626 seconds
+Sorting communities by size, please wait ...
+PhenoGraph completed in 1.559511661529541 seconds
+9
+Finding 30 nearest neighbors using minkowski metric and 'auto' algorithm
+Neighbors computed in 0.013536930084228516 seconds
+Jaccard graph constructed in 0.2951819896697998 seconds
+Wrote graph to binary file in 0.009908914566040039 seconds
+Running Louvain modularity optimization
+After 1 runs, maximum modularity is Q = 0.796089
+After 5 runs, maximum modularity is Q = 0.799825
+Louvain completed 25 runs in 0.5899426937103271 seconds
+Sorting communities by size, please wait ...
+PhenoGraph completed in 1.1896271705627441 seconds
+10
+Finding 30 nearest neighbors using minkowski metric and 'auto' algorithm
+Neighbors computed in 0.014386177062988281 seconds
+Jaccard graph constructed in 0.2889289855957031 seconds
+Wrote graph to binary file in 0.00957179069519043 seconds
+Running Louvain modularity optimization
+After 1 runs, maximum modularity is Q = 0.769493
+After 2 runs, maximum modularity is Q = 0.77154
+Louvain completed 22 runs in 0.47306156158447266 seconds
+Sorting communities by size, please wait ...
+PhenoGraph completed in 1.0580995082855225 seconds
+10
+Finding 30 nearest neighbors using minkowski metric and 'auto' algorithm
+Neighbors computed in 0.013722658157348633 seconds
+Jaccard graph constructed in 0.30221056938171387 seconds
+Wrote graph to binary file in 0.012642860412597656 seconds
+Running Louvain modularity optimization
+After 1 runs, maximum modularity is Q = 0.789092
+After 2 runs, maximum modularity is Q = 0.790574
+After 7 runs, maximum modularity is Q = 0.791948
+Louvain completed 27 runs in 0.957862377166748 seconds
+Sorting communities by size, please wait ...
+PhenoGraph completed in 1.5616893768310547 seconds
+9
+Finding 30 nearest neighbors using minkowski metric and 'auto' algorithm
+Neighbors computed in 0.014461994171142578 seconds
+Jaccard graph constructed in 0.29334068298339844 seconds
+Wrote graph to binary file in 0.009519338607788086 seconds
+Running Louvain modularity optimization
+After 1 runs, maximum modularity is Q = 0.776727
+After 2 runs, maximum modularity is Q = 0.778701
+After 5 runs, maximum modularity is Q = 0.781322
+After 12 runs, maximum modularity is Q = 0.782891
+Louvain completed 32 runs in 0.6643943786621094 seconds
+Sorting communities by size, please wait ...
+PhenoGraph completed in 1.2617840766906738 seconds
+10
+Finding 30 nearest neighbors using minkowski metric and 'auto' algorithm
+Neighbors computed in 0.013461112976074219 seconds
+Jaccard graph constructed in 0.2913179397583008 seconds
+Wrote graph to binary file in 0.00947260856628418 seconds
+Running Louvain modularity optimization
+After 1 runs, maximum modularity is Q = 0.7765
+After 2 runs, maximum modularity is Q = 0.778958
+After 3 runs, maximum modularity is Q = 0.781519
+After 16 runs, maximum modularity is Q = 0.782529
+Louvain completed 36 runs in 0.7224524021148682 seconds
+Sorting communities by size, please wait ...
+PhenoGraph completed in 1.3175067901611328 seconds
+9
+Finding 30 nearest neighbors using minkowski metric and 'auto' algorithm
+Neighbors computed in 0.015477657318115234 seconds
+Jaccard graph constructed in 0.29575085639953613 seconds
+Wrote graph to binary file in 0.009297847747802734 seconds
+Running Louvain modularity optimization
+After 1 runs, maximum modularity is Q = 0.771675
+After 2 runs, maximum modularity is Q = 0.772809
+After 3 runs, maximum modularity is Q = 0.774695
+After 6 runs, maximum modularity is Q = 0.776269
+Louvain completed 26 runs in 0.5212316513061523 seconds
+Sorting communities by size, please wait ...
+PhenoGraph completed in 1.124577522277832 seconds
+10
+[4, 5, 7, 7, 7, 7, 6, 6, 6, 5, 9, 10, 9, 10, 7, 8, 8, 8, 8, 9, 9, 9, 7, 8, 7, 7, 3, 3, 3, 4, 4, 4, 3, 3, 3, 3, 3, 3, 5, 5, 5, 4, 5, 5, 4, 5, 4, 5]
+/deac/csc/khuriGrp/zhaok220/clustering/data/scrna_benchmarks_umap/ICELL8_SE_A_kallisto_umap.csv
+-- Begin evolution --
+-- Generation 1 --
+-- Generation 2 --
+-- Generation 3 --
+-- Generation 4 --
+-- Generation 5 --
+-- Generation 6 --
+-- Generation 7 --
+-- Generation 8 --
+-- Generation 9 --
+-- Generation 10 --
+-- Generation 11 --
+-- Generation 12 --
+-- Generation 13 --
+-- Generation 14 --
+-- Generation 15 --
+-- Generation 16 --
+-- Generation 17 --
+-- Generation 18 --
+-- Generation 19 --
+-- Generation 20 --
+-- Generation 21 --
+-- Generation 22 --
+-- Generation 23 --
+-- Generation 24 --
+-- Generation 25 --
+-- Generation 26 --
+-- Generation 27 --
+-- Generation 28 --
+-- Generation 29 --
+-- Generation 30 --
+-- Generation 31 --
+-- Generation 32 --
+-- Generation 33 --
+-- Generation 34 --
+-- Generation 35 --
+-- Generation 36 --
+-- Generation 37 --
+-- Generation 38 --
+-- Generation 39 --
+-- Generation 40 --
+-- Generation 41 --
+-- Generation 42 --
+-- Generation 43 --
+-- Generation 44 --
+-- Generation 45 --
+-- Generation 46 --
+-- Generation 47 --
+-- Generation 48 --
+-- Generation 49 --
+-- Generation 50 --
+-- Generation 51 --
+-- Generation 52 --
+-- Generation 53 --
+-- Generation 54 --
+-- Generation 55 --
+-- Generation 56 --
+-- Generation 57 --
+-- Generation 58 --
+-- Generation 59 --
+-- Generation 60 --
+-- Generation 61 --
+-- Generation 62 --
+-- Generation 63 --
+-- Generation 64 --
+-- Generation 65 --
+-- Generation 66 --
+-- Generation 67 --
+-- Generation 68 --
+-- Generation 69 --
+-- Generation 70 --
+-- Generation 71 --
+-- Generation 72 --
+-- Generation 73 --
+-- Generation 74 --
+-- Generation 75 --
+-- Generation 76 --
+-- Generation 77 --
+-- Generation 78 --
+-- Generation 79 --
+-- Generation 80 --
+-- Generation 81 --
+-- Generation 82 --
+-- Generation 83 --
+-- Generation 84 --
+-- Generation 85 --
+-- Generation 86 --
+-- Generation 87 --
+-- Generation 88 --
+-- Generation 89 --
+-- Generation 90 --
+-- Generation 91 --
+-- Generation 92 --
+-- Generation 93 --
+-- Generation 94 --
+-- Generation 95 --
+-- Generation 96 --
+-- Generation 97 --
+-- Generation 98 --
+-- Generation 99 --
+-- Generation 100 --
+-- Generation 101 --
+-- Generation 102 --
+-- Generation 103 --
+-- Generation 104 --
+-- Generation 105 --
+-- Generation 106 --
+-- Generation 107 --
+-- Generation 108 --
+-- Generation 109 --
+-- Generation 110 --
+-- Generation 111 --
+-- Generation 112 --
+-- Generation 113 --
+-- Generation 114 --
+-- Generation 115 --
+-- Generation 116 --
+-- Generation 117 --
+-- Generation 118 --
+-- Generation 119 --
+-- Generation 120 --
+-- Generation 121 --
+-- Generation 122 --
+-- Generation 123 --
+-- Generation 124 --
+-- Generation 125 --
+-- Generation 126 --
+-- Generation 127 --
+-- Generation 128 --
+-- Generation 129 --
+-- Generation 130 --
+-- Generation 131 --
+-- Generation 132 --
+-- Generation 133 --
+-- Generation 134 --
+-- Generation 135 --
+-- Generation 136 --
+-- Generation 137 --
+-- Generation 138 --
+-- Generation 139 --
+-- Generation 140 --
+-- Generation 141 --
+-- Generation 142 --
+-- Generation 143 --
+-- Generation 144 --
+-- Generation 145 --
+-- Generation 146 --
+-- Generation 147 --
+-- Generation 148 --
+-- Generation 149 --
+-- Generation 150 --
+-- Generation 151 --
+-- Generation 152 --
+-- Generation 153 --
+-- Generation 154 --
+-- Generation 155 --
+-- Generation 156 --
+-- Generation 157 --
+-- Generation 158 --
+-- Generation 159 --
+-- Generation 160 --
+-- Generation 161 --
+-- Generation 162 --
+-- Generation 163 --
+-- Generation 164 --
+-- Generation 165 --
+-- Generation 166 --
+-- Generation 167 --
+-- Generation 168 --
+-- Generation 169 --
+-- Generation 170 --
+-- Generation 171 --
+-- Generation 172 --
+-- Generation 173 --
+-- Generation 174 --
+-- Generation 175 --
+-- Generation 176 --
+-- Generation 177 --
+-- Generation 178 --
+-- Generation 179 --
+-- Generation 180 --
+-- Generation 181 --
+-- Generation 182 --
+-- Generation 183 --
+-- Generation 184 --
+-- Generation 185 --
+-- Generation 186 --
+-- Generation 187 --
+-- Generation 188 --
+-- Generation 189 --
+-- Generation 190 --
+-- Generation 191 --
+-- Generation 192 --
+-- Generation 193 --
+-- Generation 194 --
+-- Generation 195 --
+-- Generation 196 --
+-- Generation 197 --
+-- Generation 198 --
+-- Generation 199 --
+-- Generation 200 --
+-- Generation 201 --
+-- Generation 202 --
+-- Generation 203 --
+-- Generation 204 --
+-- Generation 205 --
+-- Generation 206 --
+-- Generation 207 --
+-- Generation 208 --
+-- Generation 209 --
+-- Generation 210 --
+-- Generation 211 --
+-- Generation 212 --
+-- Generation 213 --
+-- Generation 214 --
+-- Generation 215 --
+-- Generation 216 --
+-- Generation 217 --
+-- Generation 218 --
+-- Generation 219 --
+-- Generation 220 --
+-- Generation 221 --
+-- Generation 222 --
+-- Generation 223 --
+-- Generation 224 --
+-- Generation 225 --
+-- Generation 226 --
+-- Generation 227 --
+-- Generation 228 --
+-- Generation 229 --
+-- Generation 230 --
+-- Generation 231 --
+-- Generation 232 --
+-- Generation 233 --
+-- Generation 234 --
+-- Generation 235 --
+-- Generation 236 --
+-- Generation 237 --
+-- Generation 238 --
+-- Generation 239 --
+-- Generation 240 --
+-- Generation 241 --
+-- Generation 242 --
+-- Generation 243 --
+-- Generation 244 --
+-- Generation 245 --
+-- Generation 246 --
+-- Generation 247 --
+-- Generation 248 --
+-- Generation 249 --
+-- Generation 250 --
+-- Generation 251 --
+-- Generation 252 --
+-- Generation 253 --
+-- Generation 254 --
+-- Generation 255 --
+-- Generation 256 --
+-- Generation 257 --
+-- Generation 258 --
+-- Generation 259 --
+-- Generation 260 --
+-- Generation 261 --
+-- Generation 262 --
+-- Generation 263 --
+-- Generation 264 --
+-- Generation 265 --
+-- Generation 266 --
+-- Generation 267 --
+-- Generation 268 --
+-- Generation 269 --
+-- Generation 270 --
+-- Generation 271 --
+-- Generation 272 --
+-- Generation 273 --
+-- Generation 274 --
+-- Generation 275 --
+-- Generation 276 --
+-- Generation 277 --
+-- Generation 278 --
+-- Generation 279 --
+-- Generation 280 --
+-- Generation 281 --
+-- Generation 282 --
+-- Generation 283 --
+-- Generation 284 --
+-- Generation 285 --
+-- Generation 286 --
+-- Generation 287 --
+-- Generation 288 --
+-- Generation 289 --
+-- Generation 290 --
+-- Generation 291 --
+-- Generation 292 --
+-- Generation 293 --
+-- Generation 294 --
+-- Generation 295 --
+-- Generation 296 --
+-- Generation 297 --
+-- Generation 298 --
+-- Generation 299 --
+-- Generation 300 --
+-- Generation 301 --
+-- Generation 302 --
+-- Generation 303 --
+-- Generation 304 --
+-- Generation 305 --
+-- Generation 306 --
+-- Generation 307 --
+-- Generation 308 --
+-- Generation 309 --
+-- Generation 310 --
+-- Generation 311 --
+-- Generation 312 --
+-- Generation 313 --
+-- Generation 314 --
+-- Generation 315 --
+-- Generation 316 --
+-- Generation 317 --
+-- Generation 318 --
+-- Generation 319 --
+-- Generation 320 --
+-- Generation 321 --
+-- Generation 322 --
+-- Generation 323 --
+-- Generation 324 --
+-- Generation 325 --
+-- Generation 326 --
+-- Generation 327 --
+-- Generation 328 --
+-- Generation 329 --
+-- Generation 330 --
+-- Generation 331 --
+-- Generation 332 --
+-- Generation 333 --
+-- Generation 334 --
+-- Generation 335 --
+-- Generation 336 --
+-- Generation 337 --
+-- Generation 338 --
+-- Generation 339 --
+-- Generation 340 --
+-- Generation 341 --
+-- Generation 342 --
+-- Generation 343 --
+-- Generation 344 --
+-- Generation 345 --
+-- Generation 346 --
+-- Generation 347 --
+-- Generation 348 --
+-- Generation 349 --
+-- Generation 350 --
+-- End of (successful) evolution --
+                       Benchmark  Instance #  Cluster #    so-time
+0  ICELL8_SE_A_kallisto_umap.csv         571          4  30.600858
+Max memory consumption for Job 1783215 on host comp-21-6 is: 1337618432.0B

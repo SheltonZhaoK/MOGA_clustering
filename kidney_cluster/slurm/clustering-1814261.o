@@ -1,0 +1,50 @@
+#########################BEGIN-PROLOG#########################
+JobId             = 1814261
+JobName           = clustering
+UserId            = zhaok220(20487)
+GroupId           = zhaok220(20487)
+MCS_label         = N/A
+Priority          = 123
+Nice              = 0
+Account           = khurigrp
+QOS               = normal
+Requeue           = 1
+Restarts          = 0
+BatchFlag         = 1
+Reboot            = 0
+ExitCode          = 0:0
+RunTime           = 00:00:00
+TimeLimit         = 7-00:00:00
+TimeMin           = N/A
+SubmitTime        = 2022-10-31T19:51:13
+EligibleTime      = 2022-10-31T19:51:13
+AccrueTime        = 2022-10-31T19:51:13
+StartTime         = 2022-10-31T19:51:13
+EndTime           = 2022-11-07T18:51:13
+Deadline          = N/A
+Partition         = medium
+AllocNode:Sid     = gemini:219705
+NodeList          = comp-24-3
+BatchHost         = comp-24-3
+NumNodes          = 1
+NumCPUs           = 32
+NumTasks          = 32
+CPUs/Task         = 1
+ReqB:S:C:T        = 0:0:*:*
+TRES=cpu=32,mem=32G,node=1,billing= cpu=32,mem=32G,node=1,billing=32
+Socks/Node        = *
+NtasksPerN:B:S:C  = 32:0:*:*
+CoreSpec          = *
+MinCPUsNode       = 32
+MinMemoryNode     = 32G
+MinTmpDiskNode    = 0
+Command           = /deac/csc/khuriGrp/zhaok220/kidney_cluster/slurm/clustering.slurm
+WorkDir           = /deac/csc/khuriGrp/zhaok220/kidney_cluster/slurm
+StdErr            = /deac/csc/khuriGrp/zhaok220/kidney_cluster/slurm/clustering-1814261.e
+StdOut            = /deac/csc/khuriGrp/zhaok220/kidney_cluster/slurm/clustering-1814261.o
+Power             = 
+MailUser          = zhaok220@wfu.edu
+MailType          = BEGIN,END,FAIL
+NtasksPerTRES:0   = NtasksPerTRES:0
+###########################END-PROLOG#########################
+Max memory consumption for Job 1814261 on host comp-24-3 is: 8491008.0B

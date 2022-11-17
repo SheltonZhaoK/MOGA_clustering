@@ -1,0 +1,875 @@
+#########################BEGIN-PROLOG#########################
+JobId             = 1780649
+ArrayJobId        = 1780649
+ArrayTaskId       = 29
+ArrayTaskThrottle = 15
+JobName           = clustering
+UserId            = zhaok220(20487)
+GroupId           = zhaok220(20487)
+MCS_label         = N/A
+Priority          = 92
+Nice              = 0
+Account           = khurigrp
+QOS               = normal
+Requeue           = 1
+Restarts          = 0
+BatchFlag         = 1
+Reboot            = 0
+ExitCode          = 0:0
+RunTime           = 00:00:00
+TimeLimit         = 7-00:00:00
+TimeMin           = N/A
+SubmitTime        = 2022-07-13T19:04:38
+EligibleTime      = 2022-07-13T19:04:38
+AccrueTime        = Unknown
+StartTime         = 2022-07-13T19:04:38
+EndTime           = 2022-07-20T19:04:38
+Deadline          = N/A
+Partition         = medium
+AllocNode:Sid     = gemini:177893
+NodeList          = comp-25-1
+BatchHost         = comp-25-1
+NumNodes          = 1
+NumCPUs           = 1
+NumTasks          = 1
+CPUs/Task         = 1
+ReqB:S:C:T        = 0:0:*:*
+TRES=cpu=1,mem=64G,node=1,billing= cpu=1,mem=64G,node=1,billing=1
+Socks/Node        = *
+NtasksPerN:B:S:C  = 1:0:*:*
+CoreSpec          = *
+MinCPUsNode       = 1
+MinMemoryNode     = 64G
+MinTmpDiskNode    = 0
+Command           = /deac/csc/khuriGrp/zhaok220/clustering/slurm/clustering_mul.slurm
+WorkDir           = /deac/csc/khuriGrp/zhaok220/clustering/slurm
+StdErr            = /deac/csc/khuriGrp/zhaok220/clustering/slurm/clustering-1780649.e
+StdOut            = /deac/csc/khuriGrp/zhaok220/clustering/slurm/clustering-1780649.o
+Power             = 
+MailUser          = zhaok220@wfu.edu
+MailType          = BEGIN,END,FAIL
+NtasksPerTRES:0   = NtasksPerTRES:0
+JobId             = 1780663
+ArrayJobId        = 1780649
+ArrayTaskId       = 28
+ArrayTaskThrottle = 15
+JobName           = clustering
+UserId            = zhaok220(20487)
+GroupId           = zhaok220(20487)
+MCS_label         = N/A
+Priority          = 92
+Nice              = 0
+Account           = khurigrp
+QOS               = normal
+Requeue           = 1
+Restarts          = 0
+BatchFlag         = 1
+Reboot            = 0
+ExitCode          = 0:0
+RunTime           = 00:00:00
+TimeLimit         = 7-00:00:00
+TimeMin           = N/A
+SubmitTime        = 2022-07-13T19:04:38
+EligibleTime      = 2022-07-13T19:04:38
+AccrueTime        = Unknown
+StartTime         = 2022-07-13T19:04:38
+EndTime           = 2022-07-20T19:04:38
+Deadline          = N/A
+Partition         = medium
+AllocNode:Sid     = gemini:177893
+NodeList          = comp-23-5
+BatchHost         = comp-23-5
+NumNodes          = 1
+NumCPUs           = 1
+NumTasks          = 1
+CPUs/Task         = 1
+ReqB:S:C:T        = 0:0:*:*
+TRES=cpu=1,mem=64G,node=1,billing= cpu=1,mem=64G,node=1,billing=1
+Socks/Node        = *
+NtasksPerN:B:S:C  = 1:0:*:*
+CoreSpec          = *
+MinCPUsNode       = 1
+MinMemoryNode     = 64G
+MinTmpDiskNode    = 0
+Command           = /deac/csc/khuriGrp/zhaok220/clustering/slurm/clustering_mul.slurm
+WorkDir           = /deac/csc/khuriGrp/zhaok220/clustering/slurm
+StdErr            = /deac/csc/khuriGrp/zhaok220/clustering/slurm/clustering-1780663.e
+StdOut            = /deac/csc/khuriGrp/zhaok220/clustering/slurm/clustering-1780663.o
+Power             = 
+MailUser          = zhaok220@wfu.edu
+MailType          = BEGIN,END,FAIL
+NtasksPerTRES:0   = NtasksPerTRES:0
+JobId             = 1780662
+ArrayJobId        = 1780649
+ArrayTaskId       = 27
+ArrayTaskThrottle = 15
+JobName           = clustering
+UserId            = zhaok220(20487)
+GroupId           = zhaok220(20487)
+MCS_label         = N/A
+Priority          = 92
+Nice              = 0
+Account           = khurigrp
+QOS               = normal
+Requeue           = 1
+Restarts          = 0
+BatchFlag         = 1
+Reboot            = 0
+ExitCode          = 0:0
+RunTime           = 00:00:00
+TimeLimit         = 7-00:00:00
+TimeMin           = N/A
+SubmitTime        = 2022-07-13T19:04:38
+EligibleTime      = 2022-07-13T19:04:38
+AccrueTime        = Unknown
+StartTime         = 2022-07-13T19:04:38
+EndTime           = 2022-07-20T19:04:38
+Deadline          = N/A
+Partition         = medium
+AllocNode:Sid     = gemini:177893
+NodeList          = comp-22-4
+BatchHost         = comp-22-4
+NumNodes          = 1
+NumCPUs           = 1
+NumTasks          = 1
+CPUs/Task         = 1
+ReqB:S:C:T        = 0:0:*:*
+TRES=cpu=1,mem=64G,node=1,billing= cpu=1,mem=64G,node=1,billing=1
+Socks/Node        = *
+NtasksPerN:B:S:C  = 1:0:*:*
+CoreSpec          = *
+MinCPUsNode       = 1
+MinMemoryNode     = 64G
+MinTmpDiskNode    = 0
+Command           = /deac/csc/khuriGrp/zhaok220/clustering/slurm/clustering_mul.slurm
+WorkDir           = /deac/csc/khuriGrp/zhaok220/clustering/slurm
+StdErr            = /deac/csc/khuriGrp/zhaok220/clustering/slurm/clustering-1780662.e
+StdOut            = /deac/csc/khuriGrp/zhaok220/clustering/slurm/clustering-1780662.o
+Power             = 
+MailUser          = zhaok220@wfu.edu
+MailType          = BEGIN,END,FAIL
+NtasksPerTRES:0   = NtasksPerTRES:0
+JobId             = 1780661
+ArrayJobId        = 1780649
+ArrayTaskId       = 26
+ArrayTaskThrottle = 15
+JobName           = clustering
+UserId            = zhaok220(20487)
+GroupId           = zhaok220(20487)
+MCS_label         = N/A
+Priority          = 92
+Nice              = 0
+Account           = khurigrp
+QOS               = normal
+Requeue           = 1
+Restarts          = 0
+BatchFlag         = 1
+Reboot            = 0
+ExitCode          = 0:0
+RunTime           = 00:00:00
+TimeLimit         = 7-00:00:00
+TimeMin           = N/A
+SubmitTime        = 2022-07-13T19:04:38
+EligibleTime      = 2022-07-13T19:04:38
+AccrueTime        = Unknown
+StartTime         = 2022-07-13T19:04:38
+EndTime           = 2022-07-20T19:04:38
+Deadline          = N/A
+Partition         = medium
+AllocNode:Sid     = gemini:177893
+NodeList          = comp-21-3
+BatchHost         = comp-21-3
+NumNodes          = 1
+NumCPUs           = 1
+NumTasks          = 1
+CPUs/Task         = 1
+ReqB:S:C:T        = 0:0:*:*
+TRES=cpu=1,mem=64G,node=1,billing= cpu=1,mem=64G,node=1,billing=1
+Socks/Node        = *
+NtasksPerN:B:S:C  = 1:0:*:*
+CoreSpec          = *
+MinCPUsNode       = 1
+MinMemoryNode     = 64G
+MinTmpDiskNode    = 0
+Command           = /deac/csc/khuriGrp/zhaok220/clustering/slurm/clustering_mul.slurm
+WorkDir           = /deac/csc/khuriGrp/zhaok220/clustering/slurm
+StdErr            = /deac/csc/khuriGrp/zhaok220/clustering/slurm/clustering-1780661.e
+StdOut            = /deac/csc/khuriGrp/zhaok220/clustering/slurm/clustering-1780661.o
+Power             = 
+MailUser          = zhaok220@wfu.edu
+MailType          = BEGIN,END,FAIL
+NtasksPerTRES:0   = NtasksPerTRES:0
+JobId             = 1780660
+ArrayJobId        = 1780649
+ArrayTaskId       = 25
+ArrayTaskThrottle = 15
+JobName           = clustering
+UserId            = zhaok220(20487)
+GroupId           = zhaok220(20487)
+MCS_label         = N/A
+Priority          = 92
+Nice              = 0
+Account           = khurigrp
+QOS               = normal
+Requeue           = 1
+Restarts          = 0
+BatchFlag         = 1
+Reboot            = 0
+ExitCode          = 0:0
+RunTime           = 00:00:00
+TimeLimit         = 7-00:00:00
+TimeMin           = N/A
+SubmitTime        = 2022-07-13T19:04:38
+EligibleTime      = 2022-07-13T19:04:38
+AccrueTime        = Unknown
+StartTime         = 2022-07-13T19:04:38
+EndTime           = 2022-07-20T19:04:38
+Deadline          = N/A
+Partition         = medium
+AllocNode:Sid     = gemini:177893
+NodeList          = comp-08-8
+BatchHost         = comp-08-8
+NumNodes          = 1
+NumCPUs           = 1
+NumTasks          = 1
+CPUs/Task         = 1
+ReqB:S:C:T        = 0:0:*:*
+TRES=cpu=1,mem=64G,node=1,billing= cpu=1,mem=64G,node=1,billing=1
+Socks/Node        = *
+NtasksPerN:B:S:C  = 1:0:*:*
+CoreSpec          = *
+MinCPUsNode       = 1
+MinMemoryNode     = 64G
+MinTmpDiskNode    = 0
+Command           = /deac/csc/khuriGrp/zhaok220/clustering/slurm/clustering_mul.slurm
+WorkDir           = /deac/csc/khuriGrp/zhaok220/clustering/slurm
+StdErr            = /deac/csc/khuriGrp/zhaok220/clustering/slurm/clustering-1780660.e
+StdOut            = /deac/csc/khuriGrp/zhaok220/clustering/slurm/clustering-1780660.o
+Power             = 
+MailUser          = zhaok220@wfu.edu
+MailType          = BEGIN,END,FAIL
+NtasksPerTRES:0   = NtasksPerTRES:0
+JobId             = 1780659
+ArrayJobId        = 1780649
+ArrayTaskId       = 24
+ArrayTaskThrottle = 15
+JobName           = clustering
+UserId            = zhaok220(20487)
+GroupId           = zhaok220(20487)
+MCS_label         = N/A
+Priority          = 92
+Nice              = 0
+Account           = khurigrp
+QOS               = normal
+Requeue           = 1
+Restarts          = 0
+BatchFlag         = 1
+Reboot            = 0
+ExitCode          = 0:0
+RunTime           = 00:00:00
+TimeLimit         = 7-00:00:00
+TimeMin           = N/A
+SubmitTime        = 2022-07-13T19:04:38
+EligibleTime      = 2022-07-13T19:04:38
+AccrueTime        = Unknown
+StartTime         = 2022-07-13T19:04:38
+EndTime           = 2022-07-20T19:04:38
+Deadline          = N/A
+Partition         = medium
+AllocNode:Sid     = gemini:177893
+NodeList          = comp-08-8
+BatchHost         = comp-08-8
+NumNodes          = 1
+NumCPUs           = 1
+NumTasks          = 1
+CPUs/Task         = 1
+ReqB:S:C:T        = 0:0:*:*
+TRES=cpu=1,mem=64G,node=1,billing= cpu=1,mem=64G,node=1,billing=1
+Socks/Node        = *
+NtasksPerN:B:S:C  = 1:0:*:*
+CoreSpec          = *
+MinCPUsNode       = 1
+MinMemoryNode     = 64G
+MinTmpDiskNode    = 0
+Command           = /deac/csc/khuriGrp/zhaok220/clustering/slurm/clustering_mul.slurm
+WorkDir           = /deac/csc/khuriGrp/zhaok220/clustering/slurm
+StdErr            = /deac/csc/khuriGrp/zhaok220/clustering/slurm/clustering-1780659.e
+StdOut            = /deac/csc/khuriGrp/zhaok220/clustering/slurm/clustering-1780659.o
+Power             = 
+MailUser          = zhaok220@wfu.edu
+MailType          = BEGIN,END,FAIL
+NtasksPerTRES:0   = NtasksPerTRES:0
+JobId             = 1780658
+ArrayJobId        = 1780649
+ArrayTaskId       = 23
+ArrayTaskThrottle = 15
+JobName           = clustering
+UserId            = zhaok220(20487)
+GroupId           = zhaok220(20487)
+MCS_label         = N/A
+Priority          = 92
+Nice              = 0
+Account           = khurigrp
+QOS               = normal
+Requeue           = 1
+Restarts          = 0
+BatchFlag         = 1
+Reboot            = 0
+ExitCode          = 0:0
+RunTime           = 00:00:00
+TimeLimit         = 7-00:00:00
+TimeMin           = N/A
+SubmitTime        = 2022-07-13T19:04:38
+EligibleTime      = 2022-07-13T19:04:38
+AccrueTime        = Unknown
+StartTime         = 2022-07-13T19:04:38
+EndTime           = 2022-07-20T19:04:38
+Deadline          = N/A
+Partition         = medium
+AllocNode:Sid     = gemini:177893
+NodeList          = comp-08-7
+BatchHost         = comp-08-7
+NumNodes          = 1
+NumCPUs           = 1
+NumTasks          = 1
+CPUs/Task         = 1
+ReqB:S:C:T        = 0:0:*:*
+TRES=cpu=1,mem=64G,node=1,billing= cpu=1,mem=64G,node=1,billing=1
+Socks/Node        = *
+NtasksPerN:B:S:C  = 1:0:*:*
+CoreSpec          = *
+MinCPUsNode       = 1
+MinMemoryNode     = 64G
+MinTmpDiskNode    = 0
+Command           = /deac/csc/khuriGrp/zhaok220/clustering/slurm/clustering_mul.slurm
+WorkDir           = /deac/csc/khuriGrp/zhaok220/clustering/slurm
+StdErr            = /deac/csc/khuriGrp/zhaok220/clustering/slurm/clustering-1780658.e
+StdOut            = /deac/csc/khuriGrp/zhaok220/clustering/slurm/clustering-1780658.o
+Power             = 
+MailUser          = zhaok220@wfu.edu
+MailType          = BEGIN,END,FAIL
+NtasksPerTRES:0   = NtasksPerTRES:0
+JobId             = 1780657
+ArrayJobId        = 1780649
+ArrayTaskId       = 22
+ArrayTaskThrottle = 15
+JobName           = clustering
+UserId            = zhaok220(20487)
+GroupId           = zhaok220(20487)
+MCS_label         = N/A
+Priority          = 92
+Nice              = 0
+Account           = khurigrp
+QOS               = normal
+Requeue           = 1
+Restarts          = 0
+BatchFlag         = 1
+Reboot            = 0
+ExitCode          = 0:0
+RunTime           = 00:00:00
+TimeLimit         = 7-00:00:00
+TimeMin           = N/A
+SubmitTime        = 2022-07-13T19:04:38
+EligibleTime      = 2022-07-13T19:04:38
+AccrueTime        = Unknown
+StartTime         = 2022-07-13T19:04:38
+EndTime           = 2022-07-20T19:04:38
+Deadline          = N/A
+Partition         = medium
+AllocNode:Sid     = gemini:177893
+NodeList          = comp-08-7
+BatchHost         = comp-08-7
+NumNodes          = 1
+NumCPUs           = 1
+NumTasks          = 1
+CPUs/Task         = 1
+ReqB:S:C:T        = 0:0:*:*
+TRES=cpu=1,mem=64G,node=1,billing= cpu=1,mem=64G,node=1,billing=1
+Socks/Node        = *
+NtasksPerN:B:S:C  = 1:0:*:*
+CoreSpec          = *
+MinCPUsNode       = 1
+MinMemoryNode     = 64G
+MinTmpDiskNode    = 0
+Command           = /deac/csc/khuriGrp/zhaok220/clustering/slurm/clustering_mul.slurm
+WorkDir           = /deac/csc/khuriGrp/zhaok220/clustering/slurm
+StdErr            = /deac/csc/khuriGrp/zhaok220/clustering/slurm/clustering-1780657.e
+StdOut            = /deac/csc/khuriGrp/zhaok220/clustering/slurm/clustering-1780657.o
+Power             = 
+MailUser          = zhaok220@wfu.edu
+MailType          = BEGIN,END,FAIL
+NtasksPerTRES:0   = NtasksPerTRES:0
+JobId             = 1780656
+ArrayJobId        = 1780649
+ArrayTaskId       = 21
+ArrayTaskThrottle = 15
+JobName           = clustering
+UserId            = zhaok220(20487)
+GroupId           = zhaok220(20487)
+MCS_label         = N/A
+Priority          = 92
+Nice              = 0
+Account           = khurigrp
+QOS               = normal
+Requeue           = 1
+Restarts          = 0
+BatchFlag         = 1
+Reboot            = 0
+ExitCode          = 0:0
+RunTime           = 00:00:00
+TimeLimit         = 7-00:00:00
+TimeMin           = N/A
+SubmitTime        = 2022-07-13T19:04:38
+EligibleTime      = 2022-07-13T19:04:38
+AccrueTime        = Unknown
+StartTime         = 2022-07-13T19:04:38
+EndTime           = 2022-07-20T19:04:38
+Deadline          = N/A
+Partition         = medium
+AllocNode:Sid     = gemini:177893
+NodeList          = comp-06-8
+BatchHost         = comp-06-8
+NumNodes          = 1
+NumCPUs           = 1
+NumTasks          = 1
+CPUs/Task         = 1
+ReqB:S:C:T        = 0:0:*:*
+TRES=cpu=1,mem=64G,node=1,billing= cpu=1,mem=64G,node=1,billing=1
+Socks/Node        = *
+NtasksPerN:B:S:C  = 1:0:*:*
+CoreSpec          = *
+MinCPUsNode       = 1
+MinMemoryNode     = 64G
+MinTmpDiskNode    = 0
+Command           = /deac/csc/khuriGrp/zhaok220/clustering/slurm/clustering_mul.slurm
+WorkDir           = /deac/csc/khuriGrp/zhaok220/clustering/slurm
+StdErr            = /deac/csc/khuriGrp/zhaok220/clustering/slurm/clustering-1780656.e
+StdOut            = /deac/csc/khuriGrp/zhaok220/clustering/slurm/clustering-1780656.o
+Power             = 
+MailUser          = zhaok220@wfu.edu
+MailType          = BEGIN,END,FAIL
+NtasksPerTRES:0   = NtasksPerTRES:0
+JobId             = 1780655
+ArrayJobId        = 1780649
+ArrayTaskId       = 20
+ArrayTaskThrottle = 15
+JobName           = clustering
+UserId            = zhaok220(20487)
+GroupId           = zhaok220(20487)
+MCS_label         = N/A
+Priority          = 92
+Nice              = 0
+Account           = khurigrp
+QOS               = normal
+Requeue           = 1
+Restarts          = 0
+BatchFlag         = 1
+Reboot            = 0
+ExitCode          = 0:0
+RunTime           = 00:00:00
+TimeLimit         = 7-00:00:00
+TimeMin           = N/A
+SubmitTime        = 2022-07-13T19:04:38
+EligibleTime      = 2022-07-13T19:04:38
+AccrueTime        = Unknown
+StartTime         = 2022-07-13T19:04:38
+EndTime           = 2022-07-20T19:04:38
+Deadline          = N/A
+Partition         = medium
+AllocNode:Sid     = gemini:177893
+NodeList          = comp-06-8
+BatchHost         = comp-06-8
+NumNodes          = 1
+NumCPUs           = 1
+NumTasks          = 1
+CPUs/Task         = 1
+ReqB:S:C:T        = 0:0:*:*
+TRES=cpu=1,mem=64G,node=1,billing= cpu=1,mem=64G,node=1,billing=1
+Socks/Node        = *
+NtasksPerN:B:S:C  = 1:0:*:*
+CoreSpec          = *
+MinCPUsNode       = 1
+MinMemoryNode     = 64G
+MinTmpDiskNode    = 0
+Command           = /deac/csc/khuriGrp/zhaok220/clustering/slurm/clustering_mul.slurm
+WorkDir           = /deac/csc/khuriGrp/zhaok220/clustering/slurm
+StdErr            = /deac/csc/khuriGrp/zhaok220/clustering/slurm/clustering-1780655.e
+StdOut            = /deac/csc/khuriGrp/zhaok220/clustering/slurm/clustering-1780655.o
+Power             = 
+MailUser          = zhaok220@wfu.edu
+MailType          = BEGIN,END,FAIL
+NtasksPerTRES:0   = NtasksPerTRES:0
+JobId             = 1780654
+ArrayJobId        = 1780649
+ArrayTaskId       = 19
+ArrayTaskThrottle = 15
+JobName           = clustering
+UserId            = zhaok220(20487)
+GroupId           = zhaok220(20487)
+MCS_label         = N/A
+Priority          = 92
+Nice              = 0
+Account           = khurigrp
+QOS               = normal
+Requeue           = 1
+Restarts          = 0
+BatchFlag         = 1
+Reboot            = 0
+ExitCode          = 0:0
+RunTime           = 00:00:00
+TimeLimit         = 7-00:00:00
+TimeMin           = N/A
+SubmitTime        = 2022-07-13T19:04:38
+EligibleTime      = 2022-07-13T19:04:38
+AccrueTime        = Unknown
+StartTime         = 2022-07-13T19:04:38
+EndTime           = 2022-07-20T19:04:38
+Deadline          = N/A
+Partition         = medium
+AllocNode:Sid     = gemini:177893
+NodeList          = comp-01-6
+BatchHost         = comp-01-6
+NumNodes          = 1
+NumCPUs           = 1
+NumTasks          = 1
+CPUs/Task         = 1
+ReqB:S:C:T        = 0:0:*:*
+TRES=cpu=1,mem=64G,node=1,billing= cpu=1,mem=64G,node=1,billing=1
+Socks/Node        = *
+NtasksPerN:B:S:C  = 1:0:*:*
+CoreSpec          = *
+MinCPUsNode       = 1
+MinMemoryNode     = 64G
+MinTmpDiskNode    = 0
+Command           = /deac/csc/khuriGrp/zhaok220/clustering/slurm/clustering_mul.slurm
+WorkDir           = /deac/csc/khuriGrp/zhaok220/clustering/slurm
+StdErr            = /deac/csc/khuriGrp/zhaok220/clustering/slurm/clustering-1780654.e
+StdOut            = /deac/csc/khuriGrp/zhaok220/clustering/slurm/clustering-1780654.o
+Power             = 
+MailUser          = zhaok220@wfu.edu
+MailType          = BEGIN,END,FAIL
+NtasksPerTRES:0   = NtasksPerTRES:0
+JobId             = 1780653
+ArrayJobId        = 1780649
+ArrayTaskId       = 18
+ArrayTaskThrottle = 15
+JobName           = clustering
+UserId            = zhaok220(20487)
+GroupId           = zhaok220(20487)
+MCS_label         = N/A
+Priority          = 92
+Nice              = 0
+Account           = khurigrp
+QOS               = normal
+Requeue           = 1
+Restarts          = 0
+BatchFlag         = 1
+Reboot            = 0
+ExitCode          = 0:0
+RunTime           = 00:00:00
+TimeLimit         = 7-00:00:00
+TimeMin           = N/A
+SubmitTime        = 2022-07-13T19:04:38
+EligibleTime      = 2022-07-13T19:04:38
+AccrueTime        = Unknown
+StartTime         = 2022-07-13T19:04:38
+EndTime           = 2022-07-20T19:04:38
+Deadline          = N/A
+Partition         = medium
+AllocNode:Sid     = gemini:177893
+NodeList          = comp-09-4
+BatchHost         = comp-09-4
+NumNodes          = 1
+NumCPUs           = 1
+NumTasks          = 1
+CPUs/Task         = 1
+ReqB:S:C:T        = 0:0:*:*
+TRES=cpu=1,mem=64G,node=1,billing= cpu=1,mem=64G,node=1,billing=1
+Socks/Node        = *
+NtasksPerN:B:S:C  = 1:0:*:*
+CoreSpec          = *
+MinCPUsNode       = 1
+MinMemoryNode     = 64G
+MinTmpDiskNode    = 0
+Command           = /deac/csc/khuriGrp/zhaok220/clustering/slurm/clustering_mul.slurm
+WorkDir           = /deac/csc/khuriGrp/zhaok220/clustering/slurm
+StdErr            = /deac/csc/khuriGrp/zhaok220/clustering/slurm/clustering-1780653.e
+StdOut            = /deac/csc/khuriGrp/zhaok220/clustering/slurm/clustering-1780653.o
+Power             = 
+MailUser          = zhaok220@wfu.edu
+MailType          = BEGIN,END,FAIL
+NtasksPerTRES:0   = NtasksPerTRES:0
+JobId             = 1780652
+ArrayJobId        = 1780649
+ArrayTaskId       = 17
+ArrayTaskThrottle = 15
+JobName           = clustering
+UserId            = zhaok220(20487)
+GroupId           = zhaok220(20487)
+MCS_label         = N/A
+Priority          = 92
+Nice              = 0
+Account           = khurigrp
+QOS               = normal
+Requeue           = 1
+Restarts          = 0
+BatchFlag         = 1
+Reboot            = 0
+ExitCode          = 0:0
+RunTime           = 00:00:00
+TimeLimit         = 7-00:00:00
+TimeMin           = N/A
+SubmitTime        = 2022-07-13T19:04:38
+EligibleTime      = 2022-07-13T19:04:38
+AccrueTime        = Unknown
+StartTime         = 2022-07-13T19:04:38
+EndTime           = 2022-07-20T19:04:38
+Deadline          = N/A
+Partition         = medium
+AllocNode:Sid     = gemini:177893
+NodeList          = comp-09-4
+BatchHost         = comp-09-4
+NumNodes          = 1
+NumCPUs           = 1
+NumTasks          = 1
+CPUs/Task         = 1
+ReqB:S:C:T        = 0:0:*:*
+TRES=cpu=1,mem=64G,node=1,billing= cpu=1,mem=64G,node=1,billing=1
+Socks/Node        = *
+NtasksPerN:B:S:C  = 1:0:*:*
+CoreSpec          = *
+MinCPUsNode       = 1
+MinMemoryNode     = 64G
+MinTmpDiskNode    = 0
+Command           = /deac/csc/khuriGrp/zhaok220/clustering/slurm/clustering_mul.slurm
+WorkDir           = /deac/csc/khuriGrp/zhaok220/clustering/slurm
+StdErr            = /deac/csc/khuriGrp/zhaok220/clustering/slurm/clustering-1780652.e
+StdOut            = /deac/csc/khuriGrp/zhaok220/clustering/slurm/clustering-1780652.o
+Power             = 
+MailUser          = zhaok220@wfu.edu
+MailType          = BEGIN,END,FAIL
+NtasksPerTRES:0   = NtasksPerTRES:0
+JobId             = 1780651
+ArrayJobId        = 1780649
+ArrayTaskId       = 16
+ArrayTaskThrottle = 15
+JobName           = clustering
+UserId            = zhaok220(20487)
+GroupId           = zhaok220(20487)
+MCS_label         = N/A
+Priority          = 92
+Nice              = 0
+Account           = khurigrp
+QOS               = normal
+Requeue           = 1
+Restarts          = 0
+BatchFlag         = 1
+Reboot            = 0
+ExitCode          = 0:0
+RunTime           = 00:00:00
+TimeLimit         = 7-00:00:00
+TimeMin           = N/A
+SubmitTime        = 2022-07-13T19:04:38
+EligibleTime      = 2022-07-13T19:04:38
+AccrueTime        = Unknown
+StartTime         = 2022-07-13T19:04:38
+EndTime           = 2022-07-20T19:04:38
+Deadline          = N/A
+Partition         = medium
+AllocNode:Sid     = gemini:177893
+NodeList          = comp-07-4
+BatchHost         = comp-07-4
+NumNodes          = 1
+NumCPUs           = 1
+NumTasks          = 1
+CPUs/Task         = 1
+ReqB:S:C:T        = 0:0:*:*
+TRES=cpu=1,mem=64G,node=1,billing= cpu=1,mem=64G,node=1,billing=1
+Socks/Node        = *
+NtasksPerN:B:S:C  = 1:0:*:*
+CoreSpec          = *
+MinCPUsNode       = 1
+MinMemoryNode     = 64G
+MinTmpDiskNode    = 0
+Command           = /deac/csc/khuriGrp/zhaok220/clustering/slurm/clustering_mul.slurm
+WorkDir           = /deac/csc/khuriGrp/zhaok220/clustering/slurm
+StdErr            = /deac/csc/khuriGrp/zhaok220/clustering/slurm/clustering-1780651.e
+StdOut            = /deac/csc/khuriGrp/zhaok220/clustering/slurm/clustering-1780651.o
+Power             = 
+MailUser          = zhaok220@wfu.edu
+MailType          = BEGIN,END,FAIL
+NtasksPerTRES:0   = NtasksPerTRES:0
+JobId             = 1780650
+ArrayJobId        = 1780649
+ArrayTaskId       = 15
+ArrayTaskThrottle = 15
+JobName           = clustering
+UserId            = zhaok220(20487)
+GroupId           = zhaok220(20487)
+MCS_label         = N/A
+Priority          = 92
+Nice              = 0
+Account           = khurigrp
+QOS               = normal
+Requeue           = 1
+Restarts          = 0
+BatchFlag         = 1
+Reboot            = 0
+ExitCode          = 0:0
+RunTime           = 00:00:00
+TimeLimit         = 7-00:00:00
+TimeMin           = N/A
+SubmitTime        = 2022-07-13T19:04:38
+EligibleTime      = 2022-07-13T19:04:38
+AccrueTime        = Unknown
+StartTime         = 2022-07-13T19:04:38
+EndTime           = 2022-07-20T19:04:38
+Deadline          = N/A
+Partition         = medium
+AllocNode:Sid     = gemini:177893
+NodeList          = comp-05-4
+BatchHost         = comp-05-4
+NumNodes          = 1
+NumCPUs           = 1
+NumTasks          = 1
+CPUs/Task         = 1
+ReqB:S:C:T        = 0:0:*:*
+TRES=cpu=1,mem=64G,node=1,billing= cpu=1,mem=64G,node=1,billing=1
+Socks/Node        = *
+NtasksPerN:B:S:C  = 1:0:*:*
+CoreSpec          = *
+MinCPUsNode       = 1
+MinMemoryNode     = 64G
+MinTmpDiskNode    = 0
+Command           = /deac/csc/khuriGrp/zhaok220/clustering/slurm/clustering_mul.slurm
+WorkDir           = /deac/csc/khuriGrp/zhaok220/clustering/slurm
+StdErr            = /deac/csc/khuriGrp/zhaok220/clustering/slurm/clustering-1780650.e
+StdOut            = /deac/csc/khuriGrp/zhaok220/clustering/slurm/clustering-1780650.o
+Power             = 
+MailUser          = zhaok220@wfu.edu
+MailType          = BEGIN,END,FAIL
+NtasksPerTRES:0   = NtasksPerTRES:0
+###########################END-PROLOG#########################
+Finding 30 nearest neighbors using minkowski metric and 'auto' algorithm
+Neighbors computed in 0.01395273208618164 seconds
+Jaccard graph constructed in 1.4472851753234863 seconds
+Wrote graph to binary file in 0.030283451080322266 seconds
+Running Louvain modularity optimization
+After 1 runs, maximum modularity is Q = 0.873333
+After 3 runs, maximum modularity is Q = 0.875587
+Louvain completed 23 runs in 0.6800129413604736 seconds
+Sorting communities by size, please wait ...
+PhenoGraph completed in 2.698853015899658 seconds
+Finding 30 nearest neighbors using minkowski metric and 'auto' algorithm
+Neighbors computed in 0.01566481590270996 seconds
+Jaccard graph constructed in 1.6133840084075928 seconds
+Wrote graph to binary file in 0.036443233489990234 seconds
+Running Louvain modularity optimization
+After 1 runs, maximum modularity is Q = 0.874573
+Louvain completed 21 runs in 0.7169642448425293 seconds
+Sorting communities by size, please wait ...
+PhenoGraph completed in 2.899367094039917 seconds
+Finding 30 nearest neighbors using minkowski metric and 'auto' algorithm
+Neighbors computed in 0.013447999954223633 seconds
+Jaccard graph constructed in 1.361372470855713 seconds
+Wrote graph to binary file in 0.031294822692871094 seconds
+Running Louvain modularity optimization
+After 1 runs, maximum modularity is Q = 0.870694
+After 2 runs, maximum modularity is Q = 0.872604
+Louvain completed 22 runs in 0.7599532604217529 seconds
+Sorting communities by size, please wait ...
+PhenoGraph completed in 2.6931278705596924 seconds
+Finding 30 nearest neighbors using minkowski metric and 'auto' algorithm
+Neighbors computed in 0.014167070388793945 seconds
+Jaccard graph constructed in 1.501021146774292 seconds
+Wrote graph to binary file in 0.033472299575805664 seconds
+Running Louvain modularity optimization
+After 1 runs, maximum modularity is Q = 0.878563
+After 2 runs, maximum modularity is Q = 0.88016
+Louvain completed 22 runs in 0.7991983890533447 seconds
+Sorting communities by size, please wait ...
+PhenoGraph completed in 2.89475154876709 seconds
+Finding 30 nearest neighbors using minkowski metric and 'auto' algorithm
+Neighbors computed in 0.0072400569915771484 seconds
+Jaccard graph constructed in 0.9108259677886963 seconds
+Wrote graph to binary file in 0.014506340026855469 seconds
+Running Louvain modularity optimization
+After 1 runs, maximum modularity is Q = 0.827468
+After 21 runs, maximum modularity is Q = 0.828475
+Louvain completed 41 runs in 0.6771636009216309 seconds
+Sorting communities by size, please wait ...
+PhenoGraph completed in 2.1019251346588135 seconds
+Finding 30 nearest neighbors using minkowski metric and 'auto' algorithm
+Neighbors computed in 0.007929563522338867 seconds
+Jaccard graph constructed in 0.9505186080932617 seconds
+Wrote graph to binary file in 0.016954898834228516 seconds
+Running Louvain modularity optimization
+After 1 runs, maximum modularity is Q = 0.833947
+After 3 runs, maximum modularity is Q = 0.838039
+Louvain completed 23 runs in 0.4227480888366699 seconds
+Sorting communities by size, please wait ...
+PhenoGraph completed in 1.8757598400115967 seconds
+Finding 30 nearest neighbors using minkowski metric and 'auto' algorithm
+Neighbors computed in 0.007030487060546875 seconds
+Jaccard graph constructed in 0.8458802700042725 seconds
+Wrote graph to binary file in 0.014312267303466797 seconds
+Running Louvain modularity optimization
+After 1 runs, maximum modularity is Q = 0.82743
+After 7 runs, maximum modularity is Q = 0.828727
+Louvain completed 27 runs in 0.45756030082702637 seconds
+Sorting communities by size, please wait ...
+PhenoGraph completed in 1.776228904724121 seconds
+Finding 30 nearest neighbors using minkowski metric and 'auto' algorithm
+Neighbors computed in 0.0071718692779541016 seconds
+Jaccard graph constructed in 0.8249573707580566 seconds
+Wrote graph to binary file in 0.014961481094360352 seconds
+Running Louvain modularity optimization
+After 1 runs, maximum modularity is Q = 0.819982
+After 2 runs, maximum modularity is Q = 0.822245
+After 3 runs, maximum modularity is Q = 0.82326
+After 18 runs, maximum modularity is Q = 0.824564
+Louvain completed 38 runs in 0.6754465103149414 seconds
+Sorting communities by size, please wait ...
+PhenoGraph completed in 2.045499563217163 seconds
+Finding 30 nearest neighbors using minkowski metric and 'auto' algorithm
+Neighbors computed in 0.02518916130065918 seconds
+Jaccard graph constructed in 2.247042655944824 seconds
+Wrote graph to binary file in 0.06301426887512207 seconds
+Running Louvain modularity optimization
+After 1 runs, maximum modularity is Q = 0.900618
+After 2 runs, maximum modularity is Q = 0.902453
+After 18 runs, maximum modularity is Q = 0.90376
+Louvain completed 38 runs in 1.5992321968078613 seconds
+Sorting communities by size, please wait ...
+PhenoGraph completed in 4.529174566268921 seconds
+Finding 30 nearest neighbors using minkowski metric and 'auto' algorithm
+Neighbors computed in 0.030745983123779297 seconds
+Jaccard graph constructed in 2.601976156234741 seconds
+Wrote graph to binary file in 0.07119274139404297 seconds
+Running Louvain modularity optimization
+After 1 runs, maximum modularity is Q = 0.904612
+Louvain completed 21 runs in 0.9684667587280273 seconds
+Sorting communities by size, please wait ...
+PhenoGraph completed in 4.2711687088012695 seconds
+Finding 30 nearest neighbors using minkowski metric and 'auto' algorithm
+Neighbors computed in 0.027102947235107422 seconds
+Jaccard graph constructed in 2.5384721755981445 seconds
+Wrote graph to binary file in 0.0619661808013916 seconds
+Running Louvain modularity optimization
+After 1 runs, maximum modularity is Q = 0.902484
+After 13 runs, maximum modularity is Q = 0.904092
+Louvain completed 33 runs in 1.3914480209350586 seconds
+Sorting communities by size, please wait ...
+PhenoGraph completed in 4.5671234130859375 seconds
+Finding 30 nearest neighbors using minkowski metric and 'auto' algorithm
+Neighbors computed in 0.02670764923095703 seconds
+Jaccard graph constructed in 2.3283393383026123 seconds
+Wrote graph to binary file in 0.06059670448303223 seconds
+Running Louvain modularity optimization
+After 1 runs, maximum modularity is Q = 0.900777
+After 7 runs, maximum modularity is Q = 0.901783
+Louvain completed 27 runs in 1.0633411407470703 seconds
+Sorting communities by size, please wait ...
+PhenoGraph completed in 3.9668240547180176 seconds
+Finding 30 nearest neighbors using minkowski metric and 'auto' algorithm
+Neighbors computed in 0.013507604598999023 seconds

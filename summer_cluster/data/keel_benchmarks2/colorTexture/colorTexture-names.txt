@@ -1,0 +1,35 @@
+Corel Image Features (colorTexture) dataset
+
+1: Description.
+
+This dataset is a part of the Corel Image Features data set of the UCI Repository. It contains image features extracted from a Corel image collection (http://corel.digitalriver.com/). The ID attribute is common in each of the 4 parts of the data set (colorHistogram, colorMoments, colorTexture and layoutHistogram).
+
+In this part, the features extracted from a Corel image collection. The values represent the features of different textures measured in 4 directions of each image (horizontal, vertical, and two diagonal directions). These values are second Angular Moment, contrast, inverse difference moment, and entropy.
+
+2: Type.			Unsupervised
+3: Origin.			Real world
+4: Instances.		68040
+5: Features.		17
+6: Missing values.	No
+
+7: Header.
+
+@relation colorTexture
+@attribute ID integer [1, 68040]
+@attribute HAngularM real [-0.805842, 7.948493]
+@attribute VAngularM real [-0.750773, 8.010355]
+@attribute D1AngularM real [-0.717381, 8.193773]
+@attribute D2AngularM real [-0.717309, 8.184803]
+@attribute HContrast real [-1.480758, 34.097637]
+@attribute VContrast real [-1.801785, 50.214500]
+@attribute D1Contrast real [-1.801704, 34.141457]
+@attribute D2Contrast real [-1.803148, 35.531319]
+@attribute HInverseDF real [-5.247377, 2.269101]
+@attribute VInverseDF real [-5.717304, 2.793055]
+@attribute D1InverseDF real [-4.841286, 2.889359]
+@attribute D2InverseDF real [-4.865772, 2.888492]
+@attribute HEntropy real [-3.046059, 5.012584]
+@attribute VEntropy real [-2.946937, 5.257063]
+@attribute D1Entropy real [-2.746215, 5.254711]
+@attribute D2Entropy real [-2.737808, 5.251062]
+@inputs ID, HAngularM, VAngularM, D1AngularM, D2AngularM, HContrast, VContrast, D1Contrast, D2Contrast, HInverseDF, VInverseDF, D1InverseDF, D2InverseDF, HEntropy, VEntropy, D1Entropy, D2Entropy

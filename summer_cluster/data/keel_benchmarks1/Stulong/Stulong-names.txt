@@ -1,0 +1,21 @@
+Stulong dataset
+
+1: Description.
+
+The study (STULONG) was performed at the 2nd Department of Medicine, 1st Faculty of Medicine of Charles University and Charles University Hospital. The data were transferred to electronic form by the European Centre of Medical Informatics, Statisticsand Epidemiology of Charles University and Academy of Sciences. The data resource is on the web page http://euromise.vse.cz/challenge2004. At present, the data analysis is supported by the grant of the Ministry of Education CR Nr LN 00B 107.
+
+2: Type.			Unsupervised
+3: Origin.			Real world
+4: Instances.		1419
+5: Features.		5
+6: Missing values.	No
+
+7: Header.
+
+@relation Stulong
+@attribute a1 integer [-1, 199]
+@attribute a2 integer [-1, 133]
+@attribute a3 integer [90, 225]
+@attribute a4 integer [50, 145]
+@attribute a5 integer [-1, 530]
+@inputs a1, a2, a3, a4, a5

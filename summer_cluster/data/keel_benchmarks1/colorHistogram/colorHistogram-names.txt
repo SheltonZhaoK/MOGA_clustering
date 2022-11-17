@@ -1,0 +1,51 @@
+Corel Image Features (colorHistogram) dataset
+
+1: Description.
+
+This dataset is a part of the Corel Image Features data set of the UCI Repository. It contains image features extracted from a Corel image collection (http://corel.digitalriver.com/). The ID attribute is common in each of the 4 parts of the data set (colorHistogram, colorMoments, colorTexture and layoutHistogram).
+
+In this part, the features represent the color histogram of each one where HSV color space is divided into 32 subspaces (32 colors : 8 ranges of H and 4 ranges of S). The value in each dimension is the density of each color in the entire image.
+
+2: Type.			Unsupervised
+3: Origin.			Real world
+4: Instances.		68040
+5: Features.		33
+6: Missing values.	No
+
+7: Header.
+
+@relation colorHistogram
+@attribute ID integer [1, 68040]
+@attribute H1S1 real [0.000000, 0.961688]
+@attribute H1S2 real [0.000000, 0.984752]
+@attribute H1S3 real [0.000000, 0.924375]
+@attribute H1S4 real [0.000000, 0.995938]
+@attribute H1S5 real [0.000000, 1.000104]
+@attribute H1S6 real [0.000000, 0.919587]
+@attribute H1S7 real [0.000000, 0.895882]
+@attribute H1S8 real [0.000000, 0.938856]
+@attribute H2S1 real [0.000000, 0.905319]
+@attribute H2S2 real [0.000000, 0.870524]
+@attribute H2S3 real [0.000000, 0.772502]
+@attribute H2S4 real [0.000000, 0.956147]
+@attribute H2S5 real [0.000000, 0.941949]
+@attribute H2S6 real [0.000000, 0.929690]
+@attribute H2S7 real [0.000000, 0.698658]
+@attribute H2S8 real [0.000000, 0.929780]
+@attribute H3S1 real [0.000000, 0.979688]
+@attribute H3S2 real [0.000000, 0.956050]
+@attribute H3S3 real [0.000000, 0.965208]
+@attribute H3S4 real [0.000000, 0.998438]
+@attribute H3S5 real [0.000000, 0.957836]
+@attribute H3S6 real [0.000000, 0.782815]
+@attribute H3S7 real [0.000000, 0.907708]
+@attribute H3S8 real [0.000000, 0.864583]
+@attribute H4S1 real [0.000000, 0.829167]
+@attribute H4S2 real [0.000000, 0.923958]
+@attribute H4S3 real [0.000000, 0.715625]
+@attribute H4S4 real [0.000000, 0.819063]
+@attribute H4S5 real [0.000000, 0.793854]
+@attribute H4S6 real [0.000000, 0.905005]
+@attribute H4S7 real [0.000000, 0.901771]
+@attribute H4S8 real [0.000000, 0.980729]
+@inputs H1S1, H1S2, H1S3, H1S4, H1S5, H1S6, H1S7, H1S8, H2S1, H2S2, H2S3, H2S4, H2S5, H2S6, H2S7, H2S8, H3S1, H3S2, H3S3, H3S4, H3S5, H3S6, H3S7, H3S8, H4S1, H4S2, H4S3, H4S4, H4S5, H4S6, H4S7, H4S8

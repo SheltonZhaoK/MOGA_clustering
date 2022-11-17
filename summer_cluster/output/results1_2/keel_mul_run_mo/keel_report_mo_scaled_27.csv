@@ -1,0 +1,8 @@
+,Benchmark,Instance #,Attribute #,Cluster #,ga-sw,k-sw,phg-sw
+0,colorHistogram,68040,2,10,0.25,0.35,0.04
+1,colorMoments,68040,2,8,0.25,0.36,0.22
+2,colorTexture,68040,2,9,0.25,0.37,0.27
+3,house16H,22784,2,7,0.23,0.42,0.20
+4,layoutHistogram,66614,2,8,0.26,0.39,0.15
+5,StockPrice,950,2,4,0.50,0.54,0.60
+6,Pollution,60,2,3,0.45,0.44,0.40

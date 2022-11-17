@@ -1,0 +1,28 @@
+Corel Image Features (colorMoments) dataset
+
+1: Description.
+
+This dataset is a part of the Corel Image Features data set of the UCI Repository. It contains image features extracted from a Corel image collection (http://corel.digitalriver.com/). The ID attribute is common in each of the 4 parts of the data set (colorHistogram, colorMoments, colorTexture and layoutHistogram).
+
+In this part, the features represent the color moments of each one where the 9 values are the mean, standard deviation and skewness (one for each of H,S, and V in HSV color space)
+
+2: Type.			Unsupervised
+3: Origin.			Real world
+4: Instances.		68040
+5: Features.		9
+6: Missing values.	No
+
+7: Header.
+
+@relation colorMoments
+@attribute ID integer [1, 68040]
+@attribute HMean real [-2.478893, 4.097229]
+@attribute HStdv real [-2.373761, 3.363457]
+@attribute HSkew real [-2.864061, 2.936206]
+@attribute SMean real [-2.364097, 3.338979]
+@attribute SStdv real [-3.513883, 3.841843]
+@attribute SSkew real [-4.352194, 3.743065]
+@attribute VMean real [-2.975479, 3.949038]
+@attribute VStdv real [-3.737472, 4.106815]
+@attribute VSkew real [-4.591743, 4.151256]
+@inputs ID, HMean, HStdv, HSkew, SMean, SStdv, SSkew, VMean, VStdv, VSkew
