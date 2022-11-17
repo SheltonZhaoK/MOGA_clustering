@@ -72,9 +72,8 @@ def main(dirName):
             report.loc[len(report)] = [className, silhouette(data_raw,kmeans_raw.memberships),\
             silhouette(data_pca, kmeans_pca.memberships), silhouette(data_umap, kmeans_umap.memberships),\
             silhouette(data_pca_umap, kmeans_pca_umap.memberships)]
-   report.to_csv('/deac/csc/khuriGrp/zhaok220/clustering/output/dataTypes_report_2.csv')  
+   report.to_csv('../output/dataTypes_report_2.csv')  
 
 if __name__ == '__main__':
-   dirName = '/deac/csc/khuriGrp/zhaok220/clustering/data/keel_benchmarks1/'
-   #dirName = /deac/csc/khuriGrp/zhaok220/clustering/data/keel_benchmarks1/BalanceScale/
+   dirName = '../data/keel_benchmarks1/'
    main(dirName)  

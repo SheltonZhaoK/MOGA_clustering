@@ -43,7 +43,7 @@ def main(dirName,jobID,ntasks,ncpus):
 +str(ncpus) + '_'+str(jobID)+'.csv')
    print(report)
 if __name__ == '__main__':
-   dirName = "/deac/csc/khuriGrp/zhaok220/clustering/data/scrna_benchmarks_umap/"
+   dirName = "../data/scrna_benchmarks_umap/"
    jobID = sys.argv[1]
    ntasks = sys.argv[2]
    ncpus = sys.argv[3]

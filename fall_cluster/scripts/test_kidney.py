@@ -40,13 +40,13 @@ def main(dirName,fileName,labelName,label2predict):
    labels['SOEA'] = soea.memberships
    labels['PhenoGraph'] = pheMemberships
    
-   name = '/deac/csc/khuriGrp/zhaok220/clustering_2/output/kidney_clusters_'+label2predict+'.csv'
+   name = '../output/kidney_clusters_'+label2predict+'.csv'
    labels.to_csv(name)
-   name = '/deac/csc/khuriGrp/zhaok220/clustering_2/output/results_kidney_' + label2predict+'.csv'
+   name = '../output/results_kidney_' + label2predict+'.csv'
    result.to_csv(name) 
        
 if __name__ == '__main__':
-   dirName = '/deac/csc/khuriGrp/khurin/nathan/data/kidney/'
+   dirName = '../data/kidney/'
    fileName = 'pca_umap.csv'
    labelName = 'labels.csv'
    label2predict = sys.argv[1]

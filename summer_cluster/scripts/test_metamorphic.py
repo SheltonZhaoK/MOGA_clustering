@@ -14,7 +14,7 @@ def main():
    result = []
    benchmarks = []
    for i in range(0,7):
-      dirName = "/deac/csc/khuriGrp/zhaok220/clustering/data/metamorphic_test/"
+      dirName = "../data/metamorphic_test/"
       dirName = dirName + str(i) + '/'
    
       sumList = [0]*48
@@ -53,7 +53,7 @@ def main():
    result.columns = ['MR0','MR1','MR2','MR3','MR4','MR5','MR6']
    #result.columns = ['MR0','MR1']
    result.index = benchmarks
-   result.to_csv('/deac/csc/khuriGrp/zhaok220/clustering/output/metamorphic_test_phenograph.csv')
+   result.to_csv('../output/metamorphic_test_phenograph.csv')
    print(result)
    
 if __name__ == '__main__':

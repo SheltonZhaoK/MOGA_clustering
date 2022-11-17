@@ -38,10 +38,10 @@ def main(path, filename):
       "{:.2f}".format(silhouette_k),"{:.2f}".format(dbi_k), "{:.2f}".format(silhouette_phg),"{:.2f}".format(dbi_phg)]
    print(report)
    
-   plot_data(data, '/deac/csc/khuriGrp/zhaok220/clustering/output/'+filename+'.svg')
-   plot_data_clustering(data,ga.memberships,'umap', '/deac/csc/khuriGrp/zhaok220/clustering/output/' + filename + '_clustered'+'.svg')
+   plot_data(data, '../output/'+filename+'.svg')
+   plot_data_clustering(data,ga.memberships,'umap', '../output/' + filename + '_clustered'+'.svg')
    
 if __name__ == '__main__':
-   path = "/deac/csc/khuriGrp/zhaok220/clustering/data/scrna_benchmarks_umap/"
+   path = "../data/scrna_benchmarks_umap/"
    filename =  sys.argv[1]
    main(path, filename)

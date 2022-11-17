@@ -45,7 +45,7 @@ def main(dirName,mr,jobId):
 
       index += 1
 
-   fileName = '/deac/csc/khuriGrp/zhaok220/clustering/output/mr_scrna_so_'+mr+'_'+str(jobId)+'.csv'
+   fileName = '../output/mr_scrna_so_'+mr+'_'+str(jobId)+'.csv'
    report.to_csv(fileName)
    
    '''
@@ -54,9 +54,7 @@ def main(dirName,mr,jobId):
    '''
 
 if __name__ == '__main__':
-   #dirName = "/deac/csc/khuriGrp/zhaok220/clustering/data/scrna_benchmarks_umap/"
-   #dirName = '/deac/csc/khuriGrp/zhaok220/clustering/data/metamorphic_test/6/'
    mr = sys.argv[1]
-   dirName = '/deac/csc/khuriGrp/zhaok220/clustering/data/metamorphic_test/'+mr+'/'
+   dirName = '.../data/metamorphic_test/'+mr+'/'
    jobId = sys.argv[2]
    main(dirName,mr,jobId)

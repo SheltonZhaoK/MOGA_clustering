@@ -17,10 +17,10 @@ def main(dirName, dataName):
    report = pd.DataFrame(fitness)
    report = report.T
    report.columns = [100,200,300,400,500,600,700,800]
-   fileName = "/deac/csc/khuriGrp/zhaok220/clustering_1/output/pop_iter_%s.csv" % (dataName)   
+   fileName = "../output/pop_iter_%s.csv" % (dataName)   
    report.to_csv(fileName)   
 
 if __name__ == '__main__':
-   dirName = "/deac/csc/khuriGrp/zhaok220/clustering_1/data/scrna_benchmarks_umap/"
+   dirName = "../data/scrna_benchmarks_umap/"
    dataName = "10X_NCI_M_A_cellranger3.1_umap.csv"
    main(dirName,dataName)

@@ -40,13 +40,11 @@ def main(dirName,fileName,labelName,jobId):
       labels['SOEA'] = soea.memberships
       labels['PhenoGraph'] = pheMemberships
       
-      #name = '/deac/csc/khuriGrp/zhaok220/clustering/output/synthetic_clusters_label_'+str(i)+'.csv'
-      #labels.to_csv(name)
-   name = '/deac/csc/khuriGrp/zhaok220/clustering/output/results_synthetic_1-7_' + str(jobId)+'.csv'
+   name = '../output/results_synthetic_1-7_' + str(jobId)+'.csv'
    result.to_csv(name) 
        
 if __name__ == '__main__':
-   dirName = '/deac/generalGrp/khuriGrp/khurin/shelton/data/'
+   dirName = '../data/synthetic_data'
    fileName = 'synthetic_embeddings_'
    labelName = 'labels_'
    jobId = sys.argv[1]

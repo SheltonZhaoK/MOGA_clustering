@@ -70,12 +70,11 @@ def main(dirName,className):
          fitness.append(ga.totalDistance)
       report = pd.DataFrame(columns =['fitness'])
       report['fitness'] = fitness 
-      fileName = "/deac/csc/khuriGrp/zhaok220/clustering/output/pop_k_explore/manuscript_report_%spop=40.csv" % (className)
+      fileName = "../output/pop_k_explore/manuscript_report_%spop=40.csv" % (className)
       report.to_csv(fileName)
  
 if __name__ == '__main__':
-   path = '/deac/csc/khuriGrp/zhaok220/clustering/data/keel_benchmarks2/'
+   path = '../data/keel_benchmarks2/'
    dirName = path + sys.argv[1] + '/'
-   #dirName = /deac/csc/khuriGrp/zhaok220/clustering/data/keel_benchmarks1/BalanceScale/
    className = sys.argv[1]
    main(dirName,className)  

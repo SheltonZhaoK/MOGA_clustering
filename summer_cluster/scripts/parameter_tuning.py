@@ -74,12 +74,11 @@ def main(dirName,className):
                ga = run_ga(datasets=data, numCenters=6, indPb=indRate, mutPb=mutPro, cxPb=cxPro)
                report.loc[len(report)] = [indRate, mutPro, cxPro, ga.fitness[len(ga.fitness)-1]]
                print(indRate, mutPro, cxPro, '==================================')
-      fileName = '/deac/csc/khuriGrp/zhaok220/clustering/output/parameter_tuning/parameter_tuning_%s.csv' % (className)
+      fileName = '../output/parameter_tuning/parameter_tuning_%s.csv' % (className)
       report.to_csv(fileName)
  
 if __name__ == '__main__':
-   path = '/deac/csc/khuriGrp/zhaok220/clustering/data/keel_benchmarks2/'
+   path = '../data/keel_benchmarks2/'
    dirName = path + sys.argv[1] + '/'
-   #dirName = /deac/csc/khuriGrp/zhaok220/clustering/data/keel_benchmarks1/BalanceScale/
    className = sys.argv[1]
    main(dirName,className)  

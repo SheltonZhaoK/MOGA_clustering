@@ -77,7 +77,7 @@ def main(dataName, labelName, label2predict, label2mix):
     for i in range(0, len(algorithms)):
         result.loc[i] = [algorithms[i], numCenters, baseline_entropy, Entropy[i] , Sil[i], NMI[i], ARI[i]]
     print(result)
-    result.to_csv("/deac/csc/khuriGrp/zhaok220/kidney_cluster/output/kidney_results_comparison_ob3.csv")
+    result.to_csv("../output/kidney_results_comparison_ob3.csv")
     return
 
 if __name__ == "__main__":

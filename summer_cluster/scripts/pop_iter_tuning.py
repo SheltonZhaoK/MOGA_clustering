@@ -71,13 +71,12 @@ def main(dirName,className):
       report = pd.DataFrame(fitness)
       report = report.T
       report.columns = [20, 40, 60, 80, 100] 
-      fileName = "/deac/csc/khuriGrp/zhaok220/clustering/output/pop_iter_tuning/manuscript_report_%s.csv" % (className)
+      fileName = "../output/pop_iter_tuning/manuscript_report_%s.csv" % (className)
       report.to_csv(fileName)
       print('done')
  
 if __name__ == '__main__':
-   path = '/deac/csc/khuriGrp/zhaok220/clustering/data/keel_benchmarks2/'
+   path = '../data/keel_benchmarks2/'
    dirName = path + sys.argv[1] + '/'
-   #dirName = /deac/csc/khuriGrp/zhaok220/clustering/data/keel_benchmarks1/BalanceScale/
    className = sys.argv[1]
    main(dirName,className)  

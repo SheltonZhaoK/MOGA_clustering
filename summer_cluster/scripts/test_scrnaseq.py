@@ -57,16 +57,16 @@ def main(dirName):
          if ga.memberships.count(cluster) == 1:
             count += 1
       singletons.append(count)
-   report.to_csv('/deac/csc/khuriGrp/zhaok220/clustering/output/test.csv')
+   report.to_csv('../output/test.csv')
    singletons = pd.DataFrame(singletons)
    singletons.columns = ['number of singletons']
    singletons.index = report['Benchmark'].tolist()
-   singletons.to_csv('/deac/csc/khuriGrp/zhaok220/clustering/output/singletons_so.csv')
+   singletons.to_csv('../output/singletons_so.csv')
    '''
    df = pd.DataFrame(dict([ (k,pd.Series(v)) for k,v in membershipReport.items() ]))
    df.to_csv('/deac/csc/khuriGrp/zhaok220/clustering/output/phgMembership.csv')
    '''
 
 if __name__ == '__main__':
-   dirName = "/deac/csc/khuriGrp/zhaok220/clustering/data/scrna_benchmarks_umap/"
+   dirName = "../data/scrna_benchmarks_umap/"
    main(dirName)

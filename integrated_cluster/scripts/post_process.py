@@ -54,9 +54,9 @@ def main(dataDir, numDatasets):
    
    #post transformation
    data_trans = post_transformation(data_values, numDatasets)
-   plot_data(data_trans,'/deac/csc/khuriGrp/zhaok220/data_intergration/output/data_trans.png')
+   plot_data(data_trans,'../data_trans.png')
    data_harmony_trans = post_transformation(data_harmony_values, numDatasets)
-   plot_data(data_trans,'/deac/csc/khuriGrp/zhaok220/data_intergration/output/data_harmony_trans')
+   plot_data(data_trans,'../data_harmony_trans')
    
    k_data = run_kmeans(data_trans, 10)
    k_data.assign_memberships(data_trans)
@@ -72,6 +72,6 @@ def main(dataDir, numDatasets):
    print(data_trans)
    print(data_harmony_trans)
 if __name__ == '__main__':
-   dataDir = '/deac/csc/khuriGrp/zhaok220/data_intergration/data/'
+   dataDir = '../data/'
    numDatasets = 4
    main(dataDir, numDatasets)

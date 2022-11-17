@@ -108,9 +108,8 @@ def main(dirName):
             #i+=1
             #if i ==1:
             break
-   report.to_csv('/deac/csc/khuriGrp/zhaok220/clustering/output/keel_report_mo_scaled_60_100.csv')  
+   report.to_csv('../output/keel_report_mo_scaled_60_100.csv')  
 
 if __name__ == '__main__':
-   dirName = '/deac/csc/khuriGrp/zhaok220/clustering/data/keel_benchmarks1/'
-   #dirName = /deac/csc/khuriGrp/zhaok220/clustering/data/keel_benchmarks1/BalanceScale/
+   dirName = '../data/keel_benchmarks1/'
    main(dirName)  
