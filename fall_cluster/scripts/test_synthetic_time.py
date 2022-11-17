@@ -44,13 +44,13 @@ def main(dirName,fileName,labelName,jobId,nodes, tasks, cpus):
       
       #name = '/deac/csc/khuriGrp/zhaok220/clustering/output/synthetic_clusters_label_'+str(i)+'.csv'
       #labels.to_csv(name)
-   name = '/deac/csc/khuriGrp/zhaok220/clustering_2/output/time_analysis_{}_{}_{}_{}.csv'.format(jobId,nodes,tasks,cpus)
+   name = '../output/time_analysis_{}_{}_{}_{}.csv'.format(jobId,nodes,tasks,cpus)
    #print('final')
    #print(result)
    result.to_csv(name) 
        
 if __name__ == '__main__':
-   dirName = '/deac/generalGrp/khuriGrp/khurin/shelton/data/data_'
+   dirName = '../data/synthetic_data/data_'
    fileName = 'synthetic_embeddings_'
    labelName = 'labels_'
    jobId = sys.argv[1]
